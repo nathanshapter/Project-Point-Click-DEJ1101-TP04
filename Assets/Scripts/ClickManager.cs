@@ -1,3 +1,4 @@
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -5,6 +6,7 @@ public class ClickManager : MonoBehaviour
 {
 
    [SerializeField] ActiveScene activeScene;
+    [SerializeField] TextMeshProUGUI gameText;
 
 
     private void Awake()
@@ -44,7 +46,18 @@ public class ClickManager : MonoBehaviour
 
                 else if (item != null)
                 {
-                    item.ProcessClick();
+                    if(item.objectText != null)
+                    {
+
+                        gameText.text = item.objectText;
+                    }
+                    else if(item.objectText == "")
+
+                    {
+                        Debug.LogError($"This item does not have text attached{item.name}");
+                    }
+
+                        item.ProcessClick();
                 }
             }
 
