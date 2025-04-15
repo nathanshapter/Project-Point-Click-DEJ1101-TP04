@@ -14,6 +14,11 @@ public class ActiveScene : MonoBehaviour
    public int activeScene = 1; // used for door to know which time to go to
     private void Start()
     {
+        foreach (var item in scenes)
+        {
+            item.SetActive(true);
+        }
+
         ActivateScene(1);
     }
 
