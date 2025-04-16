@@ -7,6 +7,7 @@ public class ClickManager : MonoBehaviour
 
    [SerializeField] ActiveScene activeScene;
     [SerializeField] TextMeshProUGUI gameText;
+    [SerializeField] ProgressionManager pm;
 
 
     private void Awake()
@@ -43,21 +44,41 @@ public class ClickManager : MonoBehaviour
 
                     return;
                 }
+                else if (item.isTimeLever)
+                {
+
+                    print("time lever has been clicked");
+
+                   Animator itemAnim= item.GetComponent<Animator>();
+
+                    itemAnim.SetTrigger("Play");
+                }
 
                 else if (item != null)
                 {
-                    if(item.objectText != null)
+                    if (item.objectText != null)
                     {
 
-                        gameText.text = item.objectText;
+                        switch (pm.currentProgression)
+                        {
+                            case 1:
+                                gameText.text = item.objectText;
+                                break;
+                            case 2:
+                                gameText.text = item.objectText2;
+                                break;
+                            case 3:
+                                gameText.text = item.objectText3;
+                                break;
+                        }
                     }
-                    else if(item.objectText == "")
+                    else if (item.objectText == "")
 
                     {
                         Debug.LogError($"This item does not have text attached{item.name}");
                     }
 
-                        item.ProcessClick();
+                    item.ProcessClick();
                 }
             }
 
