@@ -9,7 +9,9 @@ public class ClickManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI gameText;
     [SerializeField] ProgressionManager pm;
 
+    [SerializeField] bool pastHasBeenVisited = false;
 
+    
     private void Awake()
     {
         if(activeScene == null)
@@ -38,7 +40,17 @@ public class ClickManager : MonoBehaviour
                 {
                     print("door clicked");
 
+                    if (item.GetComponent<Door>().isLocked && !pastHasBeenVisited)
+                    {
+                        print("door is locked");
+                        gameText.text = "The Door is locked.";
+                        return;
+                    }
+
                     int getDoorPassageNumber = item.GetComponent<Door>().doorPassage;
+
+                    gameText.text = "You open the door.";
+
                     activeScene.ActivateScene(getDoorPassageNumber);
 
 
@@ -47,7 +59,11 @@ public class ClickManager : MonoBehaviour
                 else if (item.isTimeLever)
                 {
 
-                    print("time lever has been clicked");
+
+                    print("time lever has been clicked and all doors should be unlocked");
+                    pastHasBeenVisited = true;
+
+
 
                    Animator itemAnim= item.GetComponent<Animator>();
 
