@@ -23,6 +23,7 @@ public class ClickableItem : MonoBehaviour
    [SerializeField] GameObject putInPocketButton;
     [SerializeField] TextMeshProUGUI putInPocketText;
     [SerializeField] GameObject itemToDisable; // used for button to remove object from scene
+    
 
     private void Start()
     {
