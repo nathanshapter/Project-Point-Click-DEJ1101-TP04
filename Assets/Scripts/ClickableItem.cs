@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -22,8 +23,17 @@ public class ClickableItem : MonoBehaviour
 
    [SerializeField] GameObject putInPocketButton;
     [SerializeField] TextMeshProUGUI putInPocketText;
-    [SerializeField] GameObject itemToDisable; // used for button to remove object from scene
-    
+
+    [SerializeField] GameObject itemToDisable;
+
+    [SerializeField] bool isStartMenu;
+    [SerializeField] int startMenuID = 0;
+     /*
+      * 1 = start game
+      * 2 = options
+      * 3 = credits 
+      * 4 = quit game
+      */
 
     private void Start()
     {
@@ -34,12 +44,42 @@ public class ClickableItem : MonoBehaviour
             putInPocketButton.gameObject.SetActive(false);
             putInPocketText.gameObject.SetActive(false);
         }
-       
+        activeScene = FindFirstObjectByType<ActiveScene>();
+        if(activeScene.activeScene == 1)
+        {
+            cam.backgroundColor = presentColor;
+        }
 
     }
     public void ProcessClick()
     {
-        
+        if (isStartMenu)
+        {
+            print("start menu");
+
+            switch (startMenuID)
+            {
+                case 1:
+                    print("start game");
+                    activeScene.ActivateScene(1);
+
+
+                    break;
+                case 2:
+                    print("open options");
+                    break;
+                case 3:
+                    print("open options");
+                    break;
+                case 4:
+                    print("quit game");
+                    break;
+            }
+                
+
+
+            return;
+        }
 
 
         print($"You have clicked {this.name} ");
@@ -68,7 +108,7 @@ public class ClickableItem : MonoBehaviour
 
     public void ChangeTime()
     {
-        activeScene = FindFirstObjectByType<ActiveScene>();
+       
 
         if (cam == null)
             cam = Camera.main;
