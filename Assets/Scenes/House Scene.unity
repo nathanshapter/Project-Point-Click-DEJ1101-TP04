@@ -243,6 +243,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 864006663}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 864006663}
 --- !u!212 &78038543
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -377,6 +378,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &103712927
 Rigidbody2D:
   serializedVersion: 5
@@ -710,6 +712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14b5fbde0c364e40ab850f0d0244733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
   doorPassage: 1
 --- !u!114 &135713597
 MonoBehaviour:
@@ -737,6 +740,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &135713598
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -926,6 +930,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1984872266}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 1984872266}
 --- !u!212 &187406857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1229,6 +1234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14b5fbde0c364e40ab850f0d0244733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
   doorPassage: 4
 --- !u!114 &212498439
 MonoBehaviour:
@@ -1256,6 +1262,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &212498440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1465,6 +1472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14b5fbde0c364e40ab850f0d0244733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
   doorPassage: 3
 --- !u!114 &218481624
 MonoBehaviour:
@@ -1492,6 +1500,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &218481625
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1681,6 +1690,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &221106395
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1797,6 +1807,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &250543454
 Rigidbody2D:
   serializedVersion: 5
@@ -2276,6 +2287,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!1 &316821917
 GameObject:
   m_ObjectHideFlags: 0
@@ -2426,6 +2438,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &316821922
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2670,6 +2683,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!1 &364016599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2827,6 +2841,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &364016605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2943,6 +2958,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &398468064
 Rigidbody2D:
   serializedVersion: 5
@@ -3260,6 +3276,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!1 &444843423
 GameObject:
   m_ObjectHideFlags: 0
@@ -3440,6 +3457,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &529858276
 Rigidbody2D:
   serializedVersion: 5
@@ -3600,6 +3618,7 @@ MonoBehaviour:
   activeScene: {fileID: 1473408331}
   gameText: {fileID: 843832618}
   pm: {fileID: 1038167676}
+  pastHasBeenVisited: 0
 --- !u!4 &548499240
 Transform:
   m_ObjectHideFlags: 0
@@ -3763,6 +3782,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &629141379
 Rigidbody2D:
   serializedVersion: 5
@@ -4134,6 +4154,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &678669218
 Rigidbody2D:
   serializedVersion: 5
@@ -4400,6 +4421,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &693829001
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4501,6 +4523,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &701214835
 Rigidbody2D:
   serializedVersion: 5
@@ -4705,6 +4728,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &707642813
 Rigidbody2D:
   serializedVersion: 5
@@ -4956,6 +4980,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &716344686
 Rigidbody2D:
   serializedVersion: 5
@@ -5180,6 +5205,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &763431515
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5370,6 +5396,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &764334659
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5471,6 +5498,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &843054071
 Rigidbody2D:
   serializedVersion: 5
@@ -5820,7 +5848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &864006664
 Transform:
   m_ObjectHideFlags: 0
@@ -5935,6 +5963,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 864006663}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 78038538}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &864006668
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6124,6 +6153,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &866711288
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6300,6 +6330,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &886266582
 Rigidbody2D:
   serializedVersion: 5
@@ -6611,6 +6642,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &1002885205
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6681,7 +6713,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1018330092
 Transform:
   m_ObjectHideFlags: 0
@@ -6911,6 +6943,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &1057318761
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7155,6 +7188,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!1 &1075900164
 GameObject:
   m_ObjectHideFlags: 0
@@ -7289,6 +7323,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &1075900169
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7676,6 +7711,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &1154535442
 Rigidbody2D:
   serializedVersion: 5
@@ -7850,6 +7886,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &1172144444
 Rigidbody2D:
   serializedVersion: 5
@@ -8039,6 +8076,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &1174635390
 Rigidbody2D:
   serializedVersion: 5
@@ -8303,6 +8341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14b5fbde0c364e40ab850f0d0244733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
   doorPassage: 2
 --- !u!114 &1218530295
 MonoBehaviour:
@@ -8330,6 +8369,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &1218530296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8519,6 +8559,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &1229087891
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8623,7 +8664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1258198361
 Transform:
   m_ObjectHideFlags: 0
@@ -8868,6 +8909,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!1 &1326504236
 GameObject:
   m_ObjectHideFlags: 0
@@ -9057,6 +9099,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!1 &1357092013
 GameObject:
   m_ObjectHideFlags: 0
@@ -9246,6 +9289,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!1 &1373643604
 GameObject:
   m_ObjectHideFlags: 0
@@ -9367,6 +9411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14b5fbde0c364e40ab850f0d0244733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
   doorPassage: 4
 --- !u!114 &1373643609
 MonoBehaviour:
@@ -9394,6 +9439,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &1373643610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9686,6 +9732,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &1472749808
 Rigidbody2D:
   serializedVersion: 5
@@ -10064,6 +10111,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &1655966813
 Rigidbody2D:
   serializedVersion: 5
@@ -10253,6 +10301,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &1764060061
 Rigidbody2D:
   serializedVersion: 5
@@ -10431,7 +10480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1818244126
 Transform:
   m_ObjectHideFlags: 0
@@ -10546,6 +10595,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1818244125}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 187406852}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &1818244130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10695,6 +10745,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &1871965958
 Rigidbody2D:
   serializedVersion: 5
@@ -10885,6 +10936,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &1886828655
 Rigidbody2D:
   serializedVersion: 5
@@ -11134,6 +11186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14b5fbde0c364e40ab850f0d0244733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 1
   doorPassage: 0
 --- !u!114 &1897729934
 MonoBehaviour:
@@ -11161,6 +11214,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &1897729935
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11278,6 +11332,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!50 &1949955228
 Rigidbody2D:
   serializedVersion: 5
@@ -11512,7 +11567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1984872267
 Transform:
   m_ObjectHideFlags: 0
@@ -11581,6 +11636,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1984872266}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 187406852}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &1984872270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11803,6 +11859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14b5fbde0c364e40ab850f0d0244733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
   doorPassage: 1
 --- !u!114 &2056534521
 MonoBehaviour:
@@ -11830,6 +11887,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &2056534522
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12023,6 +12081,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &2057475638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12335,6 +12394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14b5fbde0c364e40ab850f0d0244733, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLocked: 0
   doorPassage: 5
 --- !u!114 &2107560089
 MonoBehaviour:
@@ -12362,6 +12422,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &2107560090
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12551,6 +12612,7 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  buttonToEnable: {fileID: 0}
 --- !u!212 &2112011966
 SpriteRenderer:
   m_ObjectHideFlags: 0
