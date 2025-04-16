@@ -12,6 +12,8 @@ public class ActiveScene : MonoBehaviour
      */
 
    public int activeScene = 1; // used for door to know which time to go to
+
+    
     private void Start()
     {
         foreach (var item in scenes)
@@ -20,6 +22,8 @@ public class ActiveScene : MonoBehaviour
         }
 
         ActivateScene(1);
+
+     
     }
 
    public void ActivateScene(int i)
