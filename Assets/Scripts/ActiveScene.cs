@@ -3,25 +3,31 @@ using UnityEngine;
 public class ActiveScene : MonoBehaviour
 {
    [SerializeField] GameObject[] scenes;
-    /* 0 = outside present
+    /*  
+     * 0 = outside present
      * 1 = main room present
      * 2 = nuclear room present
      * 3 = outside past
      * 4 = main room past
      * 5 = nuclear room past
+     * 6 = mixing room
+     * 7 = wife on sick bed
+     * 8 = start menu
      */
 
-   public int activeScene = 1; // used for door to know which time to go to
+   public int activeScene = 1; // used for door to know which time/room to go to
 
-    
+    [SerializeField] GameObject startCanvas, gameCanvas, startGameButtons;
     private void Start()
     {
         foreach (var item in scenes)
         {
             item.SetActive(true);
         }
-
-        ActivateScene(1);
+        gameCanvas.SetActive(false);
+        startGameButtons.SetActive(true);
+        startCanvas.SetActive(true);
+        ActivateScene(8);
 
      
     }
@@ -35,5 +41,23 @@ public class ActiveScene : MonoBehaviour
         scenes[i].gameObject.SetActive(true);
 
         activeScene = i; 
+
+        if(activeScene != 8)
+        {
+            print("Deactivate start screen and activate all game stuff");
+
+            startCanvas.SetActive(false);
+            startGameButtons.SetActive(false);
+            gameCanvas.SetActive(true);
+        }
+
+        if(activeScene == 6)
+        {
+            print("start mixing room procedure");
+        }
+        else if(activeScene == 7)
+        {
+            print("start final scene");
+        }
     }
 }

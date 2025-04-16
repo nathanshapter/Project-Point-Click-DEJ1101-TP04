@@ -33,8 +33,18 @@ public class PocketManager : MonoBehaviour
 
 
         }
-        print(hasRedbull);
-        print(hasMoonLight);
-        print(hasRadioctiveEarth);
+        CheckForAllItems();
+    }
+
+    private void CheckForAllItems()
+    {
+        if(hasMoonLight && hasRadioctiveEarth && hasRedbull)
+        {
+            FindAnyObjectByType<ClickManager>().StartEndOfGame();
+        }
+        else
+        {
+            print("still need more items");
+        }
     }
 }
