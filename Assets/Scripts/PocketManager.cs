@@ -5,6 +5,15 @@ using static UnityEditor.Progress;
 public class PocketManager : MonoBehaviour
 {
     [SerializeField] bool hasRedbull, hasMoonLight, hasRadioctiveEarth;
+    [SerializeField] ProgressionManager progressionManager;
+
+    private void Awake()
+    {
+        if(progressionManager == null)
+        {
+            progressionManager = FindFirstObjectByType<ProgressionManager>();
+        }
+    }
 
     public void PutItemInPocket(int i)
     {
@@ -15,9 +24,11 @@ public class PocketManager : MonoBehaviour
                 break;
             case 2:
                 hasMoonLight = true;
+              
                 break;
             case 3:
                 hasRadioctiveEarth = true;
+                
                 break;
 
 

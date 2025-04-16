@@ -53,8 +53,9 @@ public class ClickableItem : MonoBehaviour
         }
         else if (isPocketBackGround)
         {
-            PocketManager pm = FindFirstObjectByType<PocketManager>();
-            pm.PutItemInPocket(itemInPocketID);
+            PocketManager pocketManager = FindFirstObjectByType<PocketManager>();
+            pocketManager.PutItemInPocket(itemInPocketID);
+            
             itemToDisable.SetActive(false);
             putInPocketText.gameObject.SetActive(false);
             putInPocketButton.gameObject.SetActive(false);
