@@ -1,6 +1,8 @@
+using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ClickManager : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class ClickManager : MonoBehaviour
 
     [SerializeField] bool pastHasBeenVisited = false;
 
+
+    ScreenFader screenFader;
     
     private void Awake()
     {
@@ -18,6 +22,7 @@ public class ClickManager : MonoBehaviour
         {
             FindFirstObjectByType<ActiveScene>();
         }
+        screenFader = GetComponent<ScreenFader>();
     }
 
     // Update is called once per frame
@@ -105,5 +110,18 @@ public class ClickManager : MonoBehaviour
 
 
     }
- 
+    public void StartEndOfGame()
+    {
+        print("end of games starting");
+
+        gameText.text = "You now have all of the items required to create a ... lemon";
+
+        screenFader.FadeToWhite();
+    }
+    
+
+    private IEnumerator ScreenFadeOut()
+    {
+        yield return new Break();
+    }
 }
