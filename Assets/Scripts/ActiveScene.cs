@@ -18,8 +18,11 @@ public class ActiveScene : MonoBehaviour
    public int activeScene = 1; // used for door to know which time/room to go to / disables and reenables every scene
 
     [SerializeField] GameObject startCanvas, gameCanvas, startGameButtons;
+
+    ClickManager cm;
     private void Start()
     {
+        cm = FindFirstObjectByType<ClickManager>();
         StartScene();
 
     }
@@ -58,6 +61,7 @@ public class ActiveScene : MonoBehaviour
             case 2:
                 break;
             case 3:
+                cm.outsideWasUnlocked = true;
                 break;
             case 4:
                 break;
