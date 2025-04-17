@@ -1606,7 +1606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &203107159
 Transform:
   m_ObjectHideFlags: 0
@@ -4716,6 +4716,7 @@ MonoBehaviour:
   gameText: {fileID: 843832618}
   pm: {fileID: 1038167676}
   pastHasBeenVisited: 0
+  outsideWasUnlocked: 0
 --- !u!4 &548499240
 Transform:
   m_ObjectHideFlags: 0
@@ -11778,7 +11779,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1652405119
 Transform:
   m_ObjectHideFlags: 0
