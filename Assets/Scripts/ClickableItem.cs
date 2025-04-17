@@ -2,9 +2,14 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class ClickableItem : MonoBehaviour
 {
 
+    // this script activates when an item is clicked
+
+  
+    
     [SerializeField] bool isDoor = false;
     public bool isTimeLever = false;
     public bool canBePutInPocket = false;
@@ -106,9 +111,8 @@ public class ClickableItem : MonoBehaviour
 
 
 
-    public void ChangeTime()
-    {
-       
+    public void ChangeTime() // controlled by the lever in nuclear scene to change time from past to present and present to past
+    {       
 
         if (cam == null)
             cam = Camera.main;
@@ -116,9 +120,7 @@ public class ClickableItem : MonoBehaviour
         if (activeScene.activeScene == 2)
         {
             activeScene.ActivateScene(5);
-            print("tiem changed to past");
-
-        
+            print("tiem changed to past");        
             cam.backgroundColor = pastColor;
 
         }

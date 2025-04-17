@@ -15,24 +15,30 @@ public class ActiveScene : MonoBehaviour
      * 8 = start menu
      */
 
-   public int activeScene = 1; // used for door to know which time/room to go to
+   public int activeScene = 1; // used for door to know which time/room to go to / disables and reenables every scene
 
     [SerializeField] GameObject startCanvas, gameCanvas, startGameButtons;
     private void Start()
+    {
+        StartScene();
+
+    }
+
+    private void StartScene()
     {
         foreach (var item in scenes)
         {
             item.SetActive(true);
         }
+
+
         gameCanvas.SetActive(false);
         startGameButtons.SetActive(true);
         startCanvas.SetActive(true);
         ActivateScene(8);
-
-     
     }
 
-   public void ActivateScene(int i)
+    public void ActivateScene(int i)
     {
         foreach (var item in scenes)
         {
@@ -42,7 +48,7 @@ public class ActiveScene : MonoBehaviour
 
         activeScene = i; 
 
-        if(activeScene != 8)
+        if(activeScene != 8) // used to transition from starting scene to game
         {
             print("Deactivate start screen and activate all game stuff");
 
@@ -51,11 +57,11 @@ public class ActiveScene : MonoBehaviour
             gameCanvas.SetActive(true);
         }
 
-        if(activeScene == 6)
+        if(activeScene == 6) // takes to the mixing room
         {
             print("start mixing room procedure");
         }
-        else if(activeScene == 7)
+        else if(activeScene == 7) // takes to the room with the wife
         {
             print("start final scene");
         }
