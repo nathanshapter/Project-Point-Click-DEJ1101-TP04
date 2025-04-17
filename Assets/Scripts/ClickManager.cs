@@ -12,7 +12,7 @@ public class ClickManager : MonoBehaviour
     [SerializeField] ProgressionManager pm;
 
     [SerializeField] bool pastHasBeenVisited = false;
-    [SerializeField] bool outsideWasUnlocked = false;
+    public bool outsideWasUnlocked = false;
 
 
     ScreenFader screenFader;
@@ -46,7 +46,7 @@ public class ClickManager : MonoBehaviour
                 {
                     print("door clicked");
 
-                    if (item.GetComponent<Door>().isLocked && !pastHasBeenVisited && outsideWasUnlocked)
+                    if (item.GetComponent<Door>().isLocked && !outsideWasUnlocked)
                     {
                         print("door is locked");
                         gameText.text = "The Door is locked.";
