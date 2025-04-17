@@ -46,7 +46,35 @@ public class ActiveScene : MonoBehaviour
         }
         scenes[i].gameObject.SetActive(true);
 
-        activeScene = i; 
+        activeScene = i;
+
+
+        switch (activeScene)
+        {
+            case 0:
+                break;
+            case 1:
+                  break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                print("start mixing room procedure");
+                break;
+            case 7:
+                print("start final scene");
+                break;
+            case 8:
+                break;
+            case 9:
+                break;
+        }
+
 
         if(activeScene != 8) // used to transition from starting scene to game
         {
@@ -56,7 +84,7 @@ public class ActiveScene : MonoBehaviour
             startGameButtons.SetActive(false);
             gameCanvas.SetActive(true);
         }
-
+        /*
         if(activeScene == 6) // takes to the mixing room
         {
             print("start mixing room procedure");
@@ -64,6 +92,6 @@ public class ActiveScene : MonoBehaviour
         else if(activeScene == 7) // takes to the room with the wife
         {
             print("start final scene");
-        }
+        }*/
     }
 }
