@@ -20,8 +20,8 @@ public class ClickManager : MonoBehaviour
     private string currentCode = "";
     [SerializeField] int doorCode =6965;
 
-  
-    
+    [SerializeField] ClickableItem moon;
+
     private void Awake()
     {
         if(activeScene == null)
@@ -54,6 +54,7 @@ public class ClickManager : MonoBehaviour
                     if (pocketManager.hasShovel)
                     {
                         gameText.text = "Okay... and dig dig dig, and I found, an anchor?";
+                        moon.canBePutInPocket = true;
                     }
                     else
                     {
