@@ -1,16 +1,23 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BackgroundObject : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public Transform pointA, pointB;
+    [SerializeField] float moveSpeed = 1f;
+
+
+    private Vector3 target;
+
+
+    private void Start()
     {
-        
+        target = pointB.position;
+        transform.position = pointA.position;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        transform.position = Vector3.MoveTowards(transform.position, target, moveSpeed);
     }
 }
