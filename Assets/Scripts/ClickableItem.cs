@@ -25,7 +25,7 @@ public class ClickableItem : MonoBehaviour
     public Color presentColor = new Color32(0xD8, 0xE6, 0xEC, 0xFF);
     public float lerpSpeed = 2f;
 
-    [SerializeField] int itemInPocketID; // this is only for redbull, moonlight and radioactive
+    [SerializeField] int itemInPocketID; // items to pick up 1 is redbull 2 is moon 3 is radioactive earth 4 is shovel
 
    [SerializeField] GameObject putInPocketButton;
     [SerializeField] TextMeshProUGUI putInPocketText;

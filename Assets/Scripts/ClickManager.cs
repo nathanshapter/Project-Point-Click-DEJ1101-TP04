@@ -11,8 +11,7 @@ public class ClickManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI gameText;
     [SerializeField] ProgressionManager pm;
 
-    [SerializeField] bool pastHasBeenVisited = false;
-    public bool outsideWasUnlocked = false;
+   
 
 
     ScreenFader screenFader;
@@ -94,7 +93,7 @@ public class ClickManager : MonoBehaviour
                     Door clickedDoor = item.GetComponent<Door>();
                     print("door clicked");
 
-                    if (clickedDoor.isLocked && !outsideWasUnlocked)
+                    if (clickedDoor.isLocked )
                     {
                         print("door is locked");
                         gameText.text = "The Door is locked. There is a keypad.";
@@ -116,7 +115,7 @@ public class ClickManager : MonoBehaviour
 
 
                     print("time lever has been clicked and all doors should be unlocked");
-                    pastHasBeenVisited = true;
+                   
 
 
 

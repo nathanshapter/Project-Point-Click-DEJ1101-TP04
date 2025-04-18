@@ -64,7 +64,7 @@ public class ActiveScene : MonoBehaviour
             case 2:
                 break;
             case 3:
-                cm.outsideWasUnlocked = true;
+               
                 break;
             case 4:
                 break;
