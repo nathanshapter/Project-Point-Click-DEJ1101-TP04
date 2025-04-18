@@ -5,9 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/x/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 8788ae0fd0ad8184f85dfed1e3fa8d81
+  - enabled: 1
+    path: Assets/Scenes/Outside/Present.unity
+    guid: a1f10d6ceaded73419daa9a56dbf34cb
+  - enabled: 1
+    path: Assets/Scenes/Main Room/Main Present.unity
+    guid: 5ff433a07f170604bb782772a89bb822
+  - enabled: 1
+    path: Assets/Scenes/Nuclear Room/Present.unity
+    guid: f5eefd08a931ad24ea8942f6a8c349d7
+  - enabled: 1
+    path: Assets/Scenes/Outside/Past.unity
+    guid: c35a298722730cc439fef485cd2a8d68
+  - enabled: 1
+    path: Assets/Scenes/Main Room/Main Past.unity
+    guid: 3a8e9d9a5c79fd245a00afdafd068069
+  - enabled: 1
+    path: Assets/Scenes/Nuclear Room/Past.unity
+    guid: 2d909f41b45d5e54a9c04cb44e0ff79e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

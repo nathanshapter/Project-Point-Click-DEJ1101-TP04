@@ -7,9 +7,23 @@ public class PocketManager : MonoBehaviour
     [SerializeField] bool hasRedbull, hasMoonLight, hasRadioctiveEarth;
     [SerializeField] ProgressionManager progressionManager;
 
+    public static PocketManager Instance { get; private set; }
+
     private void Awake()
     {
-        if(progressionManager == null)
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            Debug.LogWarning($"multiple pocket managers in scene. The extra one was added in this scene - it needs to be removed");
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
+
+
+        if (progressionManager == null)
         {
             progressionManager = FindFirstObjectByType<ProgressionManager>();
         }

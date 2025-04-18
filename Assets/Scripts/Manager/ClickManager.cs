@@ -2,10 +2,13 @@ using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ClickManager : MonoBehaviour
 {
+    public static ClickManager Instance { get; private set; }
+
 
    [SerializeField] ActiveScene activeScene;
     [SerializeField] TextMeshProUGUI gameText;
@@ -16,9 +19,22 @@ public class ClickManager : MonoBehaviour
 
 
     ScreenFader screenFader;
+
+    Scene scene;
     
     private void Awake()
     {
+        if(Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            Debug.LogWarning($"multiple click managers in scene. The extra one was added in this scene{scene.name}");
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
+
         if(activeScene == null)
         {
             FindFirstObjectByType<ActiveScene>();
@@ -76,7 +92,16 @@ public class ClickManager : MonoBehaviour
                     itemAnim.SetTrigger("Play");
                 }
 
-                else if (item != null)
+                else
+                {
+                    if(item.objectText != null)
+                    {
+                        gameText.text = item.objectText;
+                    }
+                }
+                
+
+               /* else if (item != null)
                 {
                     if (item.objectText != null)
                     {
@@ -101,7 +126,7 @@ public class ClickManager : MonoBehaviour
                     }
 
                     item.ProcessClick();
-                }
+                }*/
             }
 
           
