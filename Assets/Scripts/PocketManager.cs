@@ -4,7 +4,7 @@ using static UnityEditor.Progress;
 
 public class PocketManager : MonoBehaviour
 {
-    [SerializeField] bool hasRedbull, hasMoonLight, hasRadioctiveEarth;
+    [SerializeField] bool hasRedbull, hasMoonLight, hasRadioctiveEarth, hasShovel;
     [SerializeField] ProgressionManager progressionManager;
 
     private void Awake()
