@@ -37,6 +37,8 @@ public class ClickableItem : MonoBehaviour
     public int keypadNumber;
     [SerializeField] int startMenuID = 0;
 
+    public bool isDiggable = false;
+
     Rigidbody2D rb;
      /*
       * 1 = start game
