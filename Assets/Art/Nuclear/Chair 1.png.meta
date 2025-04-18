@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d385b8230af6174382e9f46d5cccd52
+guid: 2d240234359b59e42adacf1a56acb55f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2169562308310898279
-    second: ChatGPT Image Apr 16, 2025, 01_24_26 PM_0
+      213: 180804833701374025
+    second: ChatGPT Image Apr 16, 2025, 04_05_20 PM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image Apr 16, 2025, 01_24_26 PM_0
+      name: ChatGPT Image Apr 16, 2025, 04_05_20 PM_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 791
-        height: 799
+        x: 237
+        y: 185
+        width: 558
+        height: 711
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76692f0bc65db1e10800000000000000
-      internalID: 2169562308310898279
+      spriteID: 948a17ec909528200800000000000000
+      internalID: 180804833701374025
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT Image Apr 16, 2025, 01_24_26 PM_0: 2169562308310898279
+      ChatGPT Image Apr 16, 2025, 04_05_20 PM_0: 180804833701374025
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
