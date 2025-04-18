@@ -2137,7 +2137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7692836916821852185, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9154671362116901424, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_Color.b
@@ -2156,12 +2156,24 @@ PrefabInstance:
     - {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5065464426263570776, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
-      insertIndex: 3
+      insertIndex: 0
+      addedObject: {fileID: 2121590844}
+    - targetCorrespondingSourceObject: {fileID: 5065464426263570776, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: 4
       addedObject: {fileID: 1259687769}
     - targetCorrespondingSourceObject: {fileID: 5065464426263570776, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1800722569}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 466798913301025397, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 450088516}
+    - targetCorrespondingSourceObject: {fileID: 466798913301025397, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 450088515}
+    - targetCorrespondingSourceObject: {fileID: 466798913301025397, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 450088514}
     - targetCorrespondingSourceObject: {fileID: 3723469061998423561, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 415239625}
@@ -4612,7 +4624,8 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: 
+  objectText: There is a note on the tree - it says "The code to the door is 75852."
+    Not very useful now.
   objectText2: 
   objectText3: 
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
@@ -4894,6 +4907,115 @@ MonoBehaviour:
   keypadNumber: 0
   startMenuID: 0
   isDiggable: 0
+--- !u!1 &450088511 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 466798913301025397, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+  m_PrefabInstance: {fileID: 228702592}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &450088514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450088511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: You have clicked on the floor.
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+--- !u!61 &450088515
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450088511}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &450088516
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450088511}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &548499238
 GameObject:
   m_ObjectHideFlags: 0
@@ -4929,6 +5051,7 @@ MonoBehaviour:
   pm: {fileID: 1038167676}
   pocketManager: {fileID: 861107572}
   doorCode: 75852
+  moon: {fileID: 0}
 --- !u!4 &548499240
 Transform:
   m_ObjectHideFlags: 0
@@ -5009,7 +5132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &600340691
 Transform:
   m_ObjectHideFlags: 0
@@ -5024,7 +5147,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1373643605}
-  - {fileID: 2121590844}
   - {fileID: 2077380385}
   - {fileID: 1307799372}
   - {fileID: 1821387761}
@@ -14781,7 +14903,8 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: 
+  objectText: There is a note on the tree - it says "did we make it clear enough
+    that you went back in time when you pulled the leverl?"
   objectText2: 
   objectText3: 
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
@@ -16684,6 +16807,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2077380385}
   - component: {fileID: 2077380386}
+  - component: {fileID: 2077380389}
+  - component: {fileID: 2077380388}
+  - component: {fileID: 2077380387}
   m_Layer: 0
   m_Name: Floor  (3)
   m_TagString: Untagged
@@ -16761,6 +16887,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2077380387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077380384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: Stop clicking on the floor.
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+--- !u!61 &2077380388
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077380384}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &2077380389
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077380384}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2080465022
 GameObject:
   m_ObjectHideFlags: 0
@@ -17574,7 +17804,7 @@ Transform:
   m_LocalScale: {x: 18.30445, y: 2.3983648, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 600340691}
+  m_Father: {fileID: 1939836981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2121590845
 SpriteRenderer:
@@ -17621,7 +17851,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
