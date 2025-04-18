@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class ClickableItem : MonoBehaviour
 {
 
@@ -33,6 +34,8 @@ public class ClickableItem : MonoBehaviour
 
     [SerializeField] bool isStartMenu;
     [SerializeField] int startMenuID = 0;
+
+    Rigidbody2D rb;
      /*
       * 1 = start game
       * 2 = options
@@ -42,6 +45,9 @@ public class ClickableItem : MonoBehaviour
 
     private void Start()
     {
+
+        rb = GetComponent<Rigidbody2D>();
+        rb.bodyType = RigidbodyType2D.Kinematic;
         cam = Camera.main;
 
         if (canBePutInPocket)
