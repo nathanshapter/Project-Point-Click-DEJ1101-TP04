@@ -5051,7 +5051,7 @@ MonoBehaviour:
   pm: {fileID: 1038167676}
   pocketManager: {fileID: 861107572}
   doorCode: 75852
-  moon: {fileID: 0}
+  moon: {fileID: 639150398}
 --- !u!4 &548499240
 Transform:
   m_ObjectHideFlags: 0
@@ -7603,7 +7603,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progressionManager: {fileID: 1038167676}
-  moon: {fileID: 639150398}
 --- !u!4 &861107573
 Transform:
   m_ObjectHideFlags: 0
