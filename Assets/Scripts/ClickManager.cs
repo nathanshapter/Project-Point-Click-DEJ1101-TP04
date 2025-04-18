@@ -7,24 +7,24 @@ using UnityEngine.UI;
 public class ClickManager : MonoBehaviour
 {
 
-   [SerializeField] ActiveScene activeScene;
+    [SerializeField] ActiveScene activeScene;
     [SerializeField] TextMeshProUGUI gameText;
     [SerializeField] ProgressionManager pm;
     [SerializeField] PocketManager pocketManager;
+    ClickableItem olditem;
 
-   
-
+    int itemclickedtiem;
 
     ScreenFader screenFader;
 
     private string currentCode = "";
-    [SerializeField] int doorCode =6965;
+    [SerializeField] int doorCode = 6965;
 
     [SerializeField] ClickableItem moon;
 
     private void Awake()
     {
-        if(activeScene == null)
+        if (activeScene == null)
         {
             FindFirstObjectByType<ActiveScene>();
         }
@@ -34,20 +34,31 @@ public class ClickManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // click 
-
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
 
         if (Input.GetMouseButtonDown(0)) // Left-click
         {
-          
-            
+
+
 
 
             if (hit.collider != null && Input.GetMouseButtonDown(0))
             {
                 ClickableItem item = hit.collider.GetComponent<ClickableItem>();
+                if (item == olditem)
+                {
+                    itemclickedtiem++;
+                    if (itemclickedtiem > 2)
+                    {
+                        itemclickedtiem = 0;
+                    }
+
+                }
+                else
+                {
+                    itemclickedtiem = 0;
+                }
 
                 if (item.isDiggable)
                 {
@@ -61,7 +72,7 @@ public class ClickManager : MonoBehaviour
                         gameText.text = "I should probably find something that can be used to dig";
                     }
 
-                        return;
+                    return;
                 }
 
 
@@ -69,7 +80,7 @@ public class ClickManager : MonoBehaviour
                 {
                     Door unlockedDoor = item.GetComponentInParent<Door>();
 
-                    if(item.keypadNumber ==0)
+                    if (item.keypadNumber == 0)
                     {
                         unlockedDoor.CloseKeyPad();
                         return;
@@ -82,17 +93,17 @@ public class ClickManager : MonoBehaviour
                     gameText.text = currentCode;
 
 
-                   if(currentCode.Length == doorCode.ToString().Length)
+                    if (currentCode.Length == doorCode.ToString().Length)
                     {
-                        if(currentCode == doorCode.ToString())
+                        if (currentCode == doorCode.ToString())
                         {
                             gameText.text = "Correct! The door has unlocked";
 
-                            
+
 
                             unlockedDoor.isLocked = false;
                             unlockedDoor.keyPad.SetActive(false);
-                           
+
 
                         }
                         else
@@ -101,16 +112,16 @@ public class ClickManager : MonoBehaviour
                             currentCode = "";
                         }
                     }
-                    
+
                     return;
                 }
 
-                if(item.GetComponent<Door>() != null)
+                if (item.GetComponent<Door>() != null)
                 {
                     Door clickedDoor = item.GetComponent<Door>();
                     print("door clicked");
 
-                    if (clickedDoor.isLocked )
+                    if (clickedDoor.isLocked)
                     {
                         print("door is locked");
                         gameText.text = "The Door is locked. There is a keypad.";
@@ -132,34 +143,35 @@ public class ClickManager : MonoBehaviour
 
 
                     print("time lever has been clicked and all doors should be unlocked");
-                   
 
 
 
-                   Animator itemAnim= item.GetComponent<Animator>();
+
+                    Animator itemAnim = item.GetComponent<Animator>();
 
                     itemAnim.SetTrigger("Play");
                 }
 
-                else if (item != null)
+            else if (item != null)
+            {   
+                if (item.objectText != "" && itemclickedtiem == 0)
                 {
-                    if (item.objectText != null)
+                    gameText.text = item.objectText;
+                }
+
+                if (item.objectText2 != "" && itemclickedtiem == 1)
                     {
 
-                        switch (pm.currentProgression)
-                        {
-                            case 1:
-                                gameText.text = item.objectText;
-                                break;
-                            case 2:
-                                gameText.text = item.objectText2;
-                                break;
-                            case 3:
-                                gameText.text = item.objectText3;
-                                break;
-                        }
+                        gameText.text = item.objectText2;
+
                     }
-                    else if (item.objectText == "")
+                if (item.objectText3 != "" && itemclickedtiem == 2)
+                    {
+
+                    gameText.text = item.objectText3;
+
+                    }
+                else if (item.objectText == "")
 
                     {
                         Debug.LogError($"This item does not have text attached{item.name}");
@@ -167,12 +179,13 @@ public class ClickManager : MonoBehaviour
 
                     item.ProcessClick();
                 }
+                olditem = item;
             }
 
-          
+
         }
 
-      
+
 
 
     }
@@ -184,7 +197,7 @@ public class ClickManager : MonoBehaviour
 
         screenFader.FadeToWhite();
     }
-    
+
 
     private IEnumerator ScreenFadeOut()
     {

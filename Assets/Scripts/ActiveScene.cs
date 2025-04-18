@@ -41,7 +41,7 @@ public class ActiveScene : MonoBehaviour
         gameCanvas.SetActive(false);
         startGameButtons.SetActive(true);
         startCanvas.SetActive(true);
-        ActivateScene(8);
+        ActivateScene(6);
     }
 
     public void ActivateScene(int i)
@@ -70,20 +70,14 @@ public class ActiveScene : MonoBehaviour
                 break;
             case 5:
                 break;
+           
             case 6:
-                print("start mixing room procedure");
                 break;
-            case 7:
-                print("start final scene");
-                break;
-            case 8:
-                break;
-            case 9:
-                break;
+            
         }
 
 
-        if(activeScene != 8) // used to transition from starting scene to game
+        if(activeScene != 6) // used to transition from starting scene to game
         {
             print("Deactivate start screen and activate all game stuff");
 

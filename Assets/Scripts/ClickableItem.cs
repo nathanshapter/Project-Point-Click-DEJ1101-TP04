@@ -19,6 +19,7 @@ public class ClickableItem : MonoBehaviour
     ActiveScene activeScene;
 
    public string objectText, objectText2, objectText3;
+   [HideInInspector] public string textetodisplay;
     Camera cam;
 
     public Color pastColor = new Color32(0xEF, 0xD1, 0x84, 0xFF);
