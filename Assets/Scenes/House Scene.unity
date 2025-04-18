@@ -2137,7 +2137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7692836916821852185, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9154671362116901424, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_Color.b
@@ -5132,7 +5132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &600340691
 Transform:
   m_ObjectHideFlags: 0
@@ -6902,7 +6902,7 @@ Transform:
   m_LocalScale: {x: 1.7379296, y: 0.96164805, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1258198361}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &765088440
 SpriteRenderer:
@@ -18100,3 +18100,4 @@ SceneRoots:
   - {fileID: 861107573}
   - {fileID: 1837541937}
   - {fileID: 1911927877}
+  - {fileID: 765088439}

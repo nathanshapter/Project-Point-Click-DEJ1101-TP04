@@ -205,7 +205,10 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1267973612771921297
 Rigidbody2D:
   serializedVersion: 5
@@ -607,7 +610,10 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!114 &2029042080879641027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,6 +628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 0
   doorPassage: 1
+  keyPad: {fileID: 0}
 --- !u!50 &1512865665782505912
 Rigidbody2D:
   serializedVersion: 5
