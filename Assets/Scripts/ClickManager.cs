@@ -10,6 +10,7 @@ public class ClickManager : MonoBehaviour
    [SerializeField] ActiveScene activeScene;
     [SerializeField] TextMeshProUGUI gameText;
     [SerializeField] ProgressionManager pm;
+    [SerializeField] PocketManager pocketManager;
 
    
 
@@ -47,6 +48,21 @@ public class ClickManager : MonoBehaviour
             if (hit.collider != null && Input.GetMouseButtonDown(0))
             {
                 ClickableItem item = hit.collider.GetComponent<ClickableItem>();
+
+                if (item.isDiggable)
+                {
+                    if (pocketManager.hasShovel)
+                    {
+                        gameText.text = "Okay... and dig dig dig, and I found, an anchor?";
+                    }
+                    else
+                    {
+                        gameText.text = "I should probablky find something that can be used to dig";
+                    }
+
+                        return;
+                }
+
 
                 if (item.isKeypad)
                 {

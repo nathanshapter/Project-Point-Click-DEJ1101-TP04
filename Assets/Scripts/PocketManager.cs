@@ -4,8 +4,13 @@ using static UnityEditor.Progress;
 
 public class PocketManager : MonoBehaviour
 {
-    [SerializeField] bool hasRedbull, hasMoonLight, hasRadioctiveEarth, hasShovel;
+    public bool hasRedbull { get; private set; }
+    public bool hasMoonLight { get; private set; }
+    public bool hasRadioactiveEarth { get; private set; }
+    public bool hasShovel { get; private set; }
     [SerializeField] ProgressionManager progressionManager;
+
+    [SerializeField] ClickableItem moon;
 
     private void Awake()
     {
@@ -27,8 +32,13 @@ public class PocketManager : MonoBehaviour
               
                 break;
             case 3:
-                hasRadioctiveEarth = true;
-                
+                hasRadioactiveEarth = true;
+                break;
+            case 4:
+                hasShovel = true;
+                moon.canBePutInPocket = true;
+
+                print("picked up shovel");
                 break;
 
 
@@ -38,7 +48,7 @@ public class PocketManager : MonoBehaviour
 
     private void CheckForAllItems()
     {
-        if(hasMoonLight && hasRadioctiveEarth && hasRedbull)
+        if(hasMoonLight && hasRadioactiveEarth && hasRedbull)
         {
             FindAnyObjectByType<ClickManager>().StartEndOfGame();
         }

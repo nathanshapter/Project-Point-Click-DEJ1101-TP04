@@ -509,6 +509,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &103712927
 Rigidbody2D:
   serializedVersion: 5
@@ -962,6 +963,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &138176323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1155,6 +1157,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &187406857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1491,6 +1494,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &212498440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1733,6 +1737,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &218481625
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1926,6 +1931,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &221106395
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2004,7 +2010,11 @@ PrefabInstance:
     - target: {fileID: 1275509722578677583, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: putInPocketText
       value: 
-      objectReference: {fileID: 2080465023}
+      objectReference: {fileID: 1597056102}
+    - target: {fileID: 1275509722578677583, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: canBePutInPocket
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1275509722578677583, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: putInPocketButton
       value: 
@@ -2142,8 +2152,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5065464426263570776, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1259687769}
     - targetCorrespondingSourceObject: {fileID: 5065464426263570776, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1800722569}
@@ -2157,15 +2171,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3723469061998423561, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 415239623}
-    - targetCorrespondingSourceObject: {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1131791905}
-    - targetCorrespondingSourceObject: {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1131791904}
-    - targetCorrespondingSourceObject: {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1131791903}
   m_SourcePrefab: {fileID: 100100000, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
 --- !u!1 &250543451
 GameObject:
@@ -2232,6 +2237,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &250543454
 Rigidbody2D:
   serializedVersion: 5
@@ -2802,6 +2808,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!1 &316821917
 GameObject:
   m_ObjectHideFlags: 0
@@ -2958,6 +2965,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &316821922
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3211,6 +3219,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 1
+  isDiggable: 0
 --- !u!212 &347473876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3532,6 +3541,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!1 &364016599
 GameObject:
   m_ObjectHideFlags: 0
@@ -3693,6 +3703,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &364016605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3813,6 +3824,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &374231808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4005,6 +4017,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 8
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &390989036
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4296,6 +4309,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &398468064
 Rigidbody2D:
   serializedVersion: 5
@@ -4612,6 +4626,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &415239624
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4878,6 +4893,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!1 &548499238
 GameObject:
   m_ObjectHideFlags: 0
@@ -4911,6 +4927,7 @@ MonoBehaviour:
   activeScene: {fileID: 1473408331}
   gameText: {fileID: 843832618}
   pm: {fileID: 1038167676}
+  pocketManager: {fileID: 861107572}
   doorCode: 75852
 --- !u!4 &548499240
 Transform:
@@ -5008,6 +5025,10 @@ Transform:
   m_Children:
   - {fileID: 1373643605}
   - {fileID: 2121590844}
+  - {fileID: 2077380385}
+  - {fileID: 1307799372}
+  - {fileID: 1821387761}
+  - {fileID: 1839917102}
   m_Father: {fileID: 217747223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &629141377
@@ -5060,6 +5081,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &629141379
 Rigidbody2D:
   serializedVersion: 5
@@ -5209,6 +5231,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 235123101942088129, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
   m_PrefabInstance: {fileID: 228702592}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &639150398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1275509722578677583, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+  m_PrefabInstance: {fileID: 228702592}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639150393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &646773136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5353,6 +5386,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &678669218
 Rigidbody2D:
   serializedVersion: 5
@@ -5623,6 +5657,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &693829001
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5729,6 +5764,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &701214835
 Rigidbody2D:
   serializedVersion: 5
@@ -5952,6 +5988,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 3
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &713019072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6154,6 +6191,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &716344686
 Rigidbody2D:
   serializedVersion: 5
@@ -6461,6 +6499,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &763431515
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6655,6 +6694,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &764334659
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6791,6 +6831,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &810192006
 Rigidbody2D:
   serializedVersion: 5
@@ -6989,6 +7030,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 2
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &836665682
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7113,6 +7155,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &843054071
 Rigidbody2D:
   serializedVersion: 5
@@ -7437,11 +7480,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30e9f52415397524cbaeb0164d587a49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasRedbull: 0
-  hasMoonLight: 0
-  hasRadioctiveEarth: 0
-  hasShovel: 0
-  progressionManager: {fileID: 0}
+  progressionManager: {fileID: 1038167676}
+  moon: {fileID: 639150398}
 --- !u!4 &861107573
 Transform:
   m_ObjectHideFlags: 0
@@ -7585,7 +7625,7 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 1
-  objectText: The moon is now somehow inside my pocket.
+  objectText: I threw the anchor at the moon and it is now inside my pocket.
   objectText2: 
   objectText3: 
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
@@ -7593,12 +7633,13 @@ MonoBehaviour:
   lerpSpeed: 2
   itemInPocketID: 2
   putInPocketButton: {fileID: 864006663}
-  putInPocketText: {fileID: 2080465023}
+  putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 639150393}
   isStartMenu: 0
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &864006668
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7792,6 +7833,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &866711288
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7972,6 +8014,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &886266582
 Rigidbody2D:
   serializedVersion: 5
@@ -8238,6 +8281,7 @@ RectTransform:
   m_Children:
   - {fileID: 843832617}
   - {fileID: 2080465025}
+  - {fileID: 1597056101}
   - {fileID: 1110229614}
   - {fileID: 1684970427}
   m_Father: {fileID: 1837541937}
@@ -8385,6 +8429,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &1002885205
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8575,6 +8620,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 5
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &1034911907
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8889,6 +8935,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!1 &1075900164
 GameObject:
   m_ObjectHideFlags: 0
@@ -9027,6 +9074,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &1075900169
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9164,6 +9212,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1091007934
 Rigidbody2D:
   serializedVersion: 5
@@ -9476,115 +9525,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 203107159}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1131791900 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
-  m_PrefabInstance: {fileID: 228702592}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1131791903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131791900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDoor: 0
-  isTimeLever: 0
-  canBePutInPocket: 0
-  isPocketBackGround: 0
-  objectText: There is a shovel next to a hole. It looks like it was used recently.
-    This might be a useful item.
-  objectText2: 
-  objectText3: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
-  itemInPocketID: 4
-  putInPocketButton: {fileID: 0}
-  putInPocketText: {fileID: 0}
-  itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
-  startMenuID: 0
---- !u!61 &1131791904
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131791900}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.86, y: 0.66}
-    newSize: {x: 1.86, y: 0.66}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.86, y: 0.66}
-  m_EdgeRadius: 0
---- !u!50 &1131791905
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131791900}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1001 &1146577579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9818,6 +9758,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1172144444
 Rigidbody2D:
   serializedVersion: 5
@@ -10028,6 +9969,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1174635390
 Rigidbody2D:
   serializedVersion: 5
@@ -10341,6 +10283,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &1218530296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10534,6 +10477,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &1229087891
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10900,6 +10844,238 @@ Transform:
   m_Children: []
   m_Father: {fileID: 757791500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1259687768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1259687769}
+  - component: {fileID: 1259687774}
+  - component: {fileID: 1259687773}
+  - component: {fileID: 1259687772}
+  - component: {fileID: 1259687771}
+  - component: {fileID: 1259687770}
+  m_Layer: 0
+  m_Name: Shovel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1259687769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259687768}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.09, y: -3.14, z: 0.040511873}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1939836981}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1259687770
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259687768}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.009538889, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.86, y: 0.66}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.2781343, y: 1}
+  m_EdgeRadius: 0
+--- !u!58 &1259687771
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259687768}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
+--- !u!50 &1259687772
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259687768}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1259687773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259687768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 1
+  isPocketBackGround: 0
+  objectText: This is a shovel. Not sure what I need it for but the developer of
+    the game insists I put it in my pocket.
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 4
+  putInPocketButton: {fileID: 1687529770}
+  putInPocketText: {fileID: 2080465023}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+--- !u!212 &1259687774
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259687768}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 57591053551863209, guid: dbd9152caba3a05488b09e7769ca2955, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!4 &1271922868 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: d6359fac6317b95418ed3cfc85a38b71, type: 3}
@@ -10937,6 +11113,93 @@ Transform:
   - {fileID: 364016600}
   m_Father: {fileID: 1242499563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1307799371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1307799372}
+  - component: {fileID: 1307799373}
+  m_Layer: 0
+  m_Name: starry sky_0 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1307799372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307799371}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.764235, y: -1.3138602, z: 0.040511873}
+  m_LocalScale: {x: 1.7379296, y: 0.96164805, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600340691}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1307799373
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307799371}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -678057013402693394, guid: 203edeaa5dbaf0641aa15da865a24b19, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.24, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1315108140
 GameObject:
   m_ObjectHideFlags: 0
@@ -11130,6 +11393,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!1 &1326504236
 GameObject:
   m_ObjectHideFlags: 0
@@ -11323,6 +11587,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!1 &1357092013
 GameObject:
   m_ObjectHideFlags: 0
@@ -11516,6 +11781,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!1 &1373643604
 GameObject:
   m_ObjectHideFlags: 0
@@ -11670,6 +11936,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &1373643610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11791,6 +12058,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1401690235
 Rigidbody2D:
   serializedVersion: 5
@@ -12219,6 +12487,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 4
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &1520546483
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12511,6 +12780,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1543298812
 Rigidbody2D:
   serializedVersion: 5
@@ -12704,6 +12974,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1566431893
 Rigidbody2D:
   serializedVersion: 5
@@ -12914,6 +13185,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1574487765
 Rigidbody2D:
   serializedVersion: 5
@@ -13042,6 +13314,142 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1597056100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1597056101}
+  - component: {fileID: 1597056103}
+  - component: {fileID: 1597056102}
+  m_Layer: 5
+  m_Name: Throw Anchor Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1597056101
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597056100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 982501917}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 395, y: -135}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &1597056102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597056100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Throw Anchor
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: a562622334308814abe153a553321847, type: 2}
+  m_sharedMaterial: {fileID: 613480843303299240, guid: a562622334308814abe153a553321847, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 43.12
+  m_fontSizeBase: 43.12
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 55
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 19.84
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -47.411133, y: -136.0213, z: -496.72852, w: 119.38162}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1597056103
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597056100}
+  m_CullTransparentMesh: 1
 --- !u!1 &1652405118
 GameObject:
   m_ObjectHideFlags: 0
@@ -13142,6 +13550,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1655966813
 Rigidbody2D:
   serializedVersion: 5
@@ -13334,6 +13743,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 7
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &1658997139
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13612,14 +14022,15 @@ MonoBehaviour:
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  itemInPocketID: 2
+  itemInPocketID: 4
   putInPocketButton: {fileID: 1687529770}
   putInPocketText: {fileID: 2080465023}
-  itemToDisable: {fileID: 1131791900}
+  itemToDisable: {fileID: 1259687768}
   isStartMenu: 0
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &1687529775
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13740,6 +14151,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1764060061
 Rigidbody2D:
   serializedVersion: 5
@@ -14050,6 +14462,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 9
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &1805989511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14261,6 +14674,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &1818244130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14311,6 +14725,200 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1821387760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1821387761}
+  - component: {fileID: 1821387765}
+  - component: {fileID: 1821387764}
+  - component: {fileID: 1821387763}
+  - component: {fileID: 1821387762}
+  m_Layer: 0
+  m_Name: arbre_0 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1821387761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821387760}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.175565, y: -1.7948601, z: 0.040511873}
+  m_LocalScale: {x: 0.6189, y: 0.6144, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600340691}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1821387762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821387760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+--- !u!61 &1821387763
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821387760}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.81, y: 7.47}
+    newSize: {x: 4.81, y: 7.47}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4.81, y: 7.47}
+  m_EdgeRadius: 0
+--- !u!50 &1821387764
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821387760}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!212 &1821387765
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821387760}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1703881627
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -3510615207810718882, guid: 98ef7a6095672a941ad5d3d8ddffbcaa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4.81, y: 7.47}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -14382,6 +14990,200 @@ Transform:
   - {fileID: 811012134}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1839917101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1839917102}
+  - component: {fileID: 1839917106}
+  - component: {fileID: 1839917105}
+  - component: {fileID: 1839917104}
+  - component: {fileID: 1839917103}
+  m_Layer: 0
+  m_Name: Press this to dig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1839917102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839917101}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: 0.30758223, w: 0.9515216}
+  m_LocalPosition: {x: -1.85, y: -3.38, z: 0.040511873}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600340691}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 35.827}
+--- !u!114 &1839917103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839917101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: Hmm.. Maybe I should try and dig through this.
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 1
+--- !u!61 &1839917104
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839917101}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &1839917105
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839917101}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!212 &1839917106
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839917101}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1703881627
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1886828652
 GameObject:
   m_ObjectHideFlags: 0
@@ -14448,6 +15250,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1886828655
 Rigidbody2D:
   serializedVersion: 5
@@ -14640,6 +15443,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 1
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &1890954583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14868,6 +15672,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &1897729935
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15056,6 +15861,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1932139272
 Rigidbody2D:
   serializedVersion: 5
@@ -15260,6 +16066,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &1949955228
 Rigidbody2D:
   serializedVersion: 5
@@ -15480,6 +16287,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &1984872270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15810,6 +16618,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &2057475638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15860,6 +16669,93 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.25, y: 0.19}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2077380384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2077380385}
+  - component: {fileID: 2077380386}
+  m_Layer: 0
+  m_Name: Floor  (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2077380385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077380384}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.75, y: -5.26, z: 0.040511873}
+  m_LocalScale: {x: 18.30445, y: 2.3983648, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 600340691}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2077380386
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077380384}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -16115,6 +17011,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!50 &2083618782
 Rigidbody2D:
   serializedVersion: 5
@@ -16397,6 +17294,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &2107560090
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16590,6 +17488,7 @@ MonoBehaviour:
   isKeypad: 0
   keypadNumber: 0
   startMenuID: 0
+  isDiggable: 0
 --- !u!212 &2112011966
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16796,6 +17695,7 @@ MonoBehaviour:
   isKeypad: 1
   keypadNumber: 6
   startMenuID: 0
+  isDiggable: 0
 --- !u!61 &2138867936
 BoxCollider2D:
   m_ObjectHideFlags: 0
