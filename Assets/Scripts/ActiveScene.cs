@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class ActiveScene : MonoBehaviour
@@ -18,6 +19,8 @@ public class ActiveScene : MonoBehaviour
    public int activeScene = 1; // used for door to know which time/room to go to / disables and reenables every scene
 
     [SerializeField] GameObject startCanvas, gameCanvas, startGameButtons;
+
+    [SerializeField] TextMeshProUGUI gameText, putInButtonText;
 
     ClickManager cm;
     private void Start()
@@ -50,7 +53,7 @@ public class ActiveScene : MonoBehaviour
         scenes[i].gameObject.SetActive(true);
 
         activeScene = i;
-
+       
 
         switch (activeScene)
         {
@@ -87,6 +90,17 @@ public class ActiveScene : MonoBehaviour
             startCanvas.SetActive(false);
             startGameButtons.SetActive(false);
             gameCanvas.SetActive(true);
+        }
+
+        if(activeScene == 0 || activeScene == 3)
+        {
+            gameText.color = Color.black;
+            putInButtonText.color = Color.white;
+        }
+        else
+        {
+            gameText.color = Color.white;
+            putInButtonText.color = Color.black;
         }
         /*
         if(activeScene == 6) // takes to the mixing room
