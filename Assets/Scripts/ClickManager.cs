@@ -58,7 +58,7 @@ public class ClickManager : MonoBehaviour
                     }
                     else
                     {
-                        gameText.text = "I should probablky find something that can be used to dig";
+                        gameText.text = "I should probably find something that can be used to dig";
                     }
 
                         return;

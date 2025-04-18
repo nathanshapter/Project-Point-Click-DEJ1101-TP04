@@ -10,7 +10,7 @@ public class PocketManager : MonoBehaviour
     public bool hasShovel { get; private set; }
     [SerializeField] ProgressionManager progressionManager;
 
-    [SerializeField] ClickableItem moon;
+   
 
     private void Awake()
     {
@@ -36,7 +36,7 @@ public class PocketManager : MonoBehaviour
                 break;
             case 4:
                 hasShovel = true;
-                moon.canBePutInPocket = true;
+              
 
                 print("picked up shovel");
                 break;
