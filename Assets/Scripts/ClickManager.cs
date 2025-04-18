@@ -16,6 +16,11 @@ public class ClickManager : MonoBehaviour
 
 
     ScreenFader screenFader;
+
+    private string currentCode = "";
+    [SerializeField] int doorCode =6965;
+
+  
     
     private void Awake()
     {
@@ -37,19 +42,63 @@ public class ClickManager : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // Left-click
         {
           
+            
+
 
             if (hit.collider != null && Input.GetMouseButtonDown(0))
             {
                 ClickableItem item = hit.collider.GetComponent<ClickableItem>();
 
+                if (item.isKeypad)
+                {
+                    Door unlockedDoor = item.GetComponentInParent<Door>();
+
+                    if(item.keypadNumber ==0)
+                    {
+                        unlockedDoor.CloseKeyPad();
+                        return;
+                    }
+
+
+
+                    currentCode += item.keypadNumber.ToString();
+
+                    gameText.text = currentCode;
+
+
+                   if(currentCode.Length == doorCode.ToString().Length)
+                    {
+                        if(currentCode == doorCode.ToString())
+                        {
+                            gameText.text = "Correct! The door has unlocked";
+
+                            
+
+                            unlockedDoor.isLocked = false;
+                            unlockedDoor.keyPad.SetActive(false);
+                           
+
+                        }
+                        else
+                        {
+                            gameText.text = "That is not the code!";
+                            currentCode = "";
+                        }
+                    }
+                    
+                    return;
+                }
+
                 if(item.GetComponent<Door>() != null)
                 {
+                    Door clickedDoor = item.GetComponent<Door>();
                     print("door clicked");
 
-                    if (item.GetComponent<Door>().isLocked && !outsideWasUnlocked)
+                    if (clickedDoor.isLocked && !outsideWasUnlocked)
                     {
                         print("door is locked");
-                        gameText.text = "The Door is locked.";
+                        gameText.text = "The Door is locked. There is a keypad.";
+                        clickedDoor.OpenKeyPad();
                         return;
                     }
 

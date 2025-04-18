@@ -33,6 +33,8 @@ public class ClickableItem : MonoBehaviour
     [SerializeField] GameObject itemToDisable;
 
     [SerializeField] bool isStartMenu;
+   public bool isKeypad;
+    public int keypadNumber;
     [SerializeField] int startMenuID = 0;
 
     Rigidbody2D rb;

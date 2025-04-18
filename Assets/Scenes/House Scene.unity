@@ -506,6 +506,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &103712927
 Rigidbody2D:
@@ -957,6 +959,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &138176323
 SpriteRenderer:
@@ -1148,6 +1152,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &187406857
 SpriteRenderer:
@@ -1219,7 +1225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &203107159
 Transform:
   m_ObjectHideFlags: 0
@@ -1454,6 +1460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 0
   doorPassage: 4
+  keyPad: {fileID: 0}
 --- !u!114 &212498439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1481,6 +1488,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &212498440
 SpriteRenderer:
@@ -1693,6 +1702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 0
   doorPassage: 3
+  keyPad: {fileID: 0}
 --- !u!114 &218481624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1720,6 +1730,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &218481625
 SpriteRenderer:
@@ -1911,6 +1923,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &221106395
 SpriteRenderer:
@@ -1975,21 +1989,73 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 217747223}
     m_Modifications:
+    - target: {fileID: 26971000920285509, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_Name
+      value: Triangle - disabled as it hurts the UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 26971000920285509, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275509722578677583, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: putInPocketText
+      value: 
+      objectReference: {fileID: 2080465023}
+    - target: {fileID: 1275509722578677583, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: putInPocketButton
+      value: 
+      objectReference: {fileID: 864006663}
+    - target: {fileID: 1677211123284736384, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677211123284736384, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677211123284736384, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.865277
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677211123284736384, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.50129414
+      objectReference: {fileID: 0}
+    - target: {fileID: 1677211123284736384, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -60.171
+      objectReference: {fileID: 0}
     - target: {fileID: 3021420446873177348, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 57591053551863209, guid: dbd9152caba3a05488b09e7769ca2955, type: 3}
     - target: {fileID: 3021420446873177348, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3021420446873177348, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3021420446873177348, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3021420446873177348, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3543523838106493755, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4406105729656768796, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.99
+      value: -3.13
       objectReference: {fileID: 0}
     - target: {fileID: 4406105729656768796, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.96
+      value: -4.39
       objectReference: {fileID: 0}
     - target: {fileID: 5065464426263570776, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2031,6 +2097,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5611620689051059131, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611620689051059131, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611620689051059131, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6579375442437717149, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2042,6 +2120,10 @@ PrefabInstance:
     - target: {fileID: 7692836916821852185, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_Name
       value: Outside Present (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692836916821852185, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9154671362116901424, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       propertyPath: m_Color.b
@@ -2061,7 +2143,25 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5065464426263570776, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1800722569}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3723469061998423561, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 415239625}
+    - targetCorrespondingSourceObject: {fileID: 3723469061998423561, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 415239624}
+    - targetCorrespondingSourceObject: {fileID: 3723469061998423561, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 415239623}
+    - targetCorrespondingSourceObject: {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1131791905}
+    - targetCorrespondingSourceObject: {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1131791904}
+    - targetCorrespondingSourceObject: {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1131791903}
   m_SourcePrefab: {fileID: 100100000, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
 --- !u!1 &250543451
 GameObject:
@@ -2125,6 +2225,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &250543454
 Rigidbody2D:
@@ -2693,6 +2795,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!1 &316821917
 GameObject:
@@ -2732,6 +2836,7 @@ Transform:
   - {fileID: 1655966811}
   - {fileID: 1764060059}
   - {fileID: 678669216}
+  - {fileID: 1566431891}
   m_Father: {fileID: 1018330092}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!68 &316821919
@@ -2846,6 +2951,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &316821922
 SpriteRenderer:
@@ -3097,6 +3204,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 1
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 1
 --- !u!212 &347473876
 SpriteRenderer:
@@ -3416,6 +3525,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!1 &364016599
 GameObject:
@@ -3575,6 +3686,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &364016605
 SpriteRenderer:
@@ -3631,6 +3744,336 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &374231805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 374231806}
+  - component: {fileID: 374231810}
+  - component: {fileID: 374231809}
+  - component: {fileID: 374231808}
+  - component: {fileID: 374231807}
+  m_Layer: 0
+  m_Name: X
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &374231806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374231805}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.65, y: 4.62, z: 0}
+  m_LocalScale: {x: 0.074184164, y: 0.074184164, z: 0.074184164}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &374231807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374231805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 0
+  startMenuID: 0
+--- !u!61 &374231808
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374231805}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.24, y: 10.24}
+    newSize: {x: 10.24, y: 10.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 10.24, y: 10.24}
+  m_EdgeRadius: 0
+--- !u!50 &374231809
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374231805}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!212 &374231810
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374231805}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 4978521221849717894, guid: cc3b0ba3260203f4aba7ebc42fdab689, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.24, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &390989033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 390989034}
+  - component: {fileID: 390989037}
+  - component: {fileID: 390989036}
+  - component: {fileID: 390989035}
+  m_Layer: 0
+  m_Name: 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &390989034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390989033}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &390989035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390989033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 8
+  startMenuID: 0
+--- !u!61 &390989036
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390989033}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.07, y: -2.77}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6182585, y: 2.618257}
+  m_EdgeRadius: 0
+--- !u!50 &390989037
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390989033}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &393786457
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,6 +4289,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &398468064
 Rigidbody2D:
@@ -4128,6 +4573,114 @@ MonoBehaviour:
   swaySpeed: 0
   pulseScale: 0.05
   pulseSpeed: 0.3
+--- !u!1 &415239620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3723469061998423561, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+  m_PrefabInstance: {fileID: 228702592}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &415239623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415239620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+--- !u!61 &415239624
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415239620}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.81, y: 7.47}
+    newSize: {x: 4.81, y: 7.47}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 4.81, y: 7.47}
+  m_EdgeRadius: 0
+--- !u!50 &415239625
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415239620}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &440684294
 GameObject:
   m_ObjectHideFlags: 0
@@ -4318,6 +4871,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!1 &548499238
 GameObject:
@@ -4354,6 +4909,7 @@ MonoBehaviour:
   pm: {fileID: 1038167676}
   pastHasBeenVisited: 0
   outsideWasUnlocked: 0
+  doorCode: 75852
 --- !u!4 &548499240
 Transform:
   m_ObjectHideFlags: 0
@@ -4499,6 +5055,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &629141379
 Rigidbody2D:
@@ -4637,13 +5195,18 @@ Transform:
   m_GameObject: {fileID: 629141377}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.82, y: 0.97, z: 0.040511873}
+  m_LocalPosition: {x: 2.82, y: 1.88, z: 0.040511873}
   m_LocalScale: {x: 1.2682923, y: 1.2682923, z: 1.2682923}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 284001948}
   m_Father: {fileID: 203107159}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &639150393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 235123101942088129, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+  m_PrefabInstance: {fileID: 228702592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &646773136
 GameObject:
   m_ObjectHideFlags: 0
@@ -4785,6 +5348,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &678669218
 Rigidbody2D:
@@ -5053,6 +5618,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &693829001
 SpriteRenderer:
@@ -5157,6 +5724,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &701214835
 Rigidbody2D:
@@ -5317,6 +5886,143 @@ MonoBehaviour:
   swaySpeed: 0
   pulseScale: 0.225
   pulseSpeed: 1.1
+--- !u!1 &713019069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 713019070}
+  - component: {fileID: 713019073}
+  - component: {fileID: 713019072}
+  - component: {fileID: 713019071}
+  m_Layer: 0
+  m_Name: 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &713019070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713019069}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &713019071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713019069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 3
+  startMenuID: 0
+--- !u!61 &713019072
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713019069}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 2.84, y: 3.0089467}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6182585, y: 2.618257}
+  m_EdgeRadius: 0
+--- !u!50 &713019073
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713019069}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &716344681
 GameObject:
   m_ObjectHideFlags: 0
@@ -5443,6 +6149,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &716344686
 Rigidbody2D:
@@ -5748,6 +6456,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &763431515
 SpriteRenderer:
@@ -5940,6 +6650,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &764334659
 SpriteRenderer:
@@ -6074,6 +6786,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &810192006
 Rigidbody2D:
@@ -6209,6 +6923,143 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &836665679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 836665680}
+  - component: {fileID: 836665683}
+  - component: {fileID: 836665682}
+  - component: {fileID: 836665681}
+  m_Layer: 0
+  m_Name: 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &836665680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836665679}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &836665681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836665679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 2
+  startMenuID: 0
+--- !u!61 &836665682
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836665679}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.01, y: 3.0089467}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6182585, y: 2.618257}
+  m_EdgeRadius: 0
+--- !u!50 &836665683
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836665679}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &843054069
 GameObject:
   m_ObjectHideFlags: 0
@@ -6257,6 +7108,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &843054071
 Rigidbody2D:
@@ -6483,8 +7336,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6737,8 +7590,10 @@ MonoBehaviour:
   itemInPocketID: 2
   putInPocketButton: {fileID: 864006663}
   putInPocketText: {fileID: 2080465023}
-  itemToDisable: {fileID: 0}
+  itemToDisable: {fileID: 639150393}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &864006668
 SpriteRenderer:
@@ -6785,7 +7640,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6930,6 +7785,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &866711288
 SpriteRenderer:
@@ -7108,6 +7965,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &886266582
 Rigidbody2D:
@@ -7182,6 +8041,103 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.1695839, y: 0.32}
   m_EdgeRadius: 0
+--- !u!1 &981157397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 981157398}
+  - component: {fileID: 981157399}
+  m_Layer: 0
+  m_Name: keypad_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &981157398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981157397}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.641545, y: 0.31484103, z: -9}
+  m_LocalScale: {x: 0.24668391, y: 0.11725643, z: 0.53449}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1890954581}
+  - {fileID: 836665680}
+  - {fileID: 713019070}
+  - {fileID: 1520546481}
+  - {fileID: 1034911905}
+  - {fileID: 2138867934}
+  - {fileID: 1658997137}
+  - {fileID: 390989034}
+  - {fileID: 1805989509}
+  - {fileID: 374231806}
+  m_Father: {fileID: 1897729930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &981157399
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981157397}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 6598601186114648518, guid: 4ac0e05a0d0b3334cbdc9c129f0b30fd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.24, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &982501913
 GameObject:
   m_ObjectHideFlags: 0
@@ -7200,7 +8156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &982501914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7422,6 +8378,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &1002885205
 SpriteRenderer:
@@ -7516,7 +8474,6 @@ Transform:
   - {fileID: 308144299}
   - {fileID: 2057475634}
   - {fileID: 398468062}
-  - {fileID: 1566431891}
   m_Father: {fileID: 99715502}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1018355911
@@ -7550,6 +8507,143 @@ Transform:
   m_Children: []
   m_Father: {fileID: 552771575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1034911904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1034911905}
+  - component: {fileID: 1034911908}
+  - component: {fileID: 1034911907}
+  - component: {fileID: 1034911906}
+  m_Layer: 0
+  m_Name: 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1034911905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034911904}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1034911906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034911904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 5
+  startMenuID: 0
+--- !u!61 &1034911907
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034911904}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.05, y: 0.18}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6182585, y: 2.618257}
+  m_EdgeRadius: 0
+--- !u!50 &1034911908
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034911904}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1038167675
 GameObject:
   m_ObjectHideFlags: 0
@@ -7788,6 +8882,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!1 &1075900164
 GameObject:
@@ -7924,6 +9020,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &1075900169
 SpriteRenderer:
@@ -8059,6 +9157,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1091007934
 Rigidbody2D:
@@ -8372,6 +9472,114 @@ Transform:
   m_Children: []
   m_Father: {fileID: 203107159}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1131791900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8891881529148349686, guid: 602a4a02fbe8f984a9d54ddfd25c72a0, type: 3}
+  m_PrefabInstance: {fileID: 228702592}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1131791903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131791900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+--- !u!61 &1131791904
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131791900}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.86, y: 0.66}
+    newSize: {x: 1.86, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.86, y: 0.66}
+  m_EdgeRadius: 0
+--- !u!50 &1131791905
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131791900}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1146577579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8602,6 +9810,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1172144444
 Rigidbody2D:
@@ -8810,6 +10020,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1174635390
 Rigidbody2D:
@@ -9093,6 +10305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 0
   doorPassage: 2
+  keyPad: {fileID: 0}
 --- !u!114 &1218530295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9120,6 +10333,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &1218530296
 SpriteRenderer:
@@ -9311,6 +10526,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &1229087891
 SpriteRenderer:
@@ -9905,6 +11122,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!1 &1326504236
 GameObject:
@@ -10096,6 +11315,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!1 &1357092013
 GameObject:
@@ -10287,6 +11508,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!1 &1373643604
 GameObject:
@@ -10411,6 +11634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 0
   doorPassage: 4
+  keyPad: {fileID: 0}
 --- !u!114 &1373643609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10438,6 +11662,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &1373643610
 SpriteRenderer:
@@ -10545,7 +11771,8 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: The code to the door is 69 ... and the last numbers are scratched off.
+  objectText: The code to the door is 75... and the last 3 numbers are scratched
+    off.
   objectText2: 
   objectText3: 
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
@@ -10556,6 +11783,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1401690235
 Rigidbody2D:
@@ -10904,6 +12133,8 @@ MonoBehaviour:
   startCanvas: {fileID: 811012133}
   gameCanvas: {fileID: 982501913}
   startGameButtons: {fileID: 2082312673}
+  gameText: {fileID: 843832618}
+  putInButtonText: {fileID: 2080465023}
 --- !u!4 &1473408332
 Transform:
   m_ObjectHideFlags: 0
@@ -10919,6 +12150,143 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1520546480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1520546481}
+  - component: {fileID: 1520546484}
+  - component: {fileID: 1520546483}
+  - component: {fileID: 1520546482}
+  m_Layer: 0
+  m_Name: 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1520546481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520546480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1520546482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520546480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 4
+  startMenuID: 0
+--- !u!61 &1520546483
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520546480}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -2.8572345, y: 0.17}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6182585, y: 2.618257}
+  m_EdgeRadius: 0
+--- !u!50 &1520546484
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520546480}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1542256974
 GameObject:
   m_ObjectHideFlags: 0
@@ -11135,6 +12503,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1543298812
 Rigidbody2D:
@@ -11293,11 +12663,11 @@ Transform:
   m_GameObject: {fileID: 1566431890}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5194252, y: -3.4134002, z: 0.040511873}
-  m_LocalScale: {x: 3.8360057, y: 1.5187434, z: 1.5187434}
+  m_LocalPosition: {x: 0.032699972, y: -0.1131, z: 0}
+  m_LocalScale: {x: 0.3131433, y: 0.10848167, z: 0.10848167}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1018330092}
+  m_Father: {fileID: 316821918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1566431892
 MonoBehaviour:
@@ -11315,7 +12685,7 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: The code to the door is 69420.. how original.
+  objectText: The code to the door is 75852.
   objectText2: 
   objectText3: 
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
@@ -11326,6 +12696,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1566431893
 Rigidbody2D:
@@ -11534,6 +12906,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1574487765
 Rigidbody2D:
@@ -11760,6 +13134,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1655966813
 Rigidbody2D:
@@ -11889,6 +13265,143 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1658997136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1658997137}
+  - component: {fileID: 1658997140}
+  - component: {fileID: 1658997139}
+  - component: {fileID: 1658997138}
+  m_Layer: 0
+  m_Name: 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1658997137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658997136}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1658997138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658997136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 7
+  startMenuID: 0
+--- !u!61 &1658997139
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658997136}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -2.92, y: -2.77}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6182585, y: 2.618257}
+  m_EdgeRadius: 0
+--- !u!50 &1658997140
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658997136}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1684970426
 GameObject:
   m_ObjectHideFlags: 0
@@ -12026,6 +13539,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1764060061
 Rigidbody2D:
@@ -12273,6 +13788,143 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1805989508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1805989509}
+  - component: {fileID: 1805989512}
+  - component: {fileID: 1805989511}
+  - component: {fileID: 1805989510}
+  m_Layer: 0
+  m_Name: 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1805989509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805989508}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1805989510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805989508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 9
+  startMenuID: 0
+--- !u!61 &1805989511
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805989508}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 2.79, y: -2.77}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6182585, y: 2.618257}
+  m_EdgeRadius: 0
+--- !u!50 &1805989512
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805989508}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1818244125
 GameObject:
   m_ObjectHideFlags: 0
@@ -12408,6 +14060,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 138176318}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &1818244130
 SpriteRenderer:
@@ -12593,6 +14247,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1886828655
 Rigidbody2D:
@@ -12722,6 +14378,143 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1890954580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1890954581}
+  - component: {fileID: 1890954584}
+  - component: {fileID: 1890954583}
+  - component: {fileID: 1890954582}
+  m_Layer: 0
+  m_Name: 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1890954581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890954580}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1890954582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890954580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 1
+  startMenuID: 0
+--- !u!61 &1890954583
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890954580}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -2.8572345, y: 3.0089467}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6182585, y: 2.618257}
+  m_EdgeRadius: 0
+--- !u!50 &1890954584
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890954580}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1897729929
 GameObject:
   m_ObjectHideFlags: 0
@@ -12755,7 +14548,8 @@ Transform:
   m_LocalPosition: {x: -5.17, y: -1.87, z: 0.040511873}
   m_LocalScale: {x: 2.1667, y: 4.5583, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 981157398}
   m_Father: {fileID: 203107159}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1897729931
@@ -12845,6 +14639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 1
   doorPassage: 0
+  keyPad: {fileID: 981157397}
 --- !u!114 &1897729934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12872,6 +14667,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &1897729935
 SpriteRenderer:
@@ -13058,6 +14855,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1932139272
 Rigidbody2D:
@@ -13260,6 +15059,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &1949955228
 Rigidbody2D:
@@ -13478,6 +15279,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 187406852}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &1984872270
 SpriteRenderer:
@@ -13806,6 +15609,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &2057475638
 SpriteRenderer:
@@ -13879,7 +15684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2080465023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13909,8 +15714,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -14109,6 +15914,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!50 &2083618782
 Rigidbody2D:
@@ -14361,6 +16168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 0
   doorPassage: 5
+  keyPad: {fileID: 0}
 --- !u!114 &2107560089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14388,6 +16196,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &2107560090
 SpriteRenderer:
@@ -14579,6 +16389,8 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
   startMenuID: 0
 --- !u!212 &2112011966
 SpriteRenderer:
@@ -14722,6 +16534,143 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2138867933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2138867934}
+  - component: {fileID: 2138867937}
+  - component: {fileID: 2138867936}
+  - component: {fileID: 2138867935}
+  m_Layer: 0
+  m_Name: 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2138867934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138867933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 981157398}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2138867935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138867933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: 
+  objectText2: 
+  objectText3: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 1
+  keypadNumber: 6
+  startMenuID: 0
+--- !u!61 &2138867936
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138867933}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 2.71, y: 0.18}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6182585, y: 2.618257}
+  m_EdgeRadius: 0
+--- !u!50 &2138867937
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138867933}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
