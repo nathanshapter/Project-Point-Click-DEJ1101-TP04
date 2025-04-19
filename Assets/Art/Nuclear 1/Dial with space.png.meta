@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1cf601936148f41468d5dcca2e004518
+guid: 541a3fb2bc43e0d4393d588176dd81d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1197703181795215433
-    second: Pointer_0
+      213: -8138163318719143290
+    second: Dial with space_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pointer_0
+      name: Dial with space_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 9
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.30663413, y: 0.712703}
+        x: 0
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9484249b2b81f9010800000000000000
-      internalID: 1197703181795215433
+      spriteID: 682a1a7549f6f0f80800000000000000
+      internalID: -8138163318719143290
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c4d19c2e421a30e41914f2e6d47718ff
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Pointer_0: 1197703181795215433
+      Dial with space_0: -8138163318719143290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

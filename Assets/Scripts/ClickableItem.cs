@@ -40,6 +40,8 @@ public class ClickableItem : MonoBehaviour
 
     public bool isDiggable = false;
 
+    [SerializeField] bool isNuclearDial = false;
+
     Rigidbody2D rb;
      /*
       * 1 = start game

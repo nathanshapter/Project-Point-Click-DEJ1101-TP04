@@ -45,7 +45,11 @@ public class ClickManager : MonoBehaviour
 
             if (hit.collider != null && Input.GetMouseButtonDown(0))
             {
+
                 ClickableItem item = hit.collider.GetComponent<ClickableItem>();
+                if (item == null)
+                    return;
+
                 if (item == olditem)
                 {
                     itemclickedtiem++;
