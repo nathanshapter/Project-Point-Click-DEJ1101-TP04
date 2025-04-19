@@ -88,15 +88,15 @@ public class ActiveScene : MonoBehaviour
 
         if(activeScene == 0 || activeScene == 3)
         {
-            gameText.color = Color.black;
+          //  gameText.color = Color.black;
             putInButtonText.color = Color.white;
         }
         else
         {
-            gameText.color = Color.white;
+           // gameText.color = Color.white;
             putInButtonText.color = Color.black;
         }
-        /*
+       
         if(activeScene == 6) // takes to the mixing room
         {
             print("start mixing room procedure");
@@ -104,6 +104,6 @@ public class ActiveScene : MonoBehaviour
         else if(activeScene == 7) // takes to the room with the wife
         {
             print("start final scene");
-        }*/
+        }
     }
 }
