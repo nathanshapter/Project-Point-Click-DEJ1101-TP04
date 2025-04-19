@@ -11,9 +11,9 @@ public class ActiveScene : MonoBehaviour
      * 3 = outside past
      * 4 = main room past
      * 5 = nuclear room past
-     * 6 = mixing room
-     * 7 = wife on sick bed
-     * 8 = start menu
+     * 6 = start scene
+     * 7 = nuclear room present post explosion
+     * 8 = 
      */
 
    public int activeScene = 1; // used for door to know which time/room to go to / disables and reenables every scene

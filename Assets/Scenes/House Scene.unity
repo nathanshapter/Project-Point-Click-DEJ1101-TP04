@@ -219,6 +219,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &6782038
 Rigidbody2D:
   serializedVersion: 5
@@ -568,6 +570,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &32393074
 Rigidbody2D:
   serializedVersion: 5
@@ -973,6 +977,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &95252224
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1289,6 +1295,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &130373028
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1446,11 +1454,11 @@ Transform:
   m_GameObject: {fileID: 138176318}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.56, y: -1.05, z: 0.040511873}
+  m_LocalPosition: {x: -0.55999994, y: -1.05, z: 0.040511873}
   m_LocalScale: {x: 8.998814, y: 8.998814, z: 8.998814}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1242499563}
+  m_Father: {fileID: 1146577580}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &138176320
 Rigidbody2D:
@@ -1541,7 +1549,8 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 1
   isPocketBackGround: 0
-  objectText: Radioactive piece of material... Could this be useful?
+  objectText: "Un morceau de mati\xE8re radioactive... Est-ce que \xE7a pourrait
+    \xEAtre utile ?"
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -1558,6 +1567,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &138176323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1857,6 +1868,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &190566608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2060,6 +2073,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &190814514
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2294,6 +2309,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &194359403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2722,6 +2739,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &212498440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2808,7 +2827,6 @@ Transform:
   m_Children:
   - {fileID: 1939836981}
   - {fileID: 490425739}
-  - {fileID: 600340691}
   m_Father: {fileID: 552771575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266600580
@@ -2878,6 +2896,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &266600583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2980,8 +3000,8 @@ Transform:
   m_GameObject: {fileID: 269449835}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.022, y: -0.0053, z: 0}
-  m_LocalScale: {x: 0.043871846, y: 0.043871846, z: 0.043871846}
+  m_LocalPosition: {x: 0.0595, y: -0.0017, z: 0}
+  m_LocalScale: {x: 0.051369544, y: 0.051369544, z: 0.051369544}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 274853994}
@@ -3092,6 +3112,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &269449840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3323,6 +3345,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &274853998
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3378,6 +3402,234 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &286308305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2152453043403216248, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+  m_PrefabInstance: {fileID: 1176186234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &286308307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286308305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: "Des \xE9crans clignotent, des boutons attendent d\u2019\xEAtre press\xE9s.
+    Le silence est interrompu uniquement par un bourdonnement r\xE9gulier."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+--- !u!61 &286308308
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286308305}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.91, y: 7.99}
+    newSize: {x: 7.91, y: 7.99}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 7.91, y: 7.99}
+  m_EdgeRadius: 0
+--- !u!50 &286308309
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286308305}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!1 &294989217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 46968499412959334, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+  m_PrefabInstance: {fileID: 1176186234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &294989219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294989217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: "C\u2019est un r\xE9acteur nucl\xE9aire. Il fait ce que font les r\xE9acteurs
+    : il menace, doucement."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+--- !u!61 &294989220
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294989217}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.02, y: 8.2}
+    newSize: {x: 7.02, y: 8.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 7.02, y: 8.2}
+  m_EdgeRadius: 0
+--- !u!50 &294989221
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294989217}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &312389022
 GameObject:
   m_ObjectHideFlags: 0
@@ -3574,6 +3826,8 @@ MonoBehaviour:
   startMenuID: 1
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &347473876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3731,8 +3985,8 @@ Transform:
   m_GameObject: {fileID: 361139167}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.097, y: 0.106, z: 0}
-  m_LocalScale: {x: 0.043871846, y: 0.043871846, z: 0.043871846}
+  m_LocalPosition: {x: 0.097, y: 0.1095, z: 0}
+  m_LocalScale: {x: 0.06075476, y: 0.06075476, z: 0.06075476}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 527802702}
@@ -3844,6 +4098,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &361139172
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4094,6 +4350,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &364016605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4247,6 +4505,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &370684564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4693,6 +4953,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &419002506
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4946,6 +5208,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &444841050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5047,7 +5311,7 @@ Transform:
   m_GameObject: {fileID: 467536237}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.006, y: 0.20700002, z: 0}
+  m_LocalPosition: {x: -0.006, y: 0.11, z: 0}
   m_LocalScale: {x: 0.061660618, y: 0.061660614, z: 0.061660614}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5116,6 +5380,9 @@ MonoBehaviour:
   goalYPosition: 1.4129
   isInCorrectPosition: 0
   tolerance: 0.2
+  rotator: {fileID: 1419739474}
+  rotatorMinIncreaseValue: 100
+  rotatorMaxIncreaseValue: 120
 --- !u!212 &467536241
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5238,6 +5505,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &473285697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5380,6 +5649,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &481154571
 Rigidbody2D:
   serializedVersion: 5
@@ -5540,6 +5811,9 @@ MonoBehaviour:
   button1: {fileID: 1132908277}
   button2: {fileID: 467536240}
   button3: {fileID: 873297635}
+  rotator: {fileID: 1419739474}
+  allCorrectRotatorSpeed: 25
+  explosionHasCommenced: 0
 --- !u!4 &482582019
 Transform:
   m_ObjectHideFlags: 0
@@ -5740,6 +6014,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &527802706
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5864,6 +6140,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &532772517
 Rigidbody2D:
   serializedVersion: 5
@@ -6116,6 +6394,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &539603076
 Rigidbody2D:
   serializedVersion: 5
@@ -6244,6 +6524,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &540925056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2025805273905274675, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+  m_PrefabInstance: {fileID: 1176186234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &540925057 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+  m_PrefabInstance: {fileID: 1176186234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &548499238
 GameObject:
   m_ObjectHideFlags: 0
@@ -6450,6 +6740,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &551297768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6664,6 +6956,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &564980242
 Rigidbody2D:
   serializedVersion: 5
@@ -6878,6 +7172,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &568833146
 Rigidbody2D:
   serializedVersion: 5
@@ -7073,6 +7369,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &580989231
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7233,41 +7531,120 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &600340690
+--- !u!1 &598588760 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 8203446347992899074, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+  m_PrefabInstance: {fileID: 1176186234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &598588762
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 600340691}
-  m_Layer: 0
-  m_Name: Outside Past
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &600340691
-Transform:
+  m_GameObject: {fileID: 598588760}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.25, y: 1.75}
+    newSize: {x: 1.25, y: 1.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.25, y: 1.75}
+  m_EdgeRadius: 0
+--- !u!114 &598588763
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600340690}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 771946102}
-  - {fileID: 1373643605}
-  - {fileID: 1307799372}
-  - {fileID: 1821387761}
-  m_Father: {fileID: 217747223}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 598588760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: "Quelqu\u2019un a laiss\xE9 une note : \u201CFaire exploser le r\xE9acteur.\u201D
+    \u2026Hm. Je vais peut-\xEAtre y r\xE9fl\xE9chir encore un peu."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+--- !u!50 &598588764
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598588760}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &639150393
 GameObject:
   m_ObjectHideFlags: 0
@@ -7323,6 +7700,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!4 &639150399
 Transform:
   m_ObjectHideFlags: 0
@@ -7794,6 +8173,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &689700375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8084,6 +8465,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &692399157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8227,6 +8610,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &700824785
 Rigidbody2D:
   serializedVersion: 5
@@ -8528,93 +8913,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2053341260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &771946101
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 771946102}
-  - component: {fileID: 771946103}
-  m_Layer: 0
-  m_Name: Floor  (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &771946102
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771946101}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.75, y: -5.26, z: 0.040511873}
-  m_LocalScale: {x: 18.30445, y: 2.3983648, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 600340691}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &771946103
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771946101}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &810192000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8203446347992899074, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
@@ -8700,6 +8998,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &810192006
 Rigidbody2D:
   serializedVersion: 5
@@ -8903,6 +9203,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &818997737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9124,6 +9426,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &820481119
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9382,6 +9686,204 @@ Transform:
   - {fileID: 1818244126}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &862999965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 862999966}
+  - component: {fileID: 862999970}
+  - component: {fileID: 862999969}
+  - component: {fileID: 862999968}
+  - component: {fileID: 862999967}
+  m_Layer: 0
+  m_Name: X (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &862999966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862999965}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.71, y: 0.37089884, z: -1.1593232}
+  m_LocalScale: {x: 0.005107552, y: 0.005107552, z: 0.005107552}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 970984569}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &862999967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862999965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: "On ferme \xE7a."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 970984567}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+  isNuclearDial: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+--- !u!61 &862999968
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862999965}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.24, y: 10.24}
+    newSize: {x: 10.24, y: 10.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 10.24, y: 10.24}
+  m_EdgeRadius: 0
+--- !u!50 &862999969
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862999965}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!212 &862999970
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862999965}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 349968281
+  m_SortingLayer: 2
+  m_SortingOrder: 700
+  m_Sprite: {fileID: 4978521221849717894, guid: cc3b0ba3260203f4aba7ebc42fdab689, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.24, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &863196566
 GameObject:
   m_ObjectHideFlags: 0
@@ -9450,6 +9952,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &863196569
 Rigidbody2D:
   serializedVersion: 5
@@ -9720,6 +10224,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &864006668
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9842,6 +10348,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &872026856
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9943,7 +10451,7 @@ Transform:
   m_GameObject: {fileID: 873297632}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.003, y: 0.20700002, z: 0}
+  m_LocalPosition: {x: -0.003, y: 0.162, z: 0}
   m_LocalScale: {x: 0.061660625, y: 0.061660618, z: 0.061660618}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10012,6 +10520,9 @@ MonoBehaviour:
   goalYPosition: 0.4223
   isInCorrectPosition: 0
   tolerance: 0.2
+  rotator: {fileID: 1419739474}
+  rotatorMinIncreaseValue: 150
+  rotatorMaxIncreaseValue: 180
 --- !u!212 &873297636
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10135,7 +10646,8 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: A lovely little constellation of stars. Reminds me of home.
+  objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
+    chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -10152,6 +10664,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &874597663
 Rigidbody2D:
   serializedVersion: 5
@@ -10492,6 +11006,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &891636605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10777,6 +11293,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &892078823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11066,6 +11584,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &902210277
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11137,7 +11657,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &970984568
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11211,6 +11731,7 @@ Transform:
   - {fileID: 1490738212}
   - {fileID: 1141531835}
   - {fileID: 595173975}
+  - {fileID: 862999966}
   m_Father: {fileID: 1242499563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &982501913
@@ -11398,6 +11919,119 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1051438032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4656453454128541369, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+  m_PrefabInstance: {fileID: 1176186234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1051438034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051438032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: "Un panneau dit \u201CDANGER.\u201D Merci, on n\u2019aurait pas devin\xE9."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+--- !u!61 &1051438035
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051438032}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.5, y: 3.4375}
+    newSize: {x: 3.5, y: 3.4375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.5, y: 3.4375}
+  m_EdgeRadius: 0
+--- !u!50 &1051438036
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051438032}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1055028370
 GameObject:
   m_ObjectHideFlags: 0
@@ -11553,7 +12187,8 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: A lovely little constellation of stars. Reminds me of home.
+  objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
+    chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -11570,6 +12205,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1063493492
 Rigidbody2D:
   serializedVersion: 5
@@ -11798,6 +12435,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1106298986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12075,6 +12714,9 @@ MonoBehaviour:
   goalYPosition: 0.2051
   isInCorrectPosition: 0
   tolerance: 0.3
+  rotator: {fileID: 1419739474}
+  rotatorMinIncreaseValue: 120
+  rotatorMaxIncreaseValue: 150
 --- !u!212 &1132908278
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12246,6 +12888,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1138314389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12528,7 +13172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2025805273905274675, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2473256386164392694, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
       propertyPath: m_Size.x
@@ -12600,7 +13244,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 138176319}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2152453043403216248, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
       insertIndex: -1
@@ -12890,6 +13537,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1153560963
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12945,6 +13594,152 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1176186234
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1830568508}
+    m_Modifications:
+    - target: {fileID: 2025805273905274675, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_Name
+      value: Nuclear Room Present (post Explosion)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2025805273905274675, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2473256386164392694, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_Size.x
+      value: 37.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 2586441083228790300, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4875
+      objectReference: {fileID: 0}
+    - target: {fileID: 2586441083228790300, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 6026860274892588269, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_Size.x
+      value: 78.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 6026860274892588269, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_Size.y
+      value: 54.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 6585028245517307861, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 6585028245517307861, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.507
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1882867020}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2152453043403216248, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 286308309}
+    - targetCorrespondingSourceObject: {fileID: 2152453043403216248, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 286308308}
+    - targetCorrespondingSourceObject: {fileID: 2152453043403216248, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 286308307}
+    - targetCorrespondingSourceObject: {fileID: 4378097303099401793, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1913022318}
+    - targetCorrespondingSourceObject: {fileID: 4378097303099401793, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1913022317}
+    - targetCorrespondingSourceObject: {fileID: 4378097303099401793, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1913022316}
+    - targetCorrespondingSourceObject: {fileID: 9164372887950872479, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1254536122}
+    - targetCorrespondingSourceObject: {fileID: 9164372887950872479, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1254536121}
+    - targetCorrespondingSourceObject: {fileID: 9164372887950872479, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1254536120}
+    - targetCorrespondingSourceObject: {fileID: 8203446347992899074, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 598588764}
+    - targetCorrespondingSourceObject: {fileID: 8203446347992899074, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 598588763}
+    - targetCorrespondingSourceObject: {fileID: 8203446347992899074, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 598588762}
+    - targetCorrespondingSourceObject: {fileID: 4656453454128541369, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1051438036}
+    - targetCorrespondingSourceObject: {fileID: 4656453454128541369, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1051438035}
+    - targetCorrespondingSourceObject: {fileID: 4656453454128541369, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1051438034}
+    - targetCorrespondingSourceObject: {fileID: 46968499412959334, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 294989221}
+    - targetCorrespondingSourceObject: {fileID: 46968499412959334, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 294989220}
+    - targetCorrespondingSourceObject: {fileID: 46968499412959334, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 294989219}
+  m_SourcePrefab: {fileID: 100100000, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
 --- !u!1 &1176633567 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2152453043403216248, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
@@ -12984,6 +13779,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1176633572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13072,7 +13869,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1242499563
 Transform:
   m_ObjectHideFlags: 0
@@ -13089,7 +13886,6 @@ Transform:
   - {fileID: 212498435}
   - {fileID: 1288648403}
   - {fileID: 1152566424}
-  - {fileID: 138176319}
   - {fileID: 1138314387}
   - {fileID: 1662775773}
   - {fileID: 692399153}
@@ -13346,6 +14142,120 @@ MonoBehaviour:
   swaySpeed: 0.5
   pulseScale: 0.05
   pulseSpeed: 1.1
+--- !u!1 &1254536118 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9164372887950872479, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+  m_PrefabInstance: {fileID: 1176186234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1254536120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254536118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: "Une lumi\xE8re qui n\u2019\xE9claire pas\u2026 wow, quelle invention
+    r\xE9volutionnaire."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+--- !u!61 &1254536121
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254536118}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 9.1875, y: 1.375, z: 9.1875, w: 1.4375}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 31.25, y: 3.9375}
+    newSize: {x: 37.82, y: 3.9375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 1
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 31.25, y: 3.9375}
+  m_EdgeRadius: 0
+--- !u!50 &1254536122
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254536118}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1257245832
 GameObject:
   m_ObjectHideFlags: 0
@@ -13416,6 +14326,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 1
+  itemToOpen: {fileID: 970984567}
 --- !u!61 &1257245835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13866,6 +14778,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1259687774
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14101,6 +15015,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1279170921
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14297,6 +15213,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1285176225
 Rigidbody2D:
   serializedVersion: 5
@@ -14496,6 +15414,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1300193970
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14569,93 +15489,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &1307799371
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1307799372}
-  - component: {fileID: 1307799373}
-  m_Layer: 0
-  m_Name: starry sky_0 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1307799372
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307799371}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.764235, y: -1.3138602, z: 0.040511873}
-  m_LocalScale: {x: 1.7379296, y: 0.96164805, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 600340691}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1307799373
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307799371}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -678057013402693394, guid: 203edeaa5dbaf0641aa15da865a24b19, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.24, y: 10.24}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1308472302
 GameObject:
   m_ObjectHideFlags: 0
@@ -14725,6 +15558,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1308472305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15062,6 +15897,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1336035163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15135,218 +15972,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &1373643604
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1373643605}
-  - component: {fileID: 1373643610}
-  - component: {fileID: 1373643609}
-  - component: {fileID: 1373643608}
-  - component: {fileID: 1373643607}
-  - component: {fileID: 1373643606}
-  m_Layer: 0
-  m_Name: 'Main Room Door  '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1373643605
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373643604}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.63, y: -1.87, z: 0.040511873}
-  m_LocalScale: {x: 2.1667, y: 4.5583, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 600340691}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1373643606
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373643604}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!50 &1373643607
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373643604}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0
---- !u!114 &1373643608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373643604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d14b5fbde0c364e40ab850f0d0244733, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isLocked: 0
-  doorPassage: 4
-  keyPad: {fileID: 0}
---- !u!114 &1373643609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373643604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDoor: 1
-  isTimeLever: 0
-  canBePutInPocket: 0
-  isPocketBackGround: 0
-  objectText: 
-  objectText2: 
-  objectText3: 
-  textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
-  itemInPocketID: 0
-  putInPocketButton: {fileID: 0}
-  putInPocketText: {fileID: 0}
-  itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
-  startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
---- !u!212 &1373643610
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373643604}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1374360508
 GameObject:
   m_ObjectHideFlags: 0
@@ -15502,6 +16127,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1380331866
 Rigidbody2D:
   serializedVersion: 5
@@ -15698,7 +16325,8 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: A lovely little constellation of stars. Reminds me of home.
+  objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
+    chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -15715,6 +16343,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1403059750
 Rigidbody2D:
   serializedVersion: 5
@@ -15940,6 +16570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1419739472}
   - component: {fileID: 1419739473}
+  - component: {fileID: 1419739474}
   m_Layer: 0
   m_Name: Pointer_0
   m_TagString: Untagged
@@ -16017,6 +16648,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1419739474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419739471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92651de0f40be804eac8305d16911d1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeedZ: 5
+  rotationSpeed: {x: 0, y: 0, z: 90}
+  baseAngle: 0
+  jitterAmount: 4.7
+  jitterSpeed: 0.16
 --- !u!1 &1429221798
 GameObject:
   m_ObjectHideFlags: 0
@@ -16230,6 +16878,7 @@ MonoBehaviour:
   - {fileID: 1664198467}
   - {fileID: 1242499562}
   - {fileID: 1018355911}
+  - {fileID: 540925056}
   activeScene: 8
   startCanvas: {fileID: 811012133}
   gameCanvas: {fileID: 982501913}
@@ -16549,6 +17198,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1534259227
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16812,6 +17463,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1560362194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17034,6 +17687,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1586389538
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17177,6 +17832,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1594570083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17524,6 +18181,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1599366834
 Rigidbody2D:
   serializedVersion: 5
@@ -17867,7 +18526,7 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: A four panelled window that looks outside. Is there anything to see?
+  objectText: "La fen\xEAtre est tr\xE8s propre."
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -17884,6 +18543,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1613034584
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18080,6 +18741,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1613409888
 Rigidbody2D:
   serializedVersion: 5
@@ -18276,7 +18939,8 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: A lovely little constellation of stars. Reminds me of home.
+  objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
+    chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -18293,6 +18957,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1634555023
 Rigidbody2D:
   serializedVersion: 5
@@ -18546,6 +19212,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1649737431
 Rigidbody2D:
   serializedVersion: 5
@@ -18744,6 +19412,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1662775775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19178,6 +19848,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1684675832
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19450,6 +20122,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1687529775
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19573,6 +20247,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1711709865
 Rigidbody2D:
   serializedVersion: 5
@@ -19740,6 +20416,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1715322213
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19881,6 +20559,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1717379265
 Rigidbody2D:
   serializedVersion: 5
@@ -20078,6 +20758,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1719340725
 Rigidbody2D:
   serializedVersion: 5
@@ -20273,6 +20955,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1778729059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20432,6 +21116,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1794125269
 Rigidbody2D:
   serializedVersion: 5
@@ -20702,6 +21388,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1818244130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20757,203 +21445,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1821387760
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1821387761}
-  - component: {fileID: 1821387765}
-  - component: {fileID: 1821387764}
-  - component: {fileID: 1821387763}
-  - component: {fileID: 1821387762}
-  m_Layer: 0
-  m_Name: arbre_0 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1821387761
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821387760}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.175565, y: -1.7949, z: 0.040511873}
-  m_LocalScale: {x: 1.1659458, y: 1.1574682, z: 1.8839}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 600340691}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1821387762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821387760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDoor: 0
-  isTimeLever: 0
-  canBePutInPocket: 0
-  isPocketBackGround: 0
-  objectText: "L\u2019arbre bouge doucement avec le vent\u2026 alors qu\u2019il n\u2019est
-    m\xEAme pas anim\xE9."
-  objectText2: 
-  objectText3: 
-  textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
-  itemInPocketID: 0
-  putInPocketButton: {fileID: 0}
-  putInPocketText: {fileID: 0}
-  itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
-  startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
---- !u!61 &1821387763
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821387760}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.090051234}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 4}
-    newSize: {x: 4.81, y: 7.47}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 2.7999222, y: 3.8188272}
-  m_EdgeRadius: 0
---- !u!50 &1821387764
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821387760}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!212 &1821387765
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821387760}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1703881627
-  m_SortingLayer: 1
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -6753096365274758034, guid: b15aaecf49a05d34ebf48e0a5ee3285a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 4.81, y: 7.47}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1830568507
 GameObject:
   m_ObjectHideFlags: 0
@@ -20984,6 +21475,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1146577580}
+  - {fileID: 540925057}
   - {fileID: 1242499563}
   m_Father: {fileID: 552771575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21088,6 +21580,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 1
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &1839917104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21211,6 +21705,205 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1882867019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1882867020}
+  - component: {fileID: 1882867024}
+  - component: {fileID: 1882867023}
+  - component: {fileID: 1882867022}
+  - component: {fileID: 1882867021}
+  m_Layer: 0
+  m_Name: RadioActive Earth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1882867020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882867019}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.55999994, y: -1.05, z: 0.040511873}
+  m_LocalScale: {x: 8.998814, y: 8.998814, z: 8.998814}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 540925057}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1882867021
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882867019}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1882867022
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882867019}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0030368306, y: 0.15690371}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: -2.1666667}
+    oldSize: {x: 0.06, y: 0.06}
+    newSize: {x: 0.625, y: 0.96875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.084441505, y: 0.08401579}
+  m_EdgeRadius: 0
+--- !u!114 &1882867023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882867019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 1
+  isPocketBackGround: 0
+  objectText: "Un morceau de mati\xE8re radioactive... Est-ce que \xE7a pourrait
+    \xEAtre utile ?"
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 3
+  putInPocketButton: {fileID: 1818244125}
+  putInPocketText: {fileID: 2080465023}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+--- !u!212 &1882867024
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882867019}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 6988202530873778196, guid: a154252a8253ca34d9cbc7deb27b94be, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.625, y: 0.96875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -21416,6 +22109,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1905322008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21522,6 +22217,120 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 0}
   sfxSource: {fileID: 0}
+--- !u!1 &1913022314 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4378097303099401793, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+  m_PrefabInstance: {fileID: 1176186234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1913022316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913022314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  objectText: "La seule chaise de la pi\xE8ce. Elle regarde les commandes comme si
+    elle comprenait."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  startMenuID: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+--- !u!61 &1913022317
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913022314}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.58, y: 7.11}
+    newSize: {x: 5.58, y: 7.11}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5.58, y: 7.11}
+  m_EdgeRadius: 0
+--- !u!50 &1913022318
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913022314}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1926534414
 GameObject:
   m_ObjectHideFlags: 0
@@ -21719,6 +22528,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1942063230
 Rigidbody2D:
   serializedVersion: 5
@@ -22052,6 +22863,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1953962040
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22336,6 +23149,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1972206178
 Rigidbody2D:
   serializedVersion: 5
@@ -22532,7 +23347,8 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
-  objectText: A lovely little constellation of stars. Reminds me of home.
+  objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
+    chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -22549,6 +23365,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &1972398781
 Rigidbody2D:
   serializedVersion: 5
@@ -22772,6 +23590,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &1984872270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22943,6 +23763,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &2008256248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23187,6 +24009,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &2074124075
 Rigidbody2D:
   serializedVersion: 5
@@ -23348,6 +24172,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!61 &2074666388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23675,6 +24501,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &2087903652
 Rigidbody2D:
   serializedVersion: 5
@@ -23960,6 +24788,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!212 &2114634086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24131,6 +24961,8 @@ MonoBehaviour:
   startMenuID: 0
   isDiggable: 0
   isNuclearDial: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
 --- !u!50 &2138028602
 Rigidbody2D:
   serializedVersion: 5

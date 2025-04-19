@@ -8,23 +8,37 @@ public class VerticalDragManager : MonoBehaviour
 
     [SerializeField] float allCorrectRotatorSpeed = 1;
 
+    private bool rotationTriggered = false;
+
+    public bool explosionHasCommenced = false;
+
+
+    [SerializeField] Door door;
     public bool AllInCorrectPosition()
     {
-        if(button1.isInCorrectPosition && button2.isInCorrectPosition && button3.isInCorrectPosition)
+        if (button1.isInCorrectPosition && button2.isInCorrectPosition && button3.isInCorrectPosition)
         {
             print("all buttons are in correct positions");
+            rotationTriggered = true;
+
+            FindFirstObjectByType<ActiveScene>().gameText.text = "Uhmm.. yikes";
+            explosionHasCommenced = true;
+
+            door.doorPassage = 7;
+
+
             return true;
         }
         else
         {
-           
+
             return false;
         }
     }
 
     private void Update()
     {
-        if (AllInCorrectPosition())
+        if (rotationTriggered)
         {
             rotator.baseAngle += allCorrectRotatorSpeed * Time.deltaTime;
         }

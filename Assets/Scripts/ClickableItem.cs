@@ -42,6 +42,9 @@ public class ClickableItem : MonoBehaviour
 
     [SerializeField] bool isNuclearDial = false;
 
+    [SerializeField] bool doesClickingOpenSomething = false;
+    [SerializeField] GameObject itemToOpen;
+
     Rigidbody2D rb;
      /*
       * 1 = start game
@@ -71,6 +74,18 @@ public class ClickableItem : MonoBehaviour
     }
     public void ProcessClick()
     {
+        if (isNuclearDial)
+        {
+            itemToDisable.SetActive(false);
+            return;
+        }
+
+        if (doesClickingOpenSomething)
+        {
+            itemToOpen.gameObject.SetActive(true);
+
+        }
+
         if (isStartMenu)
         {
             print("start menu");
@@ -132,23 +147,81 @@ public class ClickableItem : MonoBehaviour
 
         TextMeshProUGUI gameText = FindFirstObjectByType<ActiveScene>().gameText;
 
-        if (activeScene.activeScene == 2)
+        VerticalDragManager vm = FindFirstObjectByType<VerticalDragManager>();
+
+        if(activeScene.activeScene == 2)
+        {
+
+
+            activeScene.ActivateScene(5);
+            cam.backgroundColor = pastColor;
+            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+        }
+        else if(activeScene.activeScene == 5 )
+        {
+            if (!vm.explosionHasCommenced)
+            {
+                activeScene.ActivateScene(2);
+            }
+            else
+            {
+                activeScene.ActivateScene(7);
+            }
+
+
+                print("tiem changed to present");
+            cam.backgroundColor = presentColor;
+            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+        }
+        else if(activeScene.activeScene == 7)
         {
             activeScene.ActivateScene(5);
-            print("tiem changed to past");        
+            cam.backgroundColor = pastColor;
+            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+        }
+        
+
+
+
+
+     /*   if (activeScene.activeScene == 2 && !FindFirstObjectByType<VerticalDragManager>().explosionHasCommenced)
+        {
+            activeScene.ActivateScene(5);
+            print("tiem changed to past");
             cam.backgroundColor = pastColor;
 
             gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
 
         }
+
+
+
         else
         {
-            activeScene.ActivateScene(2);
+            if (FindFirstObjectByType<VerticalDragManager>().explosionHasCommenced)
+            {
+                if (activeScene.activeScene == 7)
+                {
+                    activeScene.ActivateScene(2);
+                }
+                else
+                {
+                    activeScene.ActivateScene(7);
+                }
+
+
+            }
+            else
+            {
+
+            }
+
+
             print("tiem changed to present");
             cam.backgroundColor = presentColor;
             gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
         }
 
-        
+        */
     }
 }
