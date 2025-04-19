@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: b15aaecf49a05d34ebf48e0a5ee3285a
+guid: 641528de379f94f448dc41b9a8c86967
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6753096365274758034
-    second: arbre12_0
+      213: 5930735913155093134
+    second: Sprite-00032_0
+  - first:
+      213: 3897422873341302210
+    second: Sprite-00032_1
+  - first:
+      213: -2953007302561054528
+    second: Sprite-00032_2
+  - first:
+      213: -2540838284627101965
+    second: Sprite-00032_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -109,27 +118,106 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arbre12_0
+      name: Sprite-00032_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 64
+        width: 15
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6401dd92ae2842a0800000000000000
-      internalID: -6753096365274758034
+      spriteID: e82e24004e43e4250800000000000000
+      internalID: 5930735913155093134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-00032_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c59df0347d661630800000000000000
+      internalID: 3897422873341302210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-00032_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 18
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0c6b7018fc407d0800000000000000
+      internalID: -2953007302561054528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite-00032_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6b615ca012dbcd0800000000000000
+      internalID: -2540838284627101965
       vertices: []
       indices: 
       edges: []
@@ -138,8 +226,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -148,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      arbre12_0: -6753096365274758034
+      Sprite-00032_0: 5930735913155093134
+      Sprite-00032_1: 3897422873341302210
+      Sprite-00032_2: -2953007302561054528
+      Sprite-00032_3: -2540838284627101965
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

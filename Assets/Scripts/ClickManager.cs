@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -64,12 +64,12 @@ public class ClickManager : MonoBehaviour
                 {
                     if (pocketManager.hasShovel)
                     {
-                        gameText.text = "Okay... and dig dig dig, and I found, an anchor?";
+                        gameText.text = "D’accord… alors j’ai creusé, creusé, creusé, et j’ai trouvé… une ancre ?";
                         moon.canBePutInPocket = true;
                     }
                     else
                     {
-                        gameText.text = "I should probably find something that can be used to dig";
+                        gameText.text = "Je devrais probablement trouver quelque chose pour creuser.";
                     }
 
                     return;
@@ -97,7 +97,7 @@ public class ClickManager : MonoBehaviour
                     {
                         if (currentCode == doorCode.ToString())
                         {
-                            gameText.text = "Correct! The door has unlocked";
+                            gameText.text = "Correct ! La porte est déverrouillée";
 
 
 
@@ -108,7 +108,7 @@ public class ClickManager : MonoBehaviour
                         }
                         else
                         {
-                            gameText.text = "That is not the code!";
+                            gameText.text = "Ce n’est pas le bon code !";
                             currentCode = "";
                         }
                     }
@@ -124,14 +124,14 @@ public class ClickManager : MonoBehaviour
                     if (clickedDoor.isLocked)
                     {
                         print("door is locked");
-                        gameText.text = "The Door is locked. There is a keypad.";
+                        gameText.text = "La porte est verrouillée. Il y a un clavier.";
                         clickedDoor.OpenKeyPad();
                         return;
                     }
 
                     int getDoorPassageNumber = item.GetComponent<Door>().doorPassage;
 
-                    gameText.text = "You open the door.";
+                    gameText.text = "Tu ouvres la porte.";
 
                     activeScene.ActivateScene(getDoorPassageNumber);
 
@@ -193,7 +193,7 @@ public class ClickManager : MonoBehaviour
     {
         print("end of games starting");
 
-        gameText.text = "You now have all of the items required to create a ... lemon";
+        gameText.text = "Tu as maintenant tous les objets nécessaires pour créer un... citron.";
 
         screenFader.FadeToWhite();
     }
