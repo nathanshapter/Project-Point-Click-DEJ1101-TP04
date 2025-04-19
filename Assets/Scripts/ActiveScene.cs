@@ -20,7 +20,7 @@ public class ActiveScene : MonoBehaviour
 
     [SerializeField] GameObject startCanvas, gameCanvas, startGameButtons;
 
-    [SerializeField] TextMeshProUGUI gameText, putInButtonText;
+    public TextMeshProUGUI gameText, putInButtonText;
 
     ClickManager cm;
     private void Start()

@@ -128,11 +128,15 @@ public class ClickableItem : MonoBehaviour
         if (cam == null)
             cam = Camera.main;
 
+        TextMeshProUGUI gameText = FindFirstObjectByType<ActiveScene>().gameText;
+
         if (activeScene.activeScene == 2)
         {
             activeScene.ActivateScene(5);
             print("tiem changed to past");        
             cam.backgroundColor = pastColor;
+
+            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
 
         }
         else
@@ -140,6 +144,7 @@ public class ClickableItem : MonoBehaviour
             activeScene.ActivateScene(2);
             print("tiem changed to present");
             cam.backgroundColor = presentColor;
+            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
         }
 
         
