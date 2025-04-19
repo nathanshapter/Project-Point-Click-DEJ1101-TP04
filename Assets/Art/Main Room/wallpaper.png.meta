@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -91,12 +91,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -526,7 +526,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wallpaper_0: -2426113772406766134
+      wallpaper_1: 262755907948377477
+      wallpaper_10: 2414562193409383877
+      wallpaper_11: 5777721802382041541
+      wallpaper_12: -2382417667951103084
+      wallpaper_13: 8626547863523901751
+      wallpaper_14: -4630156802803910375
+      wallpaper_15: -3523226584675056634
+      wallpaper_2: -8232009154231047446
+      wallpaper_3: 3376452762341393043
+      wallpaper_4: -6660523628027654817
+      wallpaper_5: 4355680275407656752
+      wallpaper_6: -4446590940440285097
+      wallpaper_7: -887515314617404260
+      wallpaper_8: -7663925214245772838
+      wallpaper_9: 1721717166558621804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
