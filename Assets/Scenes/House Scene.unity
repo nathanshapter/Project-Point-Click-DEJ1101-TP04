@@ -11519,7 +11519,7 @@ MonoBehaviour:
   itemToOpen: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: The code to the door is 75852.
+  objectText: Le code pour la porte est 75852.
   objectText2: 
   objectText3: 
   textetodisplay: 

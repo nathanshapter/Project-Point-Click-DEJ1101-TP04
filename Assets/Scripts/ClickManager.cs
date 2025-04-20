@@ -18,11 +18,13 @@ public class ClickManager : MonoBehaviour
     ScreenFader screenFader;
 
     private string currentCode = "";
-    [SerializeField] int doorCode = 6965;
+  [SerializeField] int doorCode = 6965;
 
     [SerializeField] ClickableItem moon;
 
     public GameObject finalText;
+
+    [SerializeField] ClickableItem bookWithCode;
 
     private void Awake()
     {
@@ -31,6 +33,14 @@ public class ClickManager : MonoBehaviour
             FindFirstObjectByType<ActiveScene>();
         }
         screenFader = GetComponent<ScreenFader>();
+    }
+
+    private void Start()
+    {
+        doorCode = Random.Range(0, 99999);
+        print(doorCode);
+
+        bookWithCode.objectText = $"Le code pour la porte est {doorCode}";
     }
 
     // Update is called once per frame
