@@ -15,15 +15,15 @@ public class ScreenFader : MonoBehaviour
 
     IEnumerator FadeSequence()
     {
-        yield return new WaitForSeconds(3.5f); //  delay before fade
+        yield return new WaitForSeconds(2f); //  delay before fade
 
         
         yield return StartCoroutine(Fade(Color.clear, Color.white));
 
         // hold white
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
 
-        FindFirstObjectByType<ActiveScene>().ActivateScene(6);
+        FindFirstObjectByType<ActiveScene>().ActivateScene(8);
 
         // back to normal
         yield return StartCoroutine(Fade(Color.white, Color.clear));

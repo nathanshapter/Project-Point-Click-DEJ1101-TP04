@@ -123,11 +123,11 @@ public class ClickManager : MonoBehaviour
                 if (item.GetComponent<Door>() != null)
                 {
                     Door clickedDoor = item.GetComponent<Door>();
-                    print("door clicked");
+                    print($"door clicked - opening {clickedDoor.doorPassage}");
 
                     if (clickedDoor.isLocked)
                     {
-                        print("door is locked");
+                        print($"door is locked {clickedDoor} is locked to passage {clickedDoor.doorPassage}");
                         gameText.text = "La porte est verrouillée. Il y a un clavier.";
                         clickedDoor.OpenKeyPad();
                         return;
@@ -146,7 +146,7 @@ public class ClickManager : MonoBehaviour
                 {
 
 
-                    print("time lever has been clicked and all doors should be unlocked");
+                    print("time lever has been clicked");
 
 
 

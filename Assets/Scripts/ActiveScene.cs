@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public class ActiveScene : MonoBehaviour
 {
@@ -23,6 +24,14 @@ public class ActiveScene : MonoBehaviour
     public TextMeshProUGUI gameText, putInButtonText;
 
     ClickManager cm;
+    
+    public int debugSceneIndex;
+
+    [Button("Activate Scene Manually")]
+    public void ActivateSceneFromInspector()
+    {
+        ActivateScene(debugSceneIndex);
+    }
     private void Start()
     {
         cm = FindFirstObjectByType<ClickManager>();
@@ -79,7 +88,7 @@ public class ActiveScene : MonoBehaviour
 
         if(activeScene != 6) // used to transition from starting scene to game
         {
-            print("Deactivate start screen and activate all game stuff");
+           
 
             startCanvas.SetActive(false);
             startGameButtons.SetActive(false);
@@ -97,13 +106,11 @@ public class ActiveScene : MonoBehaviour
             putInButtonText.color = Color.black;
         }
        
-        if(activeScene == 6) // takes to the mixing room
+
+        if(activeScene == 8)
         {
-            print("start mixing room procedure");
+            gameText.text = "Après des expériences méticuleuses, le Citron Doré est maintenant entre vos mains. Qu’allez-vous en faire ?";
         }
-        else if(activeScene == 7) // takes to the room with the wife
-        {
-            print("start final scene");
-        }
+       
     }
 }

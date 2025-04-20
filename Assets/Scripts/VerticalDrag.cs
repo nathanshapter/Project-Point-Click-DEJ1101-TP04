@@ -39,7 +39,7 @@ public class VerticalDrag : MonoBehaviour
     {
         isDragging = false;
 
-        print(this.transform.position.y);
+       
     }
 
     void Update()
@@ -61,7 +61,7 @@ public class VerticalDrag : MonoBehaviour
 
             if (CheckPosition())
             {
-                print("button in correct spot");
+                
                 isInCorrectPosition = true;
                 vdm.AllInCorrectPosition();
 

@@ -88,7 +88,7 @@ public class ClickableItem : MonoBehaviour
 
         if (isStartMenu)
         {
-            print("start menu");
+           
 
             switch (startMenuID)
             {
