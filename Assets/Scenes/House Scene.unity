@@ -201,26 +201,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Ce livre bourdonne quand je le touche. Ce n\u2019est probablement
     pas normal."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &6782038
 Rigidbody2D:
   serializedVersion: 5
@@ -646,25 +649,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Un livre sur le minimalisme\u2026 et pourtant, il p\xE8se une tonne."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &32393074
 Rigidbody2D:
   serializedVersion: 5
@@ -1208,25 +1214,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: You have clicked on the floor.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &95252224
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1526,25 +1535,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Le code de la porte est peut-\xEAtre not\xE9 quelque part."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &130373028
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1797,26 +1809,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 1
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Un morceau de mati\xE8re radioactive... Est-ce que \xE7a pourrait
     \xEAtre utile ?"
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 3
   putInPocketButton: {fileID: 1818244125}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &138176323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2099,25 +2114,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &190566608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2303,26 +2321,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une fen\xEAtre \xE0 quatre carreaux qui donne sur l'ext\xE9rieur.
     Mais y a-t-il vraiment quelque chose \xE0 voir?"
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &190814514
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2540,25 +2561,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Un bol chaud de p\xE2t\xE9e."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &194359403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2970,25 +2994,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &212498440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3127,25 +3154,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 6
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 6
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &266600583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3343,25 +3373,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une cannette vide de Red Bull. Pas tr\xE8s utile maintenant."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &269449840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3575,26 +3608,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est la table o\xF9 je travaille\u2026 et o\xF9 je mange de
     la soupe."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &274853998
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3776,26 +3812,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Des \xE9crans clignotent, des boutons attendent d\u2019\xEAtre press\xE9s.
     Le silence est interrompu uniquement par un bourdonnement r\xE9gulier."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &286308308
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3869,6 +3908,209 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &308422560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 308422561}
+  - component: {fileID: 308422565}
+  - component: {fileID: 308422564}
+  - component: {fileID: 308422563}
+  - component: {fileID: 308422562}
+  m_Layer: 0
+  m_Name: Worship Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &308422561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308422560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.04, y: 0, z: 0.040511873}
+  m_LocalScale: {x: 3.55, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 593990954}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &308422562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308422560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 1575638654}
+  isFinalButton: 1
+  finalObjectToShow: {fileID: 520565667}
+  objectText: "Tu t\u2019agenouilles devant le Citron Dor\xE9. Bient\xF4t, d\u2019autres
+    te rejoignent. Sans vraiment comprendre pourquoi, un culte est n\xE9.  On t\u2019appelle
+    d\xE9sormais le Proph\xE8te du Zeste."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 1837541936}
+  startMenuID: 0
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
+--- !u!61 &308422563
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308422560}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &308422564
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308422560}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!212 &308422565
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308422560}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &310994943
 GameObject:
   m_ObjectHideFlags: 0
@@ -3920,25 +4162,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 1
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "On ferme \xE7a."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 16293990}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 1
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &310994946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4246,25 +4491,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 1
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: Uhhh. je fais quoi?
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 1
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 1
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &347473876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4517,26 +4765,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 1
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "La canette est non ouverte. C\u2019est techniquement de l\u2019eau
     p\xE9tillante, non ?"
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 1984872266}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &361139172
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4857,25 +5108,28 @@ MonoBehaviour:
   isTimeLever: 1
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: You pull the lever.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &364016605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5012,25 +5266,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 8
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 8
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &370684564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5460,25 +5717,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 4
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 4
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &419002506
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5714,26 +5974,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une note indique que le code est 75852\u2026 dommage que ce soit trop
     tard."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &444841050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6012,25 +6275,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 2
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 2
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &473285697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6155,26 +6421,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un gros livre sur les diff\xE9rences entre les dragons
     et les wyverns. Pourquoi est-ce que j\u2019ai \xE7a ?"
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &481154571
 Rigidbody2D:
   serializedVersion: 5
@@ -6550,6 +6819,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &520565667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 520565668}
+  m_Layer: 0
+  m_Name: Worship Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &520565668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520565667}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1518690372}
+  m_Father: {fileID: 593990954}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &527802701
 GameObject:
   m_ObjectHideFlags: 0
@@ -6676,26 +6977,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est la table o\xF9 je travaille\u2026 et o\xF9 je mange de
     la soupe."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &527802706
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6803,25 +7107,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: The clock ran out of battery a while ago. Kind of like myself.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &532772517
 Rigidbody2D:
   serializedVersion: 5
@@ -7056,26 +7363,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Le code de la porte commence par 75\u2026 mais les trois derniers
     chiffres sont gratt\xE9s."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &539603076
 Rigidbody2D:
   serializedVersion: 5
@@ -7214,6 +7524,142 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6753389461115346863, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
   m_PrefabInstance: {fileID: 1176186234}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &542211502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542211503}
+  - component: {fileID: 542211505}
+  - component: {fileID: 542211504}
+  m_Layer: 5
+  m_Name: Squeeze Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &542211503
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542211502}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 641104752}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: -667, y: 142}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &542211504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542211502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Presse-le
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -132.28345, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &542211505
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542211502}
+  m_CullTransparentMesh: 1
 --- !u!1 &548499238
 GameObject:
   m_ObjectHideFlags: 0
@@ -7250,6 +7696,7 @@ MonoBehaviour:
   pocketManager: {fileID: 861107572}
   doorCode: 75852
   moon: {fileID: 639150398}
+  finalText: {fileID: 641104751}
 --- !u!4 &548499240
 Transform:
   m_ObjectHideFlags: 0
@@ -7403,25 +7850,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une chaise standard que j'ai achet\xE9e chez IKEA pour $30."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &551297768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7620,25 +8070,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Avril 1969. \xC7a fait longtemps que je cherche ce citron magique."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &564980242
 Rigidbody2D:
   serializedVersion: 5
@@ -7835,26 +8288,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &568833146
 Rigidbody2D:
   serializedVersion: 5
@@ -8033,25 +8489,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 7
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 7
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &580989231
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8156,8 +8615,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1133960261}
-  - {fileID: 1488567582}
-  - {fileID: 1372478523}
+  - {fileID: 1121663167}
+  - {fileID: 308422561}
+  - {fileID: 1575638655}
+  - {fileID: 520565668}
   m_Father: {fileID: 552771575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &593990955
@@ -8326,26 +8787,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Quelqu\u2019un a laiss\xE9 une note : \u201CFaire exploser le r\xE9acteur.\u201D
     \u2026Hm. Je vais peut-\xEAtre y r\xE9fl\xE9chir encore un peu."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &598588764
 Rigidbody2D:
   serializedVersion: 5
@@ -8485,25 +8949,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Y\u2019a bien des roches sur la Lune, non ?"
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 2
   putInPocketButton: {fileID: 864006663}
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!4 &639150399
 Transform:
   m_ObjectHideFlags: 0
@@ -8738,6 +9205,43 @@ SpriteMask:
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
   m_MaskSource: 0
+--- !u!1 &641104751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641104752}
+  m_Layer: 5
+  m_Name: EngGameTexts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &641104752
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641104751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 542211503}
+  - {fileID: 1191387747}
+  m_Father: {fileID: 982501917}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &646773136
 GameObject:
   m_ObjectHideFlags: 0
@@ -9038,25 +9542,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &689700375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9329,26 +9836,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une lumi\xE8re qui n\u2019\xE9claire pas\u2026 wow, quelle invention
     r\xE9volutionnaire."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &692399157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9422,139 +9932,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &700600933
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 700600934}
-  - component: {fileID: 700600937}
-  - component: {fileID: 700600936}
-  - component: {fileID: 700600935}
-  m_Layer: 5
-  m_Name: Squeeze Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &700600934
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700600933}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.4793, y: 2.4793, z: 2.4793}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1345262023}
-  m_Father: {fileID: 1372478523}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 131.66, y: 133}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!114 &700600935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700600933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 700600936}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 593990955}
-        m_TargetAssemblyTypeName: FinalScene, Assembly-CSharp
-        m_MethodName: Squeeze
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &700600936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700600933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &700600937
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700600933}
-  m_CullTransparentMesh: 1
 --- !u!1 &700824782
 GameObject:
   m_ObjectHideFlags: 0
@@ -9607,26 +9984,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Cela fait longtemps que l\u2019horloge est \xE0 court de pile. Moi
     aussi, d\u2019une certaine mani\xE8re."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &700824785
 Rigidbody2D:
   serializedVersion: 5
@@ -9995,26 +10375,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Quelqu\u2019un a laiss\xE9 une note : \u201CFaire exploser le r\xE9acteur.\u201D
     \u2026Hm. Je vais peut-\xEAtre y r\xE9fl\xE9chir encore un peu."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &810192006
 Rigidbody2D:
   serializedVersion: 5
@@ -10201,25 +10584,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "La note dit : \"Dans le futur, j\u2019aurai le code que vous cherchez.\""
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &818997737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10424,25 +10810,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Un panneau dit \u201CDANGER.\u201D Merci, on n\u2019aurait pas devin\xE9."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &820481119
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10752,25 +11141,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 1
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "On ferme \xE7a."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 970984567}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 1
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &862999968
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10950,25 +11342,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: The code to the door is 75852.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &863196569
 Rigidbody2D:
   serializedVersion: 5
@@ -11221,26 +11616,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 1
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "J\u2019ai lanc\xE9 l\u2019ancre sur la lune et elle est maintenant
     dans ma poche."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 2
   putInPocketButton: {fileID: 864006663}
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 639150393}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &864006668
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11346,25 +11744,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 3
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 3
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &872026856
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11661,26 +12062,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &874597663
 Rigidbody2D:
   serializedVersion: 5
@@ -12003,26 +12407,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "J\u2019ai essay\xE9 ces ingr\xE9dients\u2026 mais \xE7a n\u2019a pas
     march\xE9. Peut-\xEAtre que les instructions n\u2019\xE9taient pas exactes."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &891636605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12291,25 +12698,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &892078823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12582,25 +12992,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: This is a moon.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 2
   putInPocketButton: {fileID: 864006663}
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &902210277
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12784,7 +13197,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &982501915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12848,6 +13261,7 @@ RectTransform:
   - {fileID: 1597056101}
   - {fileID: 1110229614}
   - {fileID: 1684970427}
+  - {fileID: 641104752}
   m_Father: {fileID: 1837541937}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -12955,25 +13369,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Un panneau dit \u201CDANGER.\u201D Merci, on n\u2019aurait pas devin\xE9."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1051438035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13202,26 +13619,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1063493492
 Rigidbody2D:
   serializedVersion: 5
@@ -13433,25 +13853,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 1
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 1
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1106298986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13678,6 +14101,209 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110229613}
   m_CullTransparentMesh: 1
+--- !u!1 &1121663166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1121663167}
+  - component: {fileID: 1121663171}
+  - component: {fileID: 1121663170}
+  - component: {fileID: 1121663169}
+  - component: {fileID: 1121663168}
+  m_Layer: 0
+  m_Name: Squeeze Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1121663167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121663166}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.5, y: 0, z: 0.040511873}
+  m_LocalScale: {x: 3.55, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 593990954}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1121663168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121663166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 1575638654}
+  isFinalButton: 1
+  finalObjectToShow: {fileID: 1575638654}
+  objectText: "Tu presses le Citron Dor\xE9, en esp\xE9rant des r\xE9ponses. \xC0
+    la place, tu obtiens du jus.  Tu r\xE9alises que peut-\xEAtre\u2026 c\u2019est
+    suffisant."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 1837541936}
+  startMenuID: 0
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
+--- !u!61 &1121663169
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121663166}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &1121663170
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121663166}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!212 &1121663171
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121663166}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1132908275
 GameObject:
   m_ObjectHideFlags: 0
@@ -13972,26 +14598,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Des \xE9crans clignotent, des boutons attendent d\u2019\xEAtre press\xE9s.
     Le silence est interrompu uniquement par un bourdonnement r\xE9gulier."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1138314389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14625,25 +15254,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une chaise standard que j'ai achet\xE9e chez IKEA pour $30."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1153560963
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14861,26 +15493,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Des \xE9crans clignotent, des boutons attendent d\u2019\xEAtre press\xE9s.
     Le silence est interrompu uniquement par un bourdonnement r\xE9gulier."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1176633572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14954,6 +15589,229 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &1183163811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1183163812}
+  - component: {fileID: 1183163813}
+  m_Layer: 0
+  m_Name: squeezing lemon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1183163812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183163811}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.360135, y: 0.04513979, z: 0.040511873}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1575638655}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1183163813
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183163811}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -5370370537792699765, guid: eeecce51d36529540876bec52ab7cfd0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.83, y: 10.03}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1191387746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1191387747}
+  - component: {fileID: 1191387749}
+  - component: {fileID: 1191387748}
+  m_Layer: 5
+  m_Name: Worship it text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1191387747
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191387746}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 641104752}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: -67, y: 142}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &1191387748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191387746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "V\xE9n\xE8re-le"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -132.28345, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1191387749
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191387746}
+  m_CullTransparentMesh: 1
 --- !u!4 &1233423387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
@@ -15268,26 +16126,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une lumi\xE8re qui n\u2019\xE9claire pas\u2026 wow, quelle invention
     r\xE9volutionnaire."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1254536121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15413,26 +16274,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 1
+  itemToOpen: {fileID: 970984567}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un r\xE9acteur nucl\xE9aire. Il fait ce que font les r\xE9acteurs
     : il menace, doucement."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 1
-  itemToOpen: {fileID: 970984567}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1257245835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15865,26 +16729,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 1
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est une pelle. Aucune id\xE9e de son utilit\xE9, mais le d\xE9veloppeur
     veut que je la mette dans ma poche."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 4
   putInPocketButton: {fileID: 1687529770}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1259687774
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16102,26 +16969,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Un bol de soupe tra\xEEne sur le bureau. Il a peut-\xEAtre vu plus
     de r\xE9unions que moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1279170921
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16301,25 +17171,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: This is still a book about minimalism. It is surprisingly heavy.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1285176225
 Rigidbody2D:
   serializedVersion: 5
@@ -16501,26 +17374,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "La seule chaise de la pi\xE8ce. Elle regarde les commandes comme si
     elle comprenait."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1300193970
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16726,25 +17602,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Un panneau dit \u201CDANGER.\u201D Merci, on n\u2019aurait pas devin\xE9."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1308472305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17145,25 +18024,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 5
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 5
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1336035163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17237,244 +18119,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &1345262022
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1345262023}
-  - component: {fileID: 1345262025}
-  - component: {fileID: 1345262024}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1345262023
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345262022}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 700600934}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1345262024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345262022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Presse-le
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
-  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 16.6
-  m_fontSizeBase: 16.6
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1345262025
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345262022}
-  m_CullTransparentMesh: 1
---- !u!1 &1372478522
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1372478523}
-  - component: {fileID: 1372478526}
-  - component: {fileID: 1372478525}
-  - component: {fileID: 1372478524}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1372478523
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372478522}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 700600934}
-  m_Father: {fileID: 593990954}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1372478524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372478522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1372478525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372478522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1372478526
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1372478522}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1 &1374360508
 GameObject:
   m_ObjectHideFlags: 0
@@ -17613,25 +18257,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: C'est un petit livre.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1380331866
 Rigidbody2D:
   serializedVersion: 5
@@ -17828,26 +18475,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1403059750
 Rigidbody2D:
   serializedVersion: 5
@@ -18394,7 +19044,8 @@ MonoBehaviour:
   startGameButtons: {fileID: 2082312673}
   gameText: {fileID: 843832618}
   putInButtonText: {fileID: 2080465023}
-  debugSceneIndex: 0
+  endGameObject: {fileID: 0}
+  manualSceneToActivate: 8
 --- !u!4 &1473408332
 Transform:
   m_ObjectHideFlags: 0
@@ -18410,107 +19061,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1488567581
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1488567582}
-  - component: {fileID: 1488567585}
-  - component: {fileID: 1488567584}
-  - component: {fileID: 1488567583}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1488567582
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488567581}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 593990954}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &1488567583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488567581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1488567584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488567581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1488567585
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488567581}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1001 &1490738211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18596,6 +19146,93 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
   m_PrefabInstance: {fileID: 1490738211}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1518690371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1518690372}
+  - component: {fileID: 1518690373}
+  m_Layer: 0
+  m_Name: squeezing lemon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1518690372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518690371}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.360135, y: 0.04513979, z: 0.040511873}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 520565668}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1518690373
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518690371}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -5370370537792699765, guid: eeecce51d36529540876bec52ab7cfd0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.83, y: 10.03}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1534259220
 GameObject:
   m_ObjectHideFlags: 0
@@ -18792,25 +19429,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1534259227
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19055,27 +19695,30 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Il est \xE9crit : \u201CIl n\u2019y a que trois ingr\xE9dients, \xE7a
     ne peut pas \xEAtre si compliqu\xE9\u2026 de l\u2019eau p\xE9tillante, des roches 
     et de la terre !\u201D"
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1560362194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19259,6 +19902,38 @@ SpriteMask:
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
   m_MaskSource: 0
+--- !u!1 &1575638654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1575638655}
+  m_Layer: 0
+  m_Name: Squeeze Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1575638655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575638654}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1183163812}
+  m_Father: {fileID: 593990954}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1586389533 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9164372887950872479, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
@@ -19280,26 +19955,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une lumi\xE8re qui n\u2019\xE9claire pas\u2026 wow, quelle invention
     r\xE9volutionnaire."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1586389538
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19425,26 +20103,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Est-ce que quelqu\u2019un lui a dit qu\u2019il volait droit vers le
     sol ?"
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1594570083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19775,25 +20456,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un grand livre."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1599366834
 Rigidbody2D:
   serializedVersion: 5
@@ -20137,25 +20821,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "La fen\xEAtre est tr\xE8s propre."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1613034584
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20334,26 +21021,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1613409888
 Rigidbody2D:
   serializedVersion: 5
@@ -20550,26 +21240,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1634555023
 Rigidbody2D:
   serializedVersion: 5
@@ -20805,26 +21498,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "D\xE9cembre 1967. C\u2019est ce mois-l\xE0 que j\u2019ai entendu parler
     du citron pour la premi\xE8re fois."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1649737431
 Rigidbody2D:
   serializedVersion: 5
@@ -21005,26 +21701,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "La seule chaise de la pi\xE8ce. Elle regarde les commandes comme si
     elle comprenait."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1662775775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21442,25 +22141,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1684675832
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21715,26 +22417,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 1
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Bon, j\u2019ai la pelle - aucune id\xE9e de comment \xE7a tient dans
     ma poche, mais on va faire semblant que c\u2019est normal."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 4
   putInPocketButton: {fileID: 1687529770}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 1259687768}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1687529775
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21841,25 +22546,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Ce livre est vide. Profond\xE9ment profond."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1711709865
 Rigidbody2D:
   serializedVersion: 5
@@ -22009,26 +22717,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 1
+  itemToOpen: {fileID: 16293990}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Les cadrans ne r\xE9pondent plus... Ce truc a d\xE9finitivement cess\xE9
     de fonctionner."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 1
-  itemToOpen: {fileID: 16293990}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1715322213
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22153,25 +22864,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: This book is still blank. Deeply profound.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1717379265
 Rigidbody2D:
   serializedVersion: 5
@@ -22351,26 +23065,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un gros livre sur les diff\xE9rences entre les dragons
     et les wyverns. Pourquoi est-ce que j\u2019ai \xE7a ?"
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1719340725
 Rigidbody2D:
   serializedVersion: 5
@@ -22549,25 +23266,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 1
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 1
-  keypadNumber: 9
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 9
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1778729059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22709,26 +23429,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1794125269
 Rigidbody2D:
   serializedVersion: 5
@@ -22981,26 +23704,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 1
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: La terre radioactive est dans ma poche, au pire, je brillerai dans
     le noir.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 3
   putInPocketButton: {fileID: 1818244125}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 1882867019}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1818244130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23174,25 +23900,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 1
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: Hmm.. Maybe I should try and dig through this.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 1
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1839917104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23445,26 +24174,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 1
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Un morceau de mati\xE8re radioactive... Est-ce que \xE7a pourrait
     \xEAtre utile ?"
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 3
   putInPocketButton: {fileID: 1818244125}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1882867024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23703,25 +24435,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1905322008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23849,26 +24584,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "La seule chaise de la pi\xE8ce. Elle regarde les commandes comme si
     elle comprenait."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &1913022317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24281,26 +25019,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un livre pour apprendre l\u2019anglais. Chapitre 1 : Crise
     existentielle et mauvais th\xE9."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1942063230
 Rigidbody2D:
   serializedVersion: 5
@@ -24617,25 +25358,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1953962040
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24902,26 +25646,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1972206178
 Rigidbody2D:
   serializedVersion: 5
@@ -25118,26 +25865,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &1972398781
 Rigidbody2D:
   serializedVersion: 5
@@ -25344,25 +26094,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 1
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: La canette de Red Bull est maintenant dans ma poche.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 1
   putInPocketButton: {fileID: 1984872266}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 361139167}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &1984872270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25516,26 +26269,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Il ne poursuit son voyage que sous notre regard. Sans nous, il reste
     fig\xE9 dans le ciel."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &2008256248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25763,25 +26519,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: livre sur le citron blanc
   objectText2: pour le fair pousser il faut remplire 3 condition
   objectText3: 1. un sol pure 2. un liquide somnifaire 3. la lumiere de la lune
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &2074124075
 Rigidbody2D:
   serializedVersion: 5
@@ -25926,25 +26685,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: You have clicked on the floor.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!61 &2074666388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26254,26 +27016,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &2087903652
 Rigidbody2D:
   serializedVersion: 5
@@ -26542,25 +27307,28 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!212 &2114634086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26714,26 +27482,29 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: "Quelqu\u2019un a laiss\xE9 une note : \u201CFaire exploser le r\xE9acteur.\u201D
     \u2026Hm. Je vais peut-\xEAtre y r\xE9fl\xE9chir encore un peu."
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
-  isNuclearDial: 0
-  doesClickingOpenSomething: 0
-  itemToOpen: {fileID: 0}
+  keypadNumber: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  rb: {fileID: 0}
 --- !u!50 &2138028602
 Rigidbody2D:
   serializedVersion: 5

@@ -1,57 +1,105 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 public class ClickableItem : MonoBehaviour
 {
 
-    // this script activates when an item is clicked
+    [FoldoutGroup("Interaction Settings")]
+    [SerializeField] private bool isDoor = false;
 
-  
-    
-    [SerializeField] bool isDoor = false;
+    [FoldoutGroup("Interaction Settings")]
     public bool isTimeLever = false;
+
+    [FoldoutGroup("Interaction Settings")]
     public bool canBePutInPocket = false;
-    [SerializeField] bool isPocketBackGround;
 
-    ActiveScene activeScene;
+    [FoldoutGroup("Interaction Settings")]
+    [SerializeField] private bool isPocketBackGround;
 
-   public string objectText, objectText2, objectText3;
-   [HideInInspector] public string textetodisplay;
-    Camera cam;
-
-    public Color pastColor = new Color32(0xEF, 0xD1, 0x84, 0xFF);
-    public Color presentColor = new Color32(0xD8, 0xE6, 0xEC, 0xFF);
-    public float lerpSpeed = 2f;
-
-    [SerializeField] int itemInPocketID; // items to pick up 1 is redbull 2 is moon 3 is radioactive earth 4 is shovel
-
-   [SerializeField] GameObject putInPocketButton;
-    [SerializeField] TextMeshProUGUI putInPocketText;
-
-    [SerializeField] GameObject itemToDisable;
-
-    [SerializeField] bool isStartMenu;
-   public bool isKeypad;
-    public int keypadNumber;
-    [SerializeField] int startMenuID = 0;
-
+    [FoldoutGroup("Interaction Settings")]
     public bool isDiggable = false;
 
-    [SerializeField] bool isNuclearDial = false;
+    [FoldoutGroup("Interaction Settings")]
+    [SerializeField] private bool isNuclearDial = false;
 
-    [SerializeField] bool doesClickingOpenSomething = false;
-    [SerializeField] GameObject itemToOpen;
+    [FoldoutGroup("Interaction Settings")]
+    [SerializeField] private bool isStartMenu = false;
 
-    Rigidbody2D rb;
-     /*
-      * 1 = start game
-      * 2 = options
-      * 3 = credits 
-      * 4 = quit game
-      */
+    [FoldoutGroup("Interaction Settings")]
+    public bool isKeypad = false;
+
+    [FoldoutGroup("Interaction Settings")]
+    [SerializeField] private bool doesClickingOpenSomething = false;
+
+    [FoldoutGroup("Interaction Settings")]
+    [ShowIf("doesClickingOpenSomething")]
+    [SerializeField] private GameObject itemToOpen;
+
+    [FoldoutGroup("Interaction Settings")]
+    [SerializeField] bool isFinalButton = false;
+
+    [FoldoutGroup("Interaction Settings")]
+    [ShowIf("isFinalButton")]
+    [SerializeField] GameObject finalObjectToShow;
+
+    [FoldoutGroup("Text")]
+    public string objectText;
+
+    [FoldoutGroup("Text")]
+    public string objectText2;
+
+    [FoldoutGroup("Text")]
+    public string objectText3;
+
+    [FoldoutGroup("Text")]
+    [HideInInspector] public string textetodisplay;
+
+    [FoldoutGroup("Pocket")]
+    [SerializeField] private int itemInPocketID;
+
+    [FoldoutGroup("Pocket")]
+    [SerializeField] private GameObject putInPocketButton;
+
+    [FoldoutGroup("Pocket")]
+    [SerializeField] private TextMeshProUGUI putInPocketText;
+
+    [FoldoutGroup("Pocket")]
+    [SerializeField] private GameObject itemToDisable;
+
+    [FoldoutGroup("Start Menu")]
+    [SerializeField] private int startMenuID = 0;
+
+    [FoldoutGroup("Keypad")]
+    [ShowIf("isKeypad")]
+    public int keypadNumber;
+
+    [FoldoutGroup("Scene")]
+    private ActiveScene activeScene;
+
+    [FoldoutGroup("Scene")]
+    private Camera cam;
+
+    [FoldoutGroup("Scene")]
+    public Color pastColor = new Color32(0xEF, 0xD1, 0x84, 0xFF);
+
+    [FoldoutGroup("Scene")]
+    public Color presentColor = new Color32(0xD8, 0xE6, 0xEC, 0xFF);
+
+    [FoldoutGroup("Scene")]
+    public float lerpSpeed = 2f;
+
+    [FoldoutGroup("Physics")]
+    [SerializeField] private Rigidbody2D rb;
+    /*
+     * 1 = start game
+     * 2 = options
+     * 3 = credits 
+     * 4 = quit game
+     */
 
     private void Start()
     {
@@ -74,6 +122,20 @@ public class ClickableItem : MonoBehaviour
     }
     public void ProcessClick()
     {
+        if (isFinalButton)
+        {
+            print("final button pressed");
+
+            finalObjectToShow.SetActive(true);
+
+            this.gameObject.SetActive(false);
+
+            FindFirstObjectByType<ClickManager>().finalText.SetActive(false);
+            
+            return;
+        }
+
+
         if (isNuclearDial)
         {
             itemToDisable.SetActive(false);

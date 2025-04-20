@@ -23,14 +23,18 @@ public class ActiveScene : MonoBehaviour
 
     public TextMeshProUGUI gameText, putInButtonText;
 
+    public GameObject endGameObject;
+
     ClickManager cm;
     
-    public int debugSceneIndex;
+    public int manualSceneToActivate;
+
+
 
     [Button("Activate Scene Manually")]
     public void ActivateSceneFromInspector()
     {
-        ActivateScene(debugSceneIndex);
+        ActivateScene(manualSceneToActivate);
     }
     private void Start()
     {

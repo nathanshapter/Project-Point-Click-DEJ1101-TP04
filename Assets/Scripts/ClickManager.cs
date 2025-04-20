@@ -22,6 +22,8 @@ public class ClickManager : MonoBehaviour
 
     [SerializeField] ClickableItem moon;
 
+    public GameObject finalText;
+
     private void Awake()
     {
         if (activeScene == null)
