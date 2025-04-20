@@ -131,6 +131,8 @@ public class ClickableItem : MonoBehaviour
             this.gameObject.SetActive(false);
 
             FindFirstObjectByType<ClickManager>().finalText.SetActive(false);
+
+            itemToDisable.SetActive(false);
             
             return;
         }
