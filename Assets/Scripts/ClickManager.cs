@@ -37,7 +37,15 @@ public class ClickManager : MonoBehaviour
 
     private void Start()
     {
-        doorCode = Random.Range(0, 99999);
+        string code = "";
+        for (int i = 0; i < 5; i++)
+        {
+            code += Random.Range(1, 10).ToString(); // digits 1–9 only
+        }
+        doorCode = int.Parse(code);
+
+
+      
         print(doorCode);
 
         bookWithCode.objectText = $"Le code pour la porte est {doorCode}";
