@@ -7729,6 +7729,9 @@ MonoBehaviour:
   doorCode: 75852
   moon: {fileID: 639150398}
   finalText: {fileID: 641104751}
+  bookWithCode: {fileID: 863196568}
+  secondBookWithCode: {fileID: 539603075}
+  treeWithCode: {fileID: 444841049}
 --- !u!4 &548499240
 Transform:
   m_ObjectHideFlags: 0

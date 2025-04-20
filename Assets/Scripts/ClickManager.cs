@@ -24,7 +24,7 @@ public class ClickManager : MonoBehaviour
 
     public GameObject finalText;
 
-    [SerializeField] ClickableItem bookWithCode;
+    [SerializeField] ClickableItem bookWithCode, secondBookWithCode, treeWithCode;
 
     private void Awake()
     {
@@ -41,6 +41,8 @@ public class ClickManager : MonoBehaviour
         print(doorCode);
 
         bookWithCode.objectText = $"Le code pour la porte est {doorCode}";
+        secondBookWithCode.objectText = $"Le code pour la porte est {doorCode.ToString().Substring(0,2)}, les dernières chiffres sont grattés. ";
+        treeWithCode.objectText = $"Une note indique que le code est {doorCode} dommage que ce soit trop tard.";
     }
 
     // Update is called once per frame
