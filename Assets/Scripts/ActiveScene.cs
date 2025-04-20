@@ -114,6 +114,7 @@ public class ActiveScene : MonoBehaviour
         if(activeScene == 8)
         {
             gameText.text = "Après des expériences méticuleuses, le Citron Doré est maintenant entre vos mains. Qu’allez-vous en faire ?";
+         //   endGameObject.SetActive(true);
         }
        
     }
