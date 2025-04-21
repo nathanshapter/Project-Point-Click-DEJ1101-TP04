@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: b4c61e308a699974789d3183e2b397a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -348739378069980561
+    second: grappin anim_0
+  - first:
+      213: 5860432050873221430
+    second: grappin anim_1
+  - first:
+      213: -8829390927144986269
+    second: grappin anim_2
+  - first:
+      213: 3962011614983722208
+    second: grappin anim_3
+  - first:
+      213: -3422287236399430397
+    second: grappin anim_4
+  - first:
+      213: -4734245078351722557
+    second: grappin anim_5
+  - first:
+      213: -7307046802153252155
+    second: grappin anim_6
+  - first:
+      213: -1077442508873364633
+    second: grappin anim_7
+  - first:
+      213: 7579384932407457282
+    second: grappin anim_8
+  - first:
+      213: 2664576532209114198
+    second: grappin anim_9
+  - first:
+      213: 8426226377591893028
+    second: grappin anim_10
+  - first:
+      213: -4600446160760888132
+    second: grappin anim_11
+  - first:
+      213: 6616304581060962734
+    second: grappin anim_12
+  - first:
+      213: 8160857534304033671
+    second: grappin anim_13
+  - first:
+      213: 8867443239365875891
+    second: grappin anim_14
+  - first:
+      213: 5190026443994312565
+    second: grappin anim_15
+  - first:
+      213: 5362218742420450542
+    second: grappin anim_16
+  - first:
+      213: -3866043343617131199
+    second: grappin anim_17
+  - first:
+      213: 5809433191096265191
+    second: grappin anim_18
+  - first:
+      213: 1490617386546993950
+    second: grappin anim_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grappin anim_0
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 86
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ab2f22267092bf0800000000000000
+      internalID: -348739378069980561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_1
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 95
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631cc9e76ef645150800000000000000
+      internalID: 5860432050873221430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_3
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 102
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4931b7294ebf630800000000000000
+      internalID: 3962011614983722208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 54
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c744313f259c4eb0800000000000000
+      internalID: -4734245078351722557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_6
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 62
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca5088d5a7289a90800000000000000
+      internalID: -7307046802153252155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_8
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 76
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206381050726f2960800000000000000
+      internalID: 7579384932407457282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_12
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 44
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9ade736f5d1db50800000000000000
+      internalID: 6616304581060962734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_16
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 19
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeca9e5398d6a6a40800000000000000
+      internalID: 5362218742420450542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_17
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 29
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dff69ef0e095ac0800000000000000
+      internalID: -3866043343617131199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_18
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 41
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e928a525b04f9050800000000000000
+      internalID: 5809433191096265191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grappin anim_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 10
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b972d8d9cbfa410800000000000000
+      internalID: 1490617386546993950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 331096ecf7c6c1146b8fac481beb24bc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      grappin anim_0: -348739378069980561
+      grappin anim_1: 5860432050873221430
+      grappin anim_12: 6616304581060962734
+      grappin anim_16: 5362218742420450542
+      grappin anim_17: -3866043343617131199
+      grappin anim_18: 5809433191096265191
+      grappin anim_19: 1490617386546993950
+      grappin anim_3: 3962011614983722208
+      grappin anim_5: -4734245078351722557
+      grappin anim_6: -7307046802153252155
+      grappin anim_8: 7579384932407457282
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

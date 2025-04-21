@@ -347,22 +347,27 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: 
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
 --- !u!212 &546632151
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -978,22 +983,27 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 1
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: Hmm.. Maybe I should try and dig through this.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 1
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
 --- !u!61 &1402039586
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1228,22 +1238,27 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 1
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: Hmm.. Maybe I should try and dig through this.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 1
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
 --- !u!61 &1424041067
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1496,22 +1511,27 @@ MonoBehaviour:
   isTimeLever: 0
   canBePutInPocket: 0
   isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
   objectText: Stop clicking on the floor.
   objectText2: 
   objectText3: 
   textetodisplay: 
-  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
-  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
-  lerpSpeed: 2
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
-  isStartMenu: 0
-  isKeypad: 0
-  keypadNumber: 0
   startMenuID: 0
-  isDiggable: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
 --- !u!61 &2016772704
 BoxCollider2D:
   m_ObjectHideFlags: 0
