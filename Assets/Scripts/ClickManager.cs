@@ -248,25 +248,14 @@ public class ClickManager : MonoBehaviour
                 }
 
             else if (item != null)
-            {   
-                if (item.objectText != "" && itemclickedtiem == 0)
-                {
-                    gameText.text = item.objectText;
-                }
+            {
+                    string[] texts = { item.objectText, item.objectText2, item.objectText3 };
 
-                if (item.objectText2 != "" && itemclickedtiem == 1)
+                    if (itemclickedtiem >= 0 && itemclickedtiem < texts.Length && !string.IsNullOrEmpty(texts[itemclickedtiem]))
                     {
-
-                        gameText.text = item.objectText2;
-
+                        gameText.text = texts[itemclickedtiem];
                     }
-                if (item.objectText3 != "" && itemclickedtiem == 2)
-                    {
-
-                    gameText.text = item.objectText3;
-
-                    }
-                else if (item.objectText == "")
+                    else if (item.objectText == "")
 
                     {
                         Debug.LogError($"This item does not have text attached{item.name}");
