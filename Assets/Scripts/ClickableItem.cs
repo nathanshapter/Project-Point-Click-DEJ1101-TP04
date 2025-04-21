@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using TMPro;
 using UnityEngine;
 using Sirenix.OdinInspector;
@@ -24,6 +24,7 @@ public class ClickableItem : MonoBehaviour
     public bool isDiggable = false;
 
     [FoldoutGroup("Interaction Settings")]
+    
     [SerializeField] private bool isNuclearDial = false;
 
     [FoldoutGroup("Interaction Settings")]
@@ -31,6 +32,10 @@ public class ClickableItem : MonoBehaviour
 
     [FoldoutGroup("Interaction Settings")]
     public bool isKeypad = false;
+
+    [FoldoutGroup("Interaction Settings")]
+    [ShowIf("isKeypad")]
+    public int keypadNumber;
 
     [FoldoutGroup("Interaction Settings")]
     [SerializeField] private bool doesClickingOpenSomething = false;
@@ -73,9 +78,7 @@ public class ClickableItem : MonoBehaviour
     [FoldoutGroup("Start Menu")]
     [SerializeField] private int startMenuID = 0;
 
-    [FoldoutGroup("Keypad")]
-    [ShowIf("isKeypad")]
-    public int keypadNumber;
+    
 
     [FoldoutGroup("Scene")]
     private ActiveScene activeScene;
@@ -92,8 +95,7 @@ public class ClickableItem : MonoBehaviour
     [FoldoutGroup("Scene")]
     public float lerpSpeed = 2f;
 
-    [FoldoutGroup("Physics")]
-    [SerializeField] private Rigidbody2D rb;
+   private Rigidbody2D rb;
     /*
      * 1 = start game
      * 2 = options
@@ -219,7 +221,7 @@ public class ClickableItem : MonoBehaviour
 
             activeScene.ActivateScene(5);
             cam.backgroundColor = pastColor;
-            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+            gameText.text = "Hmm, la couleur de fond a changÃ©â€¦ je me demande ce que le dÃ©veloppeur essaie de me dire.";
         }
         else if(activeScene.activeScene == 5 )
         {
@@ -235,57 +237,19 @@ public class ClickableItem : MonoBehaviour
 
                 print("tiem changed to present");
             cam.backgroundColor = presentColor;
-            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+            gameText.text = "Hmm, la couleur de fond a changÃ©â€¦ je me demande ce que le dÃ©veloppeur essaie de me dire.";
         }
         else if(activeScene.activeScene == 7)
         {
             activeScene.ActivateScene(5);
             cam.backgroundColor = pastColor;
-            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+            gameText.text = "Hmm, la couleur de fond a changÃ©â€¦ je me demande ce que le dÃ©veloppeur essaie de me dire.";
         }
         
 
 
 
 
-     /*   if (activeScene.activeScene == 2 && !FindFirstObjectByType<VerticalDragManager>().explosionHasCommenced)
-        {
-            activeScene.ActivateScene(5);
-            print("tiem changed to past");
-            cam.backgroundColor = pastColor;
-
-            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
-
-        }
-
-
-
-        else
-        {
-            if (FindFirstObjectByType<VerticalDragManager>().explosionHasCommenced)
-            {
-                if (activeScene.activeScene == 7)
-                {
-                    activeScene.ActivateScene(2);
-                }
-                else
-                {
-                    activeScene.ActivateScene(7);
-                }
-
-
-            }
-            else
-            {
-
-            }
-
-
-            print("tiem changed to present");
-            cam.backgroundColor = presentColor;
-            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
-        }
-
-        */
+     
     }
 }

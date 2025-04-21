@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Sirenix.OdinInspector;
+using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -6,25 +7,58 @@ using UnityEngine.UI;
 
 public class ClickManager : MonoBehaviour
 {
-
+    [TabGroup("Scene & Manager", TextColor = "green", Icon = SdfIconType.GearFill)]    
     [SerializeField] ActiveScene activeScene;
-    [SerializeField] TextMeshProUGUI gameText;
+
+    [TabGroup("Scene & Manager", TextColor = "green", Icon = SdfIconType.GearFill)]
     [SerializeField] ProgressionManager pm;
+
+    [TabGroup("Scene & Manager", TextColor = "green", Icon = SdfIconType.GearFill)]
     [SerializeField] PocketManager pocketManager;
-    ClickableItem olditem;
+
+    [TabGroup("Scene & Manager", TextColor = "green", Icon = SdfIconType.GearFill)]
+    ScreenFader screenFader;
+
+    
+
+    [TabGroup("UI", TextColor = "blue", Icon = SdfIconType.Thermometer)]
+    [SerializeField] TextMeshProUGUI gameText;
+
+    [TabGroup("UI", TextColor = "blue", Icon = SdfIconType.Thermometer)]
+    public GameObject finalText;
+
+
+
+    [TabGroup("Keypad_Logic", TextColor = "yellow", Icon = SdfIconType.Key)]
+    [SerializeField] int doorCode = 6965;
+
+    private string currentCode = "";
 
     int itemclickedtiem;
 
-    ScreenFader screenFader;
 
-    private string currentCode = "";
-  [SerializeField] int doorCode = 6965;
-
+    [TabGroup("Clickables", TextColor = "orange", Icon = SdfIconType.Mouse)]
     [SerializeField] ClickableItem moon;
 
-    public GameObject finalText;
+    [TabGroup("Clickables", TextColor = "orange", Icon = SdfIconType.Mouse)]
+    [SerializeField] ClickableItem bookWithCode;
 
-    [SerializeField] ClickableItem bookWithCode, secondBookWithCode, treeWithCode;
+    [TabGroup("Clickables", TextColor = "orange", Icon = SdfIconType.Mouse)]
+    [SerializeField] ClickableItem secondBookWithCode;
+
+    [TabGroup("Clickables", TextColor = "orange", Icon = SdfIconType.Mouse)]
+    [SerializeField] ClickableItem treeWithCode;
+
+    ClickableItem olditem;
+
+
+
+
+
+
+
+
+
 
     private void Awake()
     {
@@ -37,20 +71,25 @@ public class ClickManager : MonoBehaviour
 
     private void Start()
     {
-        string code = "";
-        for (int i = 0; i < 5; i++)
-        {
-            code += Random.Range(1, 10).ToString(); // digits 1–9 only
-        }
-        doorCode = int.Parse(code);
+        CreateDoorCode();
 
-
-      
         print(doorCode);
 
         bookWithCode.objectText = $"Le code pour la porte est {doorCode}";
-        secondBookWithCode.objectText = $"Le code pour la porte est {doorCode.ToString().Substring(0,2)}, les dernières chiffres sont grattés. ";
+        secondBookWithCode.objectText = $"Le code pour la porte est {doorCode.ToString().Substring(0, 2)}, les dernières chiffres sont grattés. ";
         treeWithCode.objectText = $"Une note indique que le code est {doorCode} dommage que ce soit trop tard.";
+    }
+
+    [Button("Create new Door Code")]
+    [InfoBox("Won't work after Game start as keypad is understood at runtime")]
+    private void CreateDoorCode() // has to not create 0 because there is no 0 on keypad
+    {
+        string code = "";
+        for (int i = 0; i < 5; i++)
+        {
+            code += Random.Range(1, 10).ToString(); 
+        }
+        doorCode = int.Parse(code);
     }
 
     // Update is called once per frame
@@ -72,7 +111,7 @@ public class ClickManager : MonoBehaviour
                 if (item == null)
                     return;
 
-                if (item == olditem)
+                if (item == olditem) // i dont remember if this does anything and im too afraid to remove it
                 {
                     itemclickedtiem++;
                     if (itemclickedtiem > 2)
