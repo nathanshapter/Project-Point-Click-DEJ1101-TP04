@@ -54,7 +54,7 @@ public class ClickManager : MonoBehaviour
 
 
 
-
+    private ClickableItem previouslyHoveredItem;
 
 
 
@@ -96,7 +96,37 @@ public class ClickManager : MonoBehaviour
     void Update()
     {
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+        ClickableItem currentItem = hit.collider != null ? hit.collider.GetComponent<ClickableItem>() : null;
+
+        if (hit.collider != null && hit.collider.GetComponent<ClickableItem>())
+        {
+            ClickableItem item = hit.collider.GetComponent<ClickableItem>();
+            if (item == null)
+                return;
+
+            
+
+            if (currentItem != previouslyHoveredItem)
+            {
+                if (previouslyHoveredItem != null)
+                    previouslyHoveredItem.IncreaseScale(false); // Reset old item
+
+                if (currentItem != null)
+                    currentItem.IncreaseScale(true); // Scale new one
+
+                previouslyHoveredItem = currentItem;
+            }
+
+
+
+
+        }
+        if (currentItem == null && previouslyHoveredItem != null)
+        {
+            previouslyHoveredItem.IncreaseScale(false);
+            previouslyHoveredItem = null;
+        }
 
         if (Input.GetMouseButtonDown(0)) // Left-click
         {
