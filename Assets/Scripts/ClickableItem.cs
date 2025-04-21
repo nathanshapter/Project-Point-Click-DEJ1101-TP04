@@ -39,9 +39,13 @@ public class ClickableItem : MonoBehaviour
     public int keypadNumber;
 
     [FoldoutGroup("Interaction Settings")]
-    [SerializeField] Vector3 originalScale;
+    [SerializeField] bool doesZoomOnHover = true;
 
     [FoldoutGroup("Interaction Settings")]
+    Vector3 originalScale;
+
+    [FoldoutGroup("Interaction Settings")]
+    [ShowIf("doesZoomOnHover")]
     [SerializeField] float increasedScale = 1.1f;
 
     [FoldoutGroup("Interaction Settings")]
@@ -140,6 +144,9 @@ public class ClickableItem : MonoBehaviour
 
     public void IncreaseScale(bool yes)
     {
+        if (isDoor)
+            return;
+
         if (yes && !scaleHasBeenIncreased)
         {
           //  transform.localScale *= increasedScale;
@@ -155,10 +162,7 @@ public class ClickableItem : MonoBehaviour
         
     }
 
-    private void OnMouseOver()
-    {
-        print(name);
-    }
+    
     public void ProcessClick()
     {
         if (isFinalButton)
