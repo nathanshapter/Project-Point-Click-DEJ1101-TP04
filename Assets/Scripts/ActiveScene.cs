@@ -14,7 +14,7 @@ public class ActiveScene : MonoBehaviour
      * 5 = nuclear room past
      * 6 = start scene
      * 7 = nuclear room present post explosion
-     * 8 = 
+     * 8 = final scene
      */
 
    public int activeScene = 1; // used for door to know which time/room to go to / disables and reenables every scene
@@ -27,8 +27,9 @@ public class ActiveScene : MonoBehaviour
 
     ClickManager cm;
     
+   
+    [InfoBox(" * 0 = outside present\r\n     * 1 = main room present\r\n     * 2 = nuclear room present\r\n     * 3 = outside past\r\n     * 4 = main room past\r\n     * 5 = nuclear room past\r\n     * 6 = start scene\r\n     * 7 = nuclear room present post explosion\r\n     * 8 = final scene")]
     public int manualSceneToActivate;
-
 
 
     [Button("Activate Scene Manually")]
@@ -115,6 +116,10 @@ public class ActiveScene : MonoBehaviour
         {
             gameText.text = "Après des expériences méticuleuses, le Citron Doré est maintenant entre vos mains. Qu’allez-vous en faire ?";
             endGameObject.SetActive(true);
+        }
+        else
+        {
+            endGameObject.SetActive(false);
         }
        
     }

@@ -205,6 +205,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -219,11 +220,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &6782038
 Rigidbody2D:
   serializedVersion: 5
@@ -653,6 +652,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -666,11 +666,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &32393074
 Rigidbody2D:
   serializedVersion: 5
@@ -1218,6 +1216,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -1231,11 +1230,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &95252224
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1539,6 +1536,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -1552,11 +1550,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &130373028
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1813,6 +1809,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -1827,11 +1824,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &138176323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2118,6 +2113,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -2131,11 +2127,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &190566608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2325,6 +2319,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -2339,11 +2334,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &190814514
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2565,6 +2558,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -2578,11 +2572,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &194359403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2998,6 +2990,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -3011,11 +3004,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &212498440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3158,6 +3149,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 6
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -3171,11 +3163,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 6
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &266600583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3377,6 +3367,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -3390,11 +3381,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &269449840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3612,6 +3601,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -3626,11 +3616,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &274853998
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3816,6 +3804,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -3830,11 +3819,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &286308308
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3963,6 +3950,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 1575638654}
   isFinalButton: 1
@@ -3978,11 +3966,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 1530806276}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &308422563
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4166,6 +4152,7 @@ MonoBehaviour:
   isNuclearDial: 1
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -4179,11 +4166,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 16293990}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &310994946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4495,6 +4480,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 1
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -4508,11 +4494,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 1
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &347473876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4769,6 +4753,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -4783,11 +4768,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &361139172
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5112,6 +5095,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -5125,11 +5109,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &364016605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5270,6 +5252,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 8
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -5283,11 +5266,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 8
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &370684564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5721,6 +5702,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 4
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -5734,11 +5716,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 4
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &419002506
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6010,6 +5990,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -6024,11 +6005,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &444841050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6311,6 +6290,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 2
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -6324,11 +6304,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 2
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &473285697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6457,6 +6435,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -6471,11 +6450,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &481154571
 Rigidbody2D:
   serializedVersion: 5
@@ -7013,6 +6990,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -7027,11 +7005,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &527802706
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7143,6 +7119,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -7156,11 +7133,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &532772517
 Rigidbody2D:
   serializedVersion: 5
@@ -7399,6 +7374,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -7413,11 +7389,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &539603076
 Rigidbody2D:
   serializedVersion: 5
@@ -7723,12 +7697,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeScene: {fileID: 1473408331}
-  gameText: {fileID: 843832618}
   pm: {fileID: 1038167676}
   pocketManager: {fileID: 861107572}
+  gameText: {fileID: 843832618}
+  finalText: {fileID: 641104751}
   doorCode: 75852
   moon: {fileID: 639150398}
-  finalText: {fileID: 641104751}
   bookWithCode: {fileID: 863196568}
   secondBookWithCode: {fileID: 539603075}
   treeWithCode: {fileID: 444841049}
@@ -7889,6 +7863,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -7902,11 +7877,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &551297768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8109,6 +8082,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -8122,11 +8096,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &564980242
 Rigidbody2D:
   serializedVersion: 5
@@ -8327,6 +8299,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -8341,11 +8314,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &568833146
 Rigidbody2D:
   serializedVersion: 5
@@ -8528,6 +8499,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 7
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -8541,11 +8513,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 7
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &580989231
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8771,7 +8741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &593990954
 Transform:
   m_ObjectHideFlags: 0
@@ -8962,6 +8932,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -8976,11 +8947,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &598588764
 Rigidbody2D:
   serializedVersion: 5
@@ -9124,6 +9093,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -9137,11 +9107,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!4 &639150399
 Transform:
   m_ObjectHideFlags: 0
@@ -9718,6 +9686,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -9731,11 +9700,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &689700375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10012,6 +9979,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -10026,11 +9994,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &692399157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10160,6 +10126,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -10174,11 +10141,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &700824785
 Rigidbody2D:
   serializedVersion: 5
@@ -10551,6 +10516,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -10565,11 +10531,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &810192006
 Rigidbody2D:
   serializedVersion: 5
@@ -10760,6 +10724,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -10773,11 +10738,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &818997737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10986,6 +10949,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -10999,11 +10963,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &820481119
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11134,7 +11096,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A limited edition of Game of Thrones finds itself in your hands.
+  m_text: "Apr\uFFFDs des exp\uFFFDriences m\uFFFDticuleuses, le Citron Dor\uFFFD
+    est maintenant entre vos mains. Qu\uFFFDallez-vous en faire ?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
   m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
@@ -11317,6 +11280,7 @@ MonoBehaviour:
   isNuclearDial: 1
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -11330,11 +11294,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 970984567}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &862999968
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11518,6 +11480,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -11531,11 +11494,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &863196569
 Rigidbody2D:
   serializedVersion: 5
@@ -11792,6 +11753,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -11806,11 +11768,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 639150393}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &864006668
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11920,6 +11880,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 3
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -11933,11 +11894,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 3
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &872026856
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12238,6 +12197,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -12252,11 +12212,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &874597663
 Rigidbody2D:
   serializedVersion: 5
@@ -12583,6 +12541,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -12597,11 +12556,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &891636605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12874,6 +12831,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -12887,11 +12845,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &892078823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13168,6 +13124,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -13181,11 +13138,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &902210277
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13575,6 +13530,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 1575638654}
   isFinalButton: 1
@@ -13590,11 +13546,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 1530806276}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1047746828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13748,6 +13702,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -13761,11 +13716,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1051438035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13998,6 +13951,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -14012,11 +13966,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1063493492
 Rigidbody2D:
   serializedVersion: 5
@@ -14232,6 +14184,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 1
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -14245,11 +14198,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 1
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1106298986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14531,6 +14482,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 1575638654}
   isFinalButton: 1
@@ -14546,11 +14498,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 1530806276}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1121663169
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14977,6 +14927,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -14991,11 +14942,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1138314389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15633,6 +15582,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -15646,11 +15596,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1153560963
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15872,6 +15820,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -15886,11 +15835,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1176633572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16505,6 +16452,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -16519,11 +16467,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1254536121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16653,6 +16599,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 1
   itemToOpen: {fileID: 970984567}
   isFinalButton: 0
@@ -16667,11 +16614,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1257245835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17108,6 +17053,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -17122,11 +17068,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1259687774
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17348,6 +17292,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -17362,11 +17307,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1279170921
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17550,6 +17493,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -17563,11 +17507,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1285176225
 Rigidbody2D:
   serializedVersion: 5
@@ -17753,6 +17695,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -17767,11 +17710,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1300193970
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17981,6 +17922,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -17994,11 +17936,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1308472305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18403,6 +18343,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 5
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -18416,11 +18357,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 5
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1336035163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18636,6 +18575,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -18649,11 +18589,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1380331866
 Rigidbody2D:
   serializedVersion: 5
@@ -18854,6 +18792,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -18868,11 +18807,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1403059750
 Rigidbody2D:
   serializedVersion: 5
@@ -19413,14 +19350,14 @@ MonoBehaviour:
   - {fileID: 1018355911}
   - {fileID: 540925056}
   - {fileID: 593990953}
-  activeScene: 8
+  activeScene: 4
   startCanvas: {fileID: 811012133}
   gameCanvas: {fileID: 982501913}
   startGameButtons: {fileID: 2082312673}
   gameText: {fileID: 843832618}
   putInButtonText: {fileID: 2080465023}
   endGameObject: {fileID: 641104751}
-  manualSceneToActivate: 8
+  manualSceneToActivate: 4
 --- !u!4 &1473408332
 Transform:
   m_ObjectHideFlags: 0
@@ -19842,6 +19779,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -19855,11 +19793,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1534259227
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20108,6 +20044,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -20123,11 +20060,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1560362194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20368,6 +20303,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -20382,11 +20318,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1586389538
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20516,6 +20450,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -20530,11 +20465,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1594570083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20869,6 +20802,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -20882,11 +20816,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1599366834
 Rigidbody2D:
   serializedVersion: 5
@@ -21234,6 +21166,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -21247,11 +21180,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1613034584
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21434,6 +21365,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -21448,11 +21380,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1613409888
 Rigidbody2D:
   serializedVersion: 5
@@ -21653,6 +21583,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -21667,11 +21598,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1634555023
 Rigidbody2D:
   serializedVersion: 5
@@ -21911,6 +21840,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -21925,11 +21855,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1649737431
 Rigidbody2D:
   serializedVersion: 5
@@ -22114,6 +22042,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -22128,11 +22057,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1662775775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22331,7 +22258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1664198468
 Transform:
   m_ObjectHideFlags: 0
@@ -22554,6 +22481,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -22567,11 +22495,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1684675832
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22830,6 +22756,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -22844,11 +22771,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 1259687768}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1687529775
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22959,6 +22884,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -22972,11 +22898,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1711709865
 Rigidbody2D:
   serializedVersion: 5
@@ -23130,6 +23054,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 1
   itemToOpen: {fileID: 16293990}
   isFinalButton: 0
@@ -23144,11 +23069,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1715322213
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23277,6 +23200,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -23290,11 +23214,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1717379265
 Rigidbody2D:
   serializedVersion: 5
@@ -23478,6 +23400,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -23492,11 +23415,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1719340725
 Rigidbody2D:
   serializedVersion: 5
@@ -23679,6 +23600,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 1
+  keypadNumber: 9
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -23692,11 +23614,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 9
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1778729059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23842,6 +23762,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -23856,11 +23777,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1794125269
 Rigidbody2D:
   serializedVersion: 5
@@ -24117,6 +24036,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -24131,11 +24051,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 1882867019}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1818244130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24313,6 +24231,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -24326,11 +24245,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1839917104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24587,6 +24504,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -24601,11 +24519,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1882867024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24848,6 +24764,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -24861,11 +24778,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1905322008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24997,6 +24912,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -25011,11 +24927,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &1913022317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25432,6 +25346,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -25446,11 +25361,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1942063230
 Rigidbody2D:
   serializedVersion: 5
@@ -25771,6 +25684,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -25784,11 +25698,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1953962040
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26059,6 +25971,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -26073,11 +25986,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1972206178
 Rigidbody2D:
   serializedVersion: 5
@@ -26278,6 +26189,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -26292,11 +26204,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &1972398781
 Rigidbody2D:
   serializedVersion: 5
@@ -26507,6 +26417,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -26520,11 +26431,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 361139167}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &1984872270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26682,6 +26591,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -26696,11 +26606,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &2008256248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26932,6 +26840,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -26945,11 +26854,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &2074124075
 Rigidbody2D:
   serializedVersion: 5
@@ -27098,6 +27005,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -27111,11 +27019,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!61 &2074666388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27237,7 +27143,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -27340,7 +27246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2082312674
 Transform:
   m_ObjectHideFlags: 0
@@ -27429,6 +27335,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -27443,11 +27350,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &2087903652
 Rigidbody2D:
   serializedVersion: 5
@@ -27720,6 +27625,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -27733,11 +27639,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!212 &2114634086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27982,6 +27886,7 @@ MonoBehaviour:
   isNuclearDial: 0
   isStartMenu: 0
   isKeypad: 0
+  keypadNumber: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
   isFinalButton: 0
@@ -27996,11 +27901,9 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   startMenuID: 0
-  keypadNumber: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
-  rb: {fileID: 0}
 --- !u!50 &2138028602
 Rigidbody2D:
   serializedVersion: 5
