@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEngine;
 using Sirenix.OdinInspector;
+using DG.Tweening;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
@@ -36,6 +37,22 @@ public class ClickableItem : MonoBehaviour
     [FoldoutGroup("Interaction Settings")]
     [ShowIf("isKeypad")]
     public int keypadNumber;
+
+    [FoldoutGroup("Interaction Settings")]
+    [SerializeField] bool doesZoomOnHover = true;
+
+    [FoldoutGroup("Interaction Settings")]
+    Vector3 originalScale;
+
+    [FoldoutGroup("Interaction Settings")]
+    [ShowIf("doesZoomOnHover")]
+    [SerializeField] float increasedScale = 1.1f;
+
+    [FoldoutGroup("Interaction Settings")]
+     float timeToIncrease = 0.3f;
+
+    [FoldoutGroup("Interaction Settings")]
+    [SerializeField] bool scaleHasBeenIncreased = false;
 
     [FoldoutGroup("Interaction Settings")]
     [SerializeField] private bool doesClickingOpenSomething = false;
@@ -121,7 +138,31 @@ public class ClickableItem : MonoBehaviour
             cam.backgroundColor = presentColor;
         }
 
+        originalScale = transform.localScale;
+
     }
+
+    public void IncreaseScale(bool yes)
+    {
+        if (isDoor)
+            return;
+
+        if (yes && !scaleHasBeenIncreased)
+        {
+          //  transform.localScale *= increasedScale;
+            transform.DOScale(originalScale *increasedScale, timeToIncrease).SetEase(Ease.InSine);
+            
+            scaleHasBeenIncreased = true;
+        }
+        else
+        {
+            transform.localScale = originalScale;
+            scaleHasBeenIncreased = false;
+        }
+        
+    }
+
+    
     public void ProcessClick()
     {
         if (isFinalButton)

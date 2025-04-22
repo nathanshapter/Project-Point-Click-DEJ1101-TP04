@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class Rotatehandle : MonoBehaviour
@@ -12,6 +13,8 @@ public class Rotatehandle : MonoBehaviour
     public float baseAngle = 5f;
     [SerializeField] private float jitterAmount = 2f;
     [SerializeField] private float jitterSpeed = 5f;
+
+    [SerializeField] TextMeshProUGUI temperatureText;
 
     private float currentAngle;
     float targetAngle;
@@ -35,8 +38,17 @@ public class Rotatehandle : MonoBehaviour
         {
             targetAngle = baseAngle + Random.Range(-jitterAmount, jitterAmount);
         }
+
+
         currentAngle = Mathf.Lerp(currentAngle, targetAngle, jitterSpeed);
 
         transform.localRotation = Quaternion.Euler(0, 0, currentAngle);
+
+
+        int tempInInt = Mathf.RoundToInt(currentAngle/3.6f);
+
+
+
+        temperatureText.text = tempInInt.ToString() + "C";
     }
 }

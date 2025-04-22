@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 9a1d44268e6f56e45bdbe29dfef1c4bb
+guid: 5d4ef7f8ce9e26343a003898d853bae3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3659649929649596748
-    second: nuclear waste_0
-  - first:
-      213: -5446716031533089130
-    second: nuclear waste_1
-  - first:
-      213: 1016995820390126464
-    second: nuclear waste_2
+      213: 8481100863427188097
+    second: XmarkstheSPOT_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,111 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nuclear waste_0
+      name: XmarkstheSPOT_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 5
-        width: 51
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c492c0ba830b9c230800000000000000
-      internalID: 3659649929649596748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nuclear waste_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 45
-        width: 6
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69e7b0490a06964b0800000000000000
-      internalID: -5446716031533089130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nuclear waste_2
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 52
-        width: 6
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08319647f481d1e00800000000000000
-      internalID: 1016995820390126464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nuclear waste_3
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 574
-        width: 9
-        height: 42
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c55528a66c8355541b8186ec39240721
-      internalID: 1052385444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nuclear waste_4
-      rect:
-        serializedVersion: 2
-        x: 75
-        y: 150
-        width: 887
-        height: 679
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2fbee849616265478cf4e06c47986b0
-      internalID: 1165020260
+      spriteID: 18516dcec4ce2b570800000000000000
+      internalID: 8481100863427188097
       vertices: []
       indices: 
       edges: []
@@ -245,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 645de90b65af11247bb0b9b0790e38ed
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -255,11 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nuclear waste_0: 3659649929649596748
-      nuclear waste_1: -5446716031533089130
-      nuclear waste_2: 1016995820390126464
-      nuclear waste_3: 1052385444
-      nuclear waste_4: 1165020260
+      XmarkstheSPOT_0: 8481100863427188097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

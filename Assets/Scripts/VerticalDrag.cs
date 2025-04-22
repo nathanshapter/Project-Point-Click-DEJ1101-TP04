@@ -20,6 +20,8 @@ public class VerticalDrag : MonoBehaviour
     [SerializeField] float rotatorMaxIncreaseValue = 70;
 
     private bool hasIncreasedValue = false;
+
+    [SerializeField] bool canMove = true;
     private void Start()
     {
         cam = Camera.main;
@@ -44,7 +46,8 @@ public class VerticalDrag : MonoBehaviour
 
     void Update()
     {
-
+        if (!canMove)
+            return;
 
         if (isDragging)
         {
@@ -63,6 +66,7 @@ public class VerticalDrag : MonoBehaviour
             {
                 
                 isInCorrectPosition = true;
+                canMove = false;
                 vdm.AllInCorrectPosition();
 
                 if (!hasIncreasedValue)

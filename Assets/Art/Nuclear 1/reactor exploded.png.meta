@@ -1,16 +1,31 @@
 fileFormatVersion: 2
-guid: 9a1d44268e6f56e45bdbe29dfef1c4bb
+guid: fbc3401d98206e941b8325d90552d708
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3659649929649596748
-    second: nuclear waste_0
+      213: 7582870885246737849
+    second: reactor exploded_0
   - first:
-      213: -5446716031533089130
-    second: nuclear waste_1
+      213: 7728591207834787820
+    second: reactor exploded_1
   - first:
-      213: 1016995820390126464
-    second: nuclear waste_2
+      213: 7335958206364053214
+    second: reactor exploded_2
+  - first:
+      213: -5405267618216671339
+    second: reactor exploded_3
+  - first:
+      213: -5131030566589032035
+    second: reactor exploded_4
+  - first:
+      213: 4538618492847002131
+    second: reactor exploded_5
+  - first:
+      213: -7692585262722054047
+    second: reactor exploded_6
+  - first:
+      213: -2957360425274830865
+    second: reactor exploded_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,111 +147,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nuclear waste_0
+      name: reactor exploded_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 5
-        width: 51
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c492c0ba830b9c230800000000000000
-      internalID: 3659649929649596748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nuclear waste_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 45
-        width: 6
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69e7b0490a06964b0800000000000000
-      internalID: -5446716031533089130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nuclear waste_2
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 52
-        width: 6
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08319647f481d1e00800000000000000
-      internalID: 1016995820390126464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nuclear waste_3
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 574
-        width: 9
-        height: 42
+        x: 147
+        y: 16
+        width: 843
+        height: 979
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c55528a66c8355541b8186ec39240721
-      internalID: 1052385444
+      spriteID: 9bd98c4f4e4cb3960800000000000000
+      internalID: 7582870885246737849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nuclear waste_4
+      name: reactor exploded_1
       rect:
         serializedVersion: 2
-        x: 75
-        y: 150
-        width: 887
-        height: 679
+        x: 323
+        y: 854
+        width: 134
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a2fbee849616265478cf4e06c47986b0
-      internalID: 1165020260
+      spriteID: cef133571c8714b60800000000000000
+      internalID: 7728591207834787820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor exploded_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 784
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edee0710f1f8ec560800000000000000
+      internalID: 7335958206364053214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor exploded_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 208
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59706445db1acf4b0800000000000000
+      internalID: -5405267618216671339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor exploded_4
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 208
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d991ac292eaeac8b0800000000000000
+      internalID: -5131030566589032035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor exploded_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 136
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3121a2df8796cfe30800000000000000
+      internalID: 4538618492847002131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor exploded_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 161
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1680c0be5727e3590800000000000000
+      internalID: -7692585262722054047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor exploded_7
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 159
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef02baac5855f6d0800000000000000
+      internalID: -2957360425274830865
       vertices: []
       indices: 
       edges: []
@@ -245,7 +326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 645de90b65af11247bb0b9b0790e38ed
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -255,11 +336,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nuclear waste_0: 3659649929649596748
-      nuclear waste_1: -5446716031533089130
-      nuclear waste_2: 1016995820390126464
-      nuclear waste_3: 1052385444
-      nuclear waste_4: 1165020260
+      reactor exploded_0: 7582870885246737849
+      reactor exploded_1: 7728591207834787820
+      reactor exploded_2: 7335958206364053214
+      reactor exploded_3: -5405267618216671339
+      reactor exploded_4: -5131030566589032035
+      reactor exploded_5: 4538618492847002131
+      reactor exploded_6: -7692585262722054047
+      reactor exploded_7: -2957360425274830865
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

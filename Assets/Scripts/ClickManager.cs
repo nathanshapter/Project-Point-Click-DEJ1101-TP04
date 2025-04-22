@@ -54,7 +54,7 @@ public class ClickManager : MonoBehaviour
 
 
 
-
+    private ClickableItem previouslyHoveredItem;
 
 
 
@@ -96,7 +96,37 @@ public class ClickManager : MonoBehaviour
     void Update()
     {
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+        ClickableItem currentItem = hit.collider != null ? hit.collider.GetComponent<ClickableItem>() : null;
+
+        if (hit.collider != null && hit.collider.GetComponent<ClickableItem>())
+        {
+            ClickableItem item = hit.collider.GetComponent<ClickableItem>();
+            if (item == null)
+                return;
+
+            
+
+            if (currentItem != previouslyHoveredItem)
+            {
+                if (previouslyHoveredItem != null)
+                    previouslyHoveredItem.IncreaseScale(false); // Reset old item
+
+                if (currentItem != null)
+                    currentItem.IncreaseScale(true); // Scale new one
+
+                previouslyHoveredItem = currentItem;
+            }
+
+
+
+
+        }
+        if (currentItem == null && previouslyHoveredItem != null)
+        {
+            previouslyHoveredItem.IncreaseScale(false);
+            previouslyHoveredItem = null;
+        }
 
         if (Input.GetMouseButtonDown(0)) // Left-click
         {
@@ -218,25 +248,14 @@ public class ClickManager : MonoBehaviour
                 }
 
             else if (item != null)
-            {   
-                if (item.objectText != "" && itemclickedtiem == 0)
-                {
-                    gameText.text = item.objectText;
-                }
+            {
+                    string[] texts = { item.objectText, item.objectText2, item.objectText3 };
 
-                if (item.objectText2 != "" && itemclickedtiem == 1)
+                    if (itemclickedtiem >= 0 && itemclickedtiem < texts.Length && !string.IsNullOrEmpty(texts[itemclickedtiem]))
                     {
-
-                        gameText.text = item.objectText2;
-
+                        gameText.text = texts[itemclickedtiem];
                     }
-                if (item.objectText3 != "" && itemclickedtiem == 2)
-                    {
-
-                    gameText.text = item.objectText3;
-
-                    }
-                else if (item.objectText == "")
+                    else if (item.objectText == "")
 
                     {
                         Debug.LogError($"This item does not have text attached{item.name}");
