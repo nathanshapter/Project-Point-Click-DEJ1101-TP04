@@ -159,7 +159,8 @@ public class ClickManager : MonoBehaviour
                 {
                     if (pocketManager.hasShovel)
                     {
-                        gameText.text = "D’accord… alors j’ai creusé, creusé, creusé, et j’ai trouvé… une ancre ?";
+                        item.Desactiver();
+                        gameText.text = "D’accord… alors j’ai creusé, creusé, creusé, et j’ai trouvé… un grappin?";
                         moon.canBePutInPocket = true;
                     }
                     else

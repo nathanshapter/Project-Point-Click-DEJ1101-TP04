@@ -293,4 +293,9 @@ public class ClickableItem : MonoBehaviour
 
      
     }
+
+    public void Desactiver()
+    {
+        gameObject.SetActive(false);
+    }
 }
