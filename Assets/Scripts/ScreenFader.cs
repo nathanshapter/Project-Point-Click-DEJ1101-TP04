@@ -8,25 +8,45 @@ public class ScreenFader : MonoBehaviour
     public float fadeDuration = 1f;
 
 
-    public void FadeToWhite()
+    public void FadeToWhite(bool longerWait, float longerWaitTime, bool GameOver)
     {
-        StartCoroutine(FadeSequence());
+        StartCoroutine(FadeSequence(longerWait, longerWaitTime, GameOver));
     }
 
-    IEnumerator FadeSequence()
+    IEnumerator FadeSequence(bool longerWait, float longerWaitTime, bool GameOver)
     {
-        yield return new WaitForSeconds(2f); //  delay before fade
+        if (longerWait)
+        {
+            yield return new WaitForSeconds(longerWaitTime);
+        }
+        else 
+        {
+            yield return new WaitForSeconds(2f); //  delay before fade
+        }
+
+
+            
 
         
         yield return StartCoroutine(Fade(Color.clear, Color.white));
-
-        // hold white
         yield return new WaitForSeconds(1f);
 
-        FindFirstObjectByType<ActiveScene>().ActivateScene(8);
+        if (!GameOver)
+        {
+            FindFirstObjectByType<ActiveScene>().ActivateScene(8);
+            yield return StartCoroutine(Fade(Color.white, Color.clear));
+        }
+        else
+        {
+            print("gameover");
+            FindFirstObjectByType<ActiveScene>().ActivateScene(9);
+        }
 
-        // back to normal
-        yield return StartCoroutine(Fade(Color.white, Color.clear));
+
+
+
+         
+           
     }
 
     IEnumerator Fade(Color fromColor, Color toColor)

@@ -280,7 +280,7 @@ public class ClickManager : MonoBehaviour
 
         gameText.text = "Tu as maintenant tous les objets nécessaires pour créer un... citron.";
 
-        screenFader.FadeToWhite();
+        screenFader.FadeToWhite(false, 1, false);
     }
 
 

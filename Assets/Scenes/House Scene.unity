@@ -211,6 +211,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Ce livre bourdonne quand je le touche. Ce n\u2019est probablement
@@ -222,10 +223,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &6782038
 Rigidbody2D:
   serializedVersion: 5
@@ -661,6 +666,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Un livre sur le minimalisme\u2026 et pourtant, il p\xE8se une tonne."
@@ -671,10 +677,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &32393074
 Rigidbody2D:
   serializedVersion: 5
@@ -1229,6 +1239,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: You have clicked on the floor.
@@ -1239,10 +1250,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &95252224
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1519,6 +1534,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Le code de la porte est peut-\xEAtre not\xE9 quelque part."
@@ -1529,10 +1545,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &130373028
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1795,6 +1815,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Un morceau de mati\xE8re radioactive... Est-ce que \xE7a pourrait
@@ -1806,10 +1827,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1818244125}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &138176323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2102,6 +2127,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -2112,10 +2138,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &190566608
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2311,6 +2341,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une fen\xEAtre \xE0 quatre carreaux qui donne sur l'ext\xE9rieur.
@@ -2322,10 +2353,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &190814514
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2553,6 +2588,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Un bol chaud de p\xE2t\xE9e."
@@ -2563,10 +2599,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &194359403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2988,6 +3028,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -2998,10 +3039,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &212498440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3117,6 +3162,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -3127,10 +3173,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &266600583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3338,6 +3388,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une cannette vide de Red Bull. Pas tr\xE8s utile maintenant."
@@ -3348,10 +3399,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &269449840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3575,6 +3630,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est la table o\xF9 je travaille\u2026 et o\xF9 je mange de
@@ -3586,10 +3642,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &274853998
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3782,6 +3842,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Des \xE9crans clignotent, des boutons attendent d\u2019\xEAtre press\xE9s.
@@ -3793,10 +3854,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &286308308
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3936,6 +4001,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 1575638654}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 1
   finalObjectToShow: {fileID: 520565667}
   objectText: "Tu t\u2019agenouilles devant le Citron Dor\xE9. Bient\xF4t, d\u2019autres
@@ -3948,10 +4014,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 1530806276}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 1
+  musicOnClick: {fileID: 8300000, guid: 093cceb6c1f3e1d4f95b01d49995e2e0, type: 3}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &308422563
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4141,6 +4211,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "On ferme \xE7a."
@@ -4151,10 +4222,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 16293990}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &310994946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4472,6 +4547,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: Uhhh. je fais quoi?
@@ -4482,10 +4558,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 1
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &347473876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4748,6 +4828,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "La canette est non ouverte. C\u2019est techniquement de l\u2019eau
@@ -4759,10 +4840,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1984872266}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &361139172
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5093,6 +5178,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: You pull the lever.
@@ -5103,10 +5189,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &364016605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5253,6 +5343,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -5263,10 +5354,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &370684564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5706,6 +5801,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -5716,10 +5812,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &419002506
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5997,6 +6097,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une note indique que le code est 75852\u2026 dommage que ce soit trop
@@ -6008,10 +6109,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &444841050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6270,8 +6375,8 @@ MonoBehaviour:
   isInCorrectPosition: 0
   tolerance: 0.2
   rotator: {fileID: 1419739474}
-  rotatorMinIncreaseValue: 100
-  rotatorMaxIncreaseValue: 120
+  rotatorMinIncreaseValue: 35
+  rotatorMaxIncreaseValue: 55
   canMove: 1
 --- !u!212 &467536241
 SpriteRenderer:
@@ -6388,6 +6493,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -6398,10 +6504,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &473285697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6536,6 +6646,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un gros livre sur les diff\xE9rences entre les dragons
@@ -6547,10 +6658,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &481154571
 Rigidbody2D:
   serializedVersion: 5
@@ -6745,7 +6860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &490425739
 Transform:
   m_ObjectHideFlags: 0
@@ -7096,6 +7211,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est la table o\xF9 je travaille\u2026 et o\xF9 je mange de
@@ -7107,10 +7223,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &527802706
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7228,6 +7348,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: The clock ran out of battery a while ago. Kind of like myself.
@@ -7238,10 +7359,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &532772517
 Rigidbody2D:
   serializedVersion: 5
@@ -7486,6 +7611,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Le code de la porte commence par 75\u2026 mais les trois derniers
@@ -7498,10 +7624,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &539603076
 Rigidbody2D:
   serializedVersion: 5
@@ -7979,6 +8109,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une chaise standard que j'ai achet\xE9e chez IKEA pour $30."
@@ -7989,10 +8120,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &551297768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8085,6 +8220,7 @@ Transform:
   - {fileID: 1884131398}
   - {fileID: 490425739}
   - {fileID: 1018355912}
+  - {fileID: 919974384}
   - {fileID: 593990954}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8205,6 +8341,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Avril 1969. \xC7a fait longtemps que je cherche ce citron magique."
@@ -8215,10 +8352,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &564980242
 Rigidbody2D:
   serializedVersion: 5
@@ -8425,6 +8566,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -8436,10 +8578,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &568833146
 Rigidbody2D:
   serializedVersion: 5
@@ -8628,6 +8774,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -8638,10 +8785,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &580989231
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9064,6 +9215,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Quelqu\u2019un a laiss\xE9 une note : \u201CFaire exploser le r\xE9acteur.\u201D
@@ -9075,10 +9227,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &598588764
 Rigidbody2D:
   serializedVersion: 5
@@ -9137,6 +9293,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "On n\u2019en parle \xE0 personne, d\u2019accord ?"
@@ -9147,10 +9304,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &611544435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9354,6 +9515,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Y\u2019a bien des roches sur la Lune, non ?"
@@ -9364,10 +9526,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 864006663}
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!4 &639150399
 Transform:
   m_ObjectHideFlags: 0
@@ -9719,6 +9885,142 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &658556458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 658556459}
+  - component: {fileID: 658556461}
+  - component: {fileID: 658556460}
+  m_Layer: 5
+  m_Name: Credits Text - Team
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &658556459
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658556458}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1311665275}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &658556460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658556458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "L'\xE9quipe"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 104.52
+  m_fontSizeBase: 104.52
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 43
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 19.84
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -851.2481, y: -431.5202, z: -859.6492, w: 229.42456}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &658556461
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658556458}
+  m_CullTransparentMesh: 1
 --- !u!1001 &677773278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9950,6 +10252,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -9960,10 +10263,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &689700375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10246,6 +10553,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une lumi\xE8re qui n\u2019\xE9claire pas\u2026 wow, quelle invention
@@ -10257,10 +10565,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &692399157
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10396,6 +10708,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Cela fait longtemps que l\u2019horloge est \xE0 court de pile. Moi
@@ -10407,10 +10720,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &700824785
 Rigidbody2D:
   serializedVersion: 5
@@ -10789,6 +11106,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Quelqu\u2019un a laiss\xE9 une note : \u201CFaire exploser le r\xE9acteur.\u201D
@@ -10800,10 +11118,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &810192006
 Rigidbody2D:
   serializedVersion: 5
@@ -11000,6 +11322,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "La note dit : \"Dans le futur, j\u2019aurai le code que vous cherchez.\""
@@ -11010,10 +11333,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &818997737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11228,6 +11555,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Un panneau dit \u201CDANGER.\u201D Merci, on n\u2019aurait pas devin\xE9."
@@ -11238,10 +11566,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &820481119
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11372,8 +11704,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Apr\uFFFDs des exp\uFFFDriences m\uFFFDticuleuses, le Citron Dor\uFFFD
-    est maintenant entre vos mains. Qu\uFFFDallez-vous en faire ?"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
   m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
@@ -11562,6 +11893,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "On ferme \xE7a."
@@ -11572,10 +11904,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 970984567}
+  itemToDisable2: {fileID: 1538198069}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &862999968
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11765,6 +12101,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: Le code pour la porte est 75852.
@@ -11775,10 +12112,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &863196569
 Rigidbody2D:
   serializedVersion: 5
@@ -12041,6 +12382,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "J\u2019ai lanc\xE9 l\u2019ancre sur la lune et elle est maintenant
@@ -12052,10 +12394,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 864006663}
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 639150393}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &864006668
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12111,6 +12457,158 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &867038708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867038709}
+  - component: {fileID: 867038711}
+  - component: {fileID: 867038710}
+  - component: {fileID: 867038712}
+  m_Layer: 5
+  m_Name: Credits Text - names
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &867038709
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867038708}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1311665275}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -198}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &867038710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867038708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 104.52
+  m_fontSizeBase: 104.52
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 43
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 73.5
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -851.2481, y: -431.5202, z: -859.6492, w: 229.42456}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &867038711
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867038708}
+  m_CullTransparentMesh: 1
+--- !u!114 &867038712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867038708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e47f2ae0263ff248bf37f672c705a94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 867038710}
+  fullText: 
+  delay: 0.3
 --- !u!1 &872026853
 GameObject:
   m_ObjectHideFlags: 0
@@ -12171,6 +12669,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -12181,10 +12680,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &872026856
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12356,8 +12859,8 @@ MonoBehaviour:
   isInCorrectPosition: 0
   tolerance: 0.2
   rotator: {fileID: 1419739474}
-  rotatorMinIncreaseValue: 150
-  rotatorMaxIncreaseValue: 180
+  rotatorMinIncreaseValue: 60
+  rotatorMaxIncreaseValue: 80
   canMove: 1
 --- !u!212 &873297636
 SpriteRenderer:
@@ -12492,6 +12995,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -12503,10 +13007,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &874597663
 Rigidbody2D:
   serializedVersion: 5
@@ -12839,6 +13347,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "J\u2019ai essay\xE9 ces ingr\xE9dients\u2026 mais \xE7a n\u2019a pas
@@ -12850,10 +13359,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &891636605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13132,6 +13645,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -13142,10 +13656,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &892078823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13428,6 +13946,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: This is a moon.
@@ -13438,10 +13957,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 864006663}
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &902210277
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13497,6 +14020,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &919974383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 919974384}
+  m_Layer: 0
+  m_Name: Credits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &919974384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919974383}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 552771575}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970984567
 GameObject:
   m_ObjectHideFlags: 0
@@ -13513,7 +14067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &970984568
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13691,6 +14245,7 @@ RectTransform:
   - {fileID: 1684970427}
   - {fileID: 641104752}
   - {fileID: 1538198070}
+  - {fileID: 1311665275}
   m_Father: {fileID: 1837541937}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -13838,6 +14393,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 1575638654}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 1
   finalObjectToShow: {fileID: 443470589}
   objectText: "Tu vends le Citron Dor\xE9 pour 9,9 trillions. Il part en moins d\u2019une
@@ -13850,10 +14406,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 1530806276}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 1
+  musicOnClick: {fileID: 8300000, guid: 2737d401244e9e8488d7f77f03fdc19e, type: 3}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1047746828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14013,6 +14573,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Un panneau dit \u201CDANGER.\u201D Merci, on n\u2019aurait pas devin\xE9."
@@ -14023,10 +14584,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1051438035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14265,6 +14830,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -14276,10 +14842,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1063493492
 Rigidbody2D:
   serializedVersion: 5
@@ -14501,6 +15071,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -14511,10 +15082,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1106298986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14802,6 +15377,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 1575638654}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 1
   finalObjectToShow: {fileID: 1575638654}
   objectText: "Tu presses le Citron Dor\xE9, en esp\xE9rant des r\xE9ponses. \xC0
@@ -14814,10 +15390,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 1530806276}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 1
+  musicOnClick: {fileID: 8300000, guid: 5c00d2f0b3d63f242994fc17b201df39, type: 3}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1121663169
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14998,8 +15578,8 @@ MonoBehaviour:
   isInCorrectPosition: 0
   tolerance: 0.3
   rotator: {fileID: 1419739474}
-  rotatorMinIncreaseValue: 120
-  rotatorMaxIncreaseValue: 150
+  rotatorMinIncreaseValue: 25
+  rotatorMaxIncreaseValue: 40
   canMove: 1
 --- !u!212 &1132908278
 SpriteRenderer:
@@ -15251,6 +15831,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Des \xE9crans clignotent, des boutons attendent d\u2019\xEAtre press\xE9s.
@@ -15262,10 +15843,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1138314389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15909,6 +16494,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une chaise standard que j'ai achet\xE9e chez IKEA pour $30."
@@ -15919,10 +16505,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1153560963
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16150,6 +16740,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Des \xE9crans clignotent, des boutons attendent d\u2019\xEAtre press\xE9s.
@@ -16161,10 +16752,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1176633572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16461,6 +17056,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191387746}
   m_CullTransparentMesh: 1
+--- !u!1 &1199090194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1199090196}
+  - component: {fileID: 1199090195}
+  m_Layer: 0
+  m_Name: Music SourceAlt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1199090195
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199090194}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.8
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1199090196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199090194}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1473408332}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1233423387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
@@ -16785,6 +17509,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une lumi\xE8re qui n\u2019\xE9claire pas\u2026 wow, quelle invention
@@ -16796,10 +17521,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1254536121
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16935,6 +17664,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 1
   itemToOpen: {fileID: 970984567}
+  itemToOpen2: {fileID: 1538198069}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un r\xE9acteur nucl\xE9aire. Il fait ce que font les r\xE9acteurs
@@ -16946,10 +17676,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1257245835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17392,6 +18126,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est une pelle. Aucune id\xE9e de son utilit\xE9, mais le d\xE9veloppeur
@@ -17403,10 +18138,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1687529770}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1259687774
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17634,6 +18373,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Un bol de soupe tra\xEEne sur le bureau. Il a peut-\xEAtre vu plus
@@ -17645,10 +18385,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1279170921
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17838,6 +18582,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: This is still a book about minimalism. It is surprisingly heavy.
@@ -17848,10 +18593,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1285176225
 Rigidbody2D:
   serializedVersion: 5
@@ -18043,6 +18792,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "La seule chaise de la pi\xE8ce. Elle regarde les commandes comme si
@@ -18054,10 +18804,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1300193970
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18273,6 +19027,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Un panneau dit \u201CDANGER.\u201D Merci, on n\u2019aurait pas devin\xE9."
@@ -18283,10 +19038,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1308472305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18470,6 +19229,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1311665274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1311665275}
+  m_Layer: 5
+  m_Name: Credits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1311665275
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311665274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 658556459}
+  - {fileID: 867038709}
+  m_Father: {fileID: 982501917}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1330328971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18697,6 +19493,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -18707,10 +19504,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1336035163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18932,6 +19733,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: C'est un petit livre.
@@ -18942,10 +19744,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1380331866
 Rigidbody2D:
   serializedVersion: 5
@@ -19152,6 +19958,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -19163,10 +19970,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1403059750
 Rigidbody2D:
   serializedVersion: 5
@@ -19708,14 +20519,28 @@ MonoBehaviour:
   - {fileID: 1018355911}
   - {fileID: 540925056}
   - {fileID: 593990953}
-  activeScene: 5
+  - {fileID: 919974383}
+  music:
+  - {fileID: 8300000, guid: 4e6a98bb1f5902744888e632874428ec, type: 3}
+  - {fileID: 8300000, guid: 946b5d005026eeb40bc899baa174379b, type: 3}
+  - {fileID: 8300000, guid: 46e373b73c40fec40be88feeec1720bb, type: 3}
+  - {fileID: 8300000, guid: ef675776a926246488ab6f5ed1469fba, type: 3}
+  - {fileID: 8300000, guid: cc8cc51b4896fc74e915741758d43141, type: 3}
+  - {fileID: 8300000, guid: 187cdbcafb86e744cb9122c87b91c88e, type: 3}
+  - {fileID: 8300000, guid: 89786064b4dd76b4ebb2caf850fc0150, type: 3}
+  finalSceneMusic:
+  - {fileID: 8300000, guid: 5c00d2f0b3d63f242994fc17b201df39, type: 3}
+  - {fileID: 8300000, guid: 093cceb6c1f3e1d4f95b01d49995e2e0, type: 3}
+  - {fileID: 8300000, guid: 2737d401244e9e8488d7f77f03fdc19e, type: 3}
+  activeScene: 9
   startCanvas: {fileID: 811012133}
   gameCanvas: {fileID: 982501913}
   startGameButtons: {fileID: 2082312673}
   gameText: {fileID: 843832618}
   putInButtonText: {fileID: 2080465023}
   endGameObject: {fileID: 641104751}
-  manualSceneToActivate: 5
+  manualSceneToActivate: 9
+  finalCredits: {fileID: 1311665274}
 --- !u!4 &1473408332
 Transform:
   m_ObjectHideFlags: 0
@@ -19728,7 +20553,9 @@ Transform:
   m_LocalPosition: {x: 1.8388612, y: 2.0717854, z: -0.13400774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1509101259}
+  - {fileID: 1199090196}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1490738211
@@ -19816,6 +20643,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
   m_PrefabInstance: {fileID: 1490738211}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1509101257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1509101259}
+  - component: {fileID: 1509101258}
+  m_Layer: 0
+  m_Name: Music Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1509101258
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509101257}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.819
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1509101259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509101257}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1473408332}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1518690371
 GameObject:
   m_ObjectHideFlags: 0
@@ -20143,6 +21099,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -20153,10 +21110,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1534259227
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20229,7 +21190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1538198070
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20271,8 +21232,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 5C
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20296,8 +21257,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 29.9
+  m_fontSizeBase: 29.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20563,6 +21524,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Il est \xE9crit : \u201CIl n\u2019y a que trois ingr\xE9dients, \xE7a
@@ -20575,10 +21537,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1560362194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20825,6 +21791,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une lumi\xE8re qui n\u2019\xE9claire pas\u2026 wow, quelle invention
@@ -20836,10 +21803,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1586389538
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20975,6 +21946,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Est-ce que quelqu\u2019un lui a dit qu\u2019il volait droit vers le
@@ -20986,10 +21958,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1594570083
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21330,6 +22306,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un grand livre."
@@ -21340,10 +22317,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1599366834
 Rigidbody2D:
   serializedVersion: 5
@@ -21697,6 +22678,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "La fen\xEAtre est tr\xE8s propre."
@@ -21707,10 +22689,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1613034584
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21899,6 +22885,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -21910,10 +22897,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1613409888
 Rigidbody2D:
   serializedVersion: 5
@@ -22120,6 +23111,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -22131,10 +23123,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1634555023
 Rigidbody2D:
   serializedVersion: 5
@@ -22380,6 +23376,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "D\xE9cembre 1967. C\u2019est ce mois-l\xE0 que j\u2019ai entendu parler
@@ -22391,10 +23388,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1649737431
 Rigidbody2D:
   serializedVersion: 5
@@ -22585,6 +23586,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "La seule chaise de la pi\xE8ce. Elle regarde les commandes comme si
@@ -22596,10 +23598,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1662775775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23028,6 +24034,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -23038,10 +24045,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1684675832
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23361,6 +24372,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Bon, j\u2019ai la pelle - aucune id\xE9e de comment \xE7a tient dans
@@ -23372,10 +24384,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1687529770}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 1259687768}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1687529775
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23492,6 +24508,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Ce livre est vide. Profond\xE9ment profond."
@@ -23502,10 +24519,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1711709865
 Rigidbody2D:
   serializedVersion: 5
@@ -23665,6 +24686,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 1
   itemToOpen: {fileID: 16293990}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Les cadrans ne r\xE9pondent plus... Ce truc a d\xE9finitivement cess\xE9
@@ -23676,10 +24698,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1715322213
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23814,6 +24840,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: This book is still blank. Deeply profound.
@@ -23824,10 +24851,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1717379265
 Rigidbody2D:
   serializedVersion: 5
@@ -24017,6 +25048,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un gros livre sur les diff\xE9rences entre les dragons
@@ -24028,10 +25060,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1719340725
 Rigidbody2D:
   serializedVersion: 5
@@ -24220,6 +25256,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -24230,10 +25267,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1778729059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24385,6 +25426,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -24396,10 +25438,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1794125269
 Rigidbody2D:
   serializedVersion: 5
@@ -24662,6 +25708,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: La terre radioactive est dans ma poche, au pire, je brillerai dans
@@ -24673,10 +25720,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1818244125}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 1882867019}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1818244130
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24826,6 +25877,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Hmm\u2026 Peut-\xEAtre que je devrais essayer de creuser un peu."
@@ -24836,10 +25888,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1839917104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25102,6 +26158,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Un morceau de mati\xE8re radioactive... Est-ce que \xE7a pourrait
@@ -25113,10 +26170,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1818244125}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1882867024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25365,6 +26426,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -25375,10 +26437,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1905322008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25483,8 +26549,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb2f8cb57429354499f2759b95ef47a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 0}
+  musicSource: {fileID: 1509101258}
   sfxSource: {fileID: 0}
+  musicSourceAlt: {fileID: 1199090195}
 --- !u!1 &1913022314 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4378097303099401793, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
@@ -25516,6 +26583,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "La seule chaise de la pi\xE8ce. Elle regarde les commandes comme si
@@ -25527,10 +26595,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &1913022317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25954,6 +27026,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "C\u2019est un livre pour apprendre l\u2019anglais. Chapitre 1 : Crise
@@ -25965,10 +27038,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1942063230
 Rigidbody2D:
   serializedVersion: 5
@@ -26295,6 +27372,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -26305,10 +27383,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1953962040
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26585,6 +27667,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -26596,10 +27679,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1972206178
 Rigidbody2D:
   serializedVersion: 5
@@ -26806,6 +27893,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -26817,10 +27905,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &1972398781
 Rigidbody2D:
   serializedVersion: 5
@@ -27037,6 +28129,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: La canette de Red Bull est maintenant dans ma poche.
@@ -27047,10 +28140,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 1984872266}
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 361139167}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &1984872270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27214,6 +28311,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Il ne poursuit son voyage que sous notre regard. Sans nous, il reste
@@ -27225,10 +28323,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &2008256248
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27466,6 +28568,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: Un sur le Citron Blanc, il y a des instructions dedans. Cont ->
@@ -27476,10 +28579,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &2074124075
 Rigidbody2D:
   serializedVersion: 5
@@ -27634,6 +28741,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: You have clicked on the floor.
@@ -27644,10 +28752,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!61 &2074666388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27967,6 +29079,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
@@ -27978,10 +29091,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &2087903652
 Rigidbody2D:
   serializedVersion: 5
@@ -28260,6 +29377,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: 
@@ -28270,10 +29388,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!212 &2114634086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28524,6 +29646,7 @@ MonoBehaviour:
   scaleHasBeenIncreased: 0
   doesClickingOpenSomething: 0
   itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
   objectText: "Quelqu\u2019un a laiss\xE9 une note : \u201CFaire exploser le r\xE9acteur.\u201D
@@ -28535,10 +29658,14 @@ MonoBehaviour:
   putInPocketButton: {fileID: 0}
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
 --- !u!50 &2138028602
 Rigidbody2D:
   serializedVersion: 5

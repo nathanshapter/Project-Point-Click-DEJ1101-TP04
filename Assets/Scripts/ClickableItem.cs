@@ -62,6 +62,10 @@ public class ClickableItem : MonoBehaviour
     [SerializeField] private GameObject itemToOpen;
 
     [FoldoutGroup("Interaction Settings")]
+    [ShowIf("doesClickingOpenSomething")]
+    [SerializeField] private GameObject itemToOpen2;
+
+    [FoldoutGroup("Interaction Settings")]
     [SerializeField] bool isFinalButton = false;
 
     [FoldoutGroup("Interaction Settings")]
@@ -92,6 +96,9 @@ public class ClickableItem : MonoBehaviour
     [FoldoutGroup("Pocket")]
     [SerializeField] private GameObject itemToDisable;
 
+    [FoldoutGroup("Pocket")]
+    [SerializeField] private GameObject itemToDisable2;
+
     [FoldoutGroup("Start Menu")]
     [SerializeField] private int startMenuID = 0;
 
@@ -112,7 +119,20 @@ public class ClickableItem : MonoBehaviour
     [FoldoutGroup("Scene")]
     public float lerpSpeed = 2f;
 
-   private Rigidbody2D rb;
+    [FoldoutGroup("Audio")]
+    [SerializeField] bool willPlaySound = false;
+
+    [FoldoutGroup("Audio")]
+    [ShowIf("willPlaySound")]
+    [SerializeField] AudioClip musicOnClick;
+
+    [FoldoutGroup("Audio")]
+    [ShowIf("willPlaySound")]
+    [SerializeField] AudioClip SFXOnClick;
+
+
+
+    private Rigidbody2D rb;
     /*
      * 1 = start game
      * 2 = options
@@ -165,6 +185,22 @@ public class ClickableItem : MonoBehaviour
     
     public void ProcessClick()
     {
+        if (willPlaySound)
+        {
+            if(musicOnClick != null)
+            {
+               
+                SoundManager.Instance.CrossfadeMusic(musicOnClick, 3);
+
+                FindFirstObjectByType<ScreenFader>().FadeToWhite(true, 8.5f, true);
+            }
+            if(SFXOnClick != null)
+            {
+                SoundManager.Instance.PlaySFX(SFXOnClick);
+            }
+        }
+
+
         if (isFinalButton)
         {
             print("final button pressed");
@@ -184,6 +220,11 @@ public class ClickableItem : MonoBehaviour
         if (isNuclearDial)
         {
             itemToDisable.SetActive(false);
+
+            if(itemToDisable2 != null)
+            {
+                itemToDisable2.SetActive(false);
+            }
             return;
         }
 
@@ -191,6 +232,11 @@ public class ClickableItem : MonoBehaviour
         {
             itemToOpen.gameObject.SetActive(true);
 
+
+            if(itemToOpen2 != null)
+            {
+                itemToOpen2.gameObject.SetActive(true);
+            }
         }
 
         if (isStartMenu)

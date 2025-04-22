@@ -5,6 +5,9 @@ using Sirenix.OdinInspector;
 public class ActiveScene : MonoBehaviour
 {
    [SerializeField] GameObject[] scenes;
+    [SerializeField] AudioClip[] music;
+
+
     /*  
      * 0 = outside present
      * 1 = main room present
@@ -15,9 +18,11 @@ public class ActiveScene : MonoBehaviour
      * 6 = start scene
      * 7 = nuclear room present post explosion
      * 8 = final scene
+     * 9 = credits
      */
 
-   public int activeScene = 1; // used for door to know which time/room to go to / disables and reenables every scene
+    [SerializeField] AudioClip[] finalSceneMusic;
+    public int activeScene = 1; // used for door to know which time/room to go to / disables and reenables every scene
 
     [SerializeField] GameObject startCanvas, gameCanvas, startGameButtons;
 
@@ -29,8 +34,16 @@ public class ActiveScene : MonoBehaviour
     
    
     [InfoBox(" * 0 = outside present\r\n     * 1 = main room present\r\n     * 2 = nuclear room present\r\n     * 3 = outside past\r\n     * 4 = main room past\r\n     * 5 = nuclear room past\r\n     * 6 = start scene\r\n     * 7 = nuclear room present post explosion\r\n     * 8 = final scene")]
+    
+
+
+    
     public int manualSceneToActivate;
 
+
+    string finalString = "Nathan Shapter \n Mathis Tanguay \n Daniel Lamoureux";
+
+    [SerializeField] GameObject finalCredits;
 
     [Button("Activate Scene Manually")]
     public void ActivateSceneFromInspector()
@@ -72,20 +85,43 @@ public class ActiveScene : MonoBehaviour
         switch (activeScene)
         {
             case 0:
+                SoundManager.Instance.CrossfadeMusic(music[0], 3f);
+
                 break;
             case 1:
-                  break;
+                SoundManager.Instance.CrossfadeMusic(music[1], 3f);
+                break;
             case 2:
+                SoundManager.Instance.CrossfadeMusic(music[2], 3f);
                 break;
             case 3:
-               
+                SoundManager.Instance.CrossfadeMusic(music[3], 3f);
                 break;
             case 4:
+                SoundManager.Instance.CrossfadeMusic(music[4], 3f);
                 break;
             case 5:
+                SoundManager.Instance.CrossfadeMusic(music[5], 3f);
                 break;
            
             case 6:
+                SoundManager.Instance.FadeInMusic(music[6]);
+                break;
+
+            case 7:
+                break;
+
+            case 8:
+                break;
+
+            case 9:
+                gameText.text = "";
+
+                finalCredits.SetActive(true);
+
+                FindFirstObjectByType<TypeWrite>().StartTyping(finalString);
+
+               
                 break;
             
         }
