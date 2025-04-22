@@ -8,6 +8,7 @@ public class PocketManager : MonoBehaviour
     public bool hasMoonLight { get; private set; }
     public bool hasRadioactiveEarth { get; private set; }
     public bool hasShovel { get; private set; }
+    public bool hasGrapple { get; private set; }
     [SerializeField] ProgressionManager progressionManager;
 
    
@@ -37,8 +38,12 @@ public class PocketManager : MonoBehaviour
             case 4:
                 hasShovel = true;
               
-
                 print("picked up shovel");
+                break;
+            case 5:
+                hasGrapple = true;
+
+                print("picked up grapple");
                 break;
 
 

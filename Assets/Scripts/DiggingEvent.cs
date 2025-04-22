@@ -8,6 +8,7 @@ public class DiggingEvent : MonoBehaviour
     public GameObject sol;
     public GameObject grappin;
     private Vector2 posInit;
+    private bool apparitionGrappin = true;
 
     void Start()
     {
@@ -17,14 +18,11 @@ public class DiggingEvent : MonoBehaviour
     void Update()
     {
 
-        if (!xMark.activeSelf)
+        if (!xMark.activeSelf && apparitionGrappin == true)
         {
             sol.transform.position = new Vector2(xMark.transform.position.x + 1.0f, sol.transform.position.y);
             grappin.SetActive(true);
-        } else
-        {
-            sol.transform.position = posInit;
-            grappin.SetActive(false);
-        }
+            apparitionGrappin = false;
+        } 
     }
 }

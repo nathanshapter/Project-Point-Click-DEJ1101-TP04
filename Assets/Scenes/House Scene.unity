@@ -6200,6 +6200,9 @@ GameObject:
   m_Component:
   - component: {fileID: 458637894}
   - component: {fileID: 458637895}
+  - component: {fileID: 458637898}
+  - component: {fileID: 458637897}
+  - component: {fileID: 458637896}
   m_Layer: 0
   m_Name: Grapple_0
   m_TagString: Untagged
@@ -6267,7 +6270,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 256
   m_Sprite: {fileID: -3535184528703506323, guid: 6a0af2709b08fcd42928d99a1c85db88, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6277,6 +6280,125 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &458637896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458637893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 1
+  isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  doesZoomOnHover: 1
+  increasedScale: 1.1
+  scaleHasBeenIncreased: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
+  objectText: "Un grappin? Les lames semblent vraiment solides. Il pourrait m'\xEAtre
+    utile."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  itemInPocketID: 5
+  putInPocketButton: {fileID: 1278034868}
+  putInPocketText: {fileID: 2080465023}
+  itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
+  startMenuID: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
+--- !u!61 &458637897
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458637893}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.0062033236}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.54, y: 1.78}
+    newSize: {x: 1.54, y: 1.78}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.54, y: 1.7924066}
+  m_EdgeRadius: 0
+--- !u!50 &458637898
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458637893}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &467536237
 GameObject:
   m_ObjectHideFlags: 0
@@ -9518,7 +9640,8 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "Y\u2019a bien des roches sur la Lune, non ?"
+  objectText: "La lune produit une lumi\xE8re \xE9blouissante. Si seulement il y
+    avait un moyen de l'atteindre."
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -10132,7 +10255,7 @@ Transform:
   m_GameObject: {fileID: 689700369}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.49, y: -0.61, z: 0.040511873}
+  m_LocalPosition: {x: 11.49, y: -0.5, z: 0.040511873}
   m_LocalScale: {x: 0.99234855, y: 3.3421457, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11706,8 +11829,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
-  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11830,6 +11953,7 @@ Transform:
   - {fileID: 864006664}
   - {fileID: 1687529771}
   - {fileID: 1818244126}
+  - {fileID: 1278034873}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &862999965
@@ -12385,8 +12509,8 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "J\u2019ai lanc\xE9 l\u2019ancre sur la lune et elle est maintenant
-    dans ma poche."
+  objectText: "J\u2019ai lanc\xE9 le grappin sur la lune et elle est maintenant dans
+    ma poche."
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -18256,6 +18380,215 @@ SpriteMask:
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
   m_MaskSource: 0
+--- !u!1 &1278034868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1278034873}
+  - component: {fileID: 1278034872}
+  - component: {fileID: 1278034871}
+  - component: {fileID: 1278034870}
+  - component: {fileID: 1278034869}
+  m_Layer: 0
+  m_Name: PutInPocketBoxForGrapple
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!61 &1278034869
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278034868}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &1278034870
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278034868}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1278034871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278034868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 1
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  doesZoomOnHover: 1
+  increasedScale: 1.1
+  scaleHasBeenIncreased: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
+  objectText: "Ce grappin est \xE0 moi. Je peux enfin attraper des objets qui sont
+    tr\xE8s... tr\xE8s loins."
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  itemInPocketID: 5
+  putInPocketButton: {fileID: 1278034868}
+  putInPocketText: {fileID: 2080465023}
+  itemToDisable: {fileID: 458637893}
+  itemToDisable2: {fileID: 0}
+  startMenuID: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
+--- !u!212 &1278034872
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278034868}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1278034873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278034868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.66, y: -4.7, z: 0}
+  m_LocalScale: {x: 5.9083, y: 0.5499975, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 861107573}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1279170917
 GameObject:
   m_ObjectHideFlags: 0
@@ -22099,7 +22432,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 500
   m_Sprite: {fileID: -5681613791555460825, guid: 19bc8597605870c41aaf09e4b98b48a7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -22166,7 +22499,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lancer l'ancre.
+  m_text: 'Lancer le grappin.
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
   m_sharedMaterial: {fileID: 613480843303299240, guid: a562622334308814abe153a553321847, type: 2}
@@ -25845,7 +26180,7 @@ Transform:
   m_GameObject: {fileID: 1839917101}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5115607, y: -0.0024745462, z: 0.004156322, w: 0.8592336}
-  m_LocalPosition: {x: 1.42, y: -2.67, z: 0.040511873}
+  m_LocalPosition: {x: 1.42, y: -2.77, z: 0.040511873}
   m_LocalScale: {x: 3.5406303, y: 3.5406303, z: 3.5406306}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26014,7 +26349,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 500
   m_Sprite: {fileID: 8481100863427188097, guid: 5d4ef7f8ce9e26343a003898d853bae3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -28464,7 +28799,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 500
   m_Sprite: {fileID: -5681613791555460825, guid: 19bc8597605870c41aaf09e4b98b48a7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -28873,14 +29208,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: Mettre en poche.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
-  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3

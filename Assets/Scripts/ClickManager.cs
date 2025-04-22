@@ -161,7 +161,6 @@ public class ClickManager : MonoBehaviour
                     {
                         item.Desactiver();
                         gameText.text = "D’accord… alors j’ai creusé, creusé, creusé, et j’ai trouvé… un grappin?";
-                        moon.canBePutInPocket = true;
                     }
                     else
                     {
@@ -169,6 +168,11 @@ public class ClickManager : MonoBehaviour
                     }
 
                     return;
+                }
+
+                if (pocketManager.hasGrapple)
+                {
+                    moon.canBePutInPocket = true;
                 }
 
 
