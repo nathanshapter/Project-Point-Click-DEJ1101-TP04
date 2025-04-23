@@ -157,9 +157,12 @@ public class ClickableItem : MonoBehaviour
 
 
     private void Start()
-    {
-        mats = GetComponent<SpriteRenderer>().material;
-        mats.SetInt("_Hovered", 0);
+    {if (GetComponent<SpriteRenderer>() != null) 
+        {
+            mats = GetComponent<SpriteRenderer>().material;
+            mats.SetInt("_Hovered", 0);
+        }
+      
 
         rb = GetComponent<Rigidbody2D>();
         rb.bodyType = RigidbodyType2D.Kinematic;
@@ -197,7 +200,7 @@ public class ClickableItem : MonoBehaviour
             transform.localScale = originalScale;
             scaleHasBeenIncreased = false;
         }
-
+        
     }
 
 
