@@ -119,8 +119,6 @@ public class ClickManager : MonoBehaviour
             }
 
 
-
-
         }
         if (currentItem == null && previouslyHoveredItem != null)
         {
@@ -131,6 +129,11 @@ public class ClickManager : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // Left-click
         {
 
+
+            if (currentItem.willPlaySFX && currentItem.SFXOnClick != null)
+            {
+                SoundManager.Instance.PlaySFX(currentItem.SFXOnClick, currentItem.volumeSFX);
+            }
 
 
 

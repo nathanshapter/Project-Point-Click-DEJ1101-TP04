@@ -126,9 +126,18 @@ public class ClickableItem : MonoBehaviour
     [ShowIf("willPlaySound")]
     [SerializeField] AudioClip musicOnClick;
 
+  
+
     [FoldoutGroup("Audio")]
-    [ShowIf("willPlaySound")]
-    [SerializeField] AudioClip SFXOnClick;
+    public bool willPlaySFX = false;
+
+    [FoldoutGroup("Audio")]
+    [ShowIf("willPlaySFX")]
+    public AudioClip SFXOnClick;
+
+    [FoldoutGroup("Audio")]
+    [ShowIf("willPlaySFX")]
+    [Range(0,1)] public float volumeSFX =1;
 
     private Rigidbody2D rb;
     /*
@@ -202,8 +211,20 @@ public class ClickableItem : MonoBehaviour
     }
 
 
+    
+
     public void ProcessClick()
     {
+
+
+        if (willPlaySFX)
+        {
+            if (SFXOnClick != null)
+            {
+                print("sfx here" + SFXOnClick.name);
+                SoundManager.Instance.PlaySFX(SFXOnClick, volumeSFX);
+            }
+        }
         if (willPlaySound)
         {
             if (musicOnClick != null)
@@ -213,11 +234,10 @@ public class ClickableItem : MonoBehaviour
 
                 FindFirstObjectByType<ScreenFader>().FadeToWhite(true, 8.5f, true);
             }
-            if (SFXOnClick != null)
-            {
-                SoundManager.Instance.PlaySFX(SFXOnClick);
-            }
+           
         }
+
+        
 
 
         if (isFinalButton)

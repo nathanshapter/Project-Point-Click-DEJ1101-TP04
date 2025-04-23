@@ -20,10 +20,13 @@ public class SoundManager : MonoBehaviour
         }
         else { Destroy(gameObject); }
     }
-    public void PlaySFX(AudioClip clip)
+    public void PlaySFX(AudioClip clip, float maxVolume)
     {
+        sfxSource.volume = maxVolume;
         sfxSource.PlayOneShot(clip);
     }
+
+   
 
     public void FadeInMusic(AudioClip clip, bool loop = true, float fadeInDuration =2.5f)
     {
