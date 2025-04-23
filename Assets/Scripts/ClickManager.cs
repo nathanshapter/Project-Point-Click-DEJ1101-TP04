@@ -143,12 +143,11 @@ public class ClickManager : MonoBehaviour
             {
 
                 ClickableItem item = hit.collider.GetComponent<ClickableItem>();
-                 if(oldgameobj != null && oldtext != null && olditem != item)
+                if(oldgameobj != null && oldtext != null && olditem != item && item.isPocketBackGround == false)
                     {
                     item.Makedisaprea(oldgameobj,oldtext);
                     }
-                 if (item == null)
-                    return;
+                if (item == null) return;
 
                 if (item == olditem) // i dont remember if this does anything and im too afraid to remove it
                 {

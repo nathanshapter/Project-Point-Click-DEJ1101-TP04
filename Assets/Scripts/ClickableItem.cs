@@ -19,7 +19,7 @@ public class ClickableItem : MonoBehaviour
     public bool canBePutInPocket = false;
 
     [FoldoutGroup("Interaction Settings")]
-    [SerializeField] private bool isPocketBackGround;
+    [SerializeField] public bool isPocketBackGround;
 
     [FoldoutGroup("Interaction Settings")]
     public bool isDiggable = false;
@@ -330,7 +330,7 @@ ClickableItem previtemscript;
             oldtext.SetActive(false);
         }
         }
-        else if (isPocketBackGround)
+        if (isPocketBackGround)
         {
             PocketManager pocketManager = FindFirstObjectByType<PocketManager>();
             pocketManager.PutItemInPocket(itemInPocketID);
