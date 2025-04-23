@@ -54,7 +54,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _Hovered: 1
+    - _Hovered: 0
     - _ZWrite: 0
     - _has_Mask: 0
     - _thick: 10
