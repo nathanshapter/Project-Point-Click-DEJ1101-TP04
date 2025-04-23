@@ -41,7 +41,7 @@ public class ActiveScene : MonoBehaviour
     public int manualSceneToActivate;
 
 
-    string finalString = "Nathan Shapter \n Mathis Tanguay \n Daniel Lamoureux";
+    string finalString = "Nathan Shapter \n Mathis Tanguay \n Daniel Lamoureux \n \n Merci d'avoir joué :D";
 
     [SerializeField] GameObject finalCredits;
 
