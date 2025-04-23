@@ -130,8 +130,6 @@ public class ClickableItem : MonoBehaviour
     [ShowIf("willPlaySound")]
     [SerializeField] AudioClip SFXOnClick;
 
-
-
     private Rigidbody2D rb;
     /*
      * 1 = start game
@@ -162,7 +160,7 @@ public class ClickableItem : MonoBehaviour
             mats = GetComponent<SpriteRenderer>().material;
             mats.SetInt("_Hovered", 0);
         }
-      
+       
 
         rb = GetComponent<Rigidbody2D>();
         rb.bodyType = RigidbodyType2D.Kinematic;

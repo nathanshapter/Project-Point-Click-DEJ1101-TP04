@@ -56,12 +56,12 @@ public class ActiveScene : MonoBehaviour
         StartScene();
 
     }
-
+ 
     private void StartScene()
     {
         foreach (var item in scenes)
         {
-            item.SetActive(true);
+            item.SetActive(true);   
         }
 
 

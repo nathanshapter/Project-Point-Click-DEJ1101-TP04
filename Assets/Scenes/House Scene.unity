@@ -593,7 +593,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 778166837
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: -8138163318719143290, guid: 541a3fb2bc43e0d4393d588176dd81d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -634,7 +634,7 @@ Transform:
   m_GameObject: {fileID: 32393071}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0638, y: -0.0057, z: 0}
+  m_LocalPosition: {x: 0.0638, y: -0.0097, z: 0}
   m_LocalScale: {x: 0.32583448, y: 0.27018362, z: 0.15771428}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6451,8 +6451,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 349968281
-  m_SortingLayer: 2
+  m_SortingLayerID: 778166837
+  m_SortingLayer: 3
   m_SortingOrder: 25
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6646,7 +6646,7 @@ Transform:
   m_GameObject: {fileID: 481154568}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0157, y: -0.0776, z: 0}
+  m_LocalPosition: {x: -0.0157, y: -0.0796, z: 0}
   m_LocalScale: {x: 0.12656428, y: 0.12656428, z: 0.12656428}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9156,9 +9156,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 778166837
+  m_SortingLayer: 3
+  m_SortingOrder: -2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -9718,7 +9718,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9f3d6914dd51c3547993266d9425649b, type: 2}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12064,8 +12064,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 349968281
-  m_SortingLayer: 2
+  m_SortingLayerID: 778166837
+  m_SortingLayer: 3
   m_SortingOrder: 700
   m_Sprite: {fileID: 4978521221849717894, guid: cc3b0ba3260203f4aba7ebc42fdab689, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12107,7 +12107,7 @@ Transform:
   m_GameObject: {fileID: 863196566}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.033, y: -0.1131, z: 0}
+  m_LocalPosition: {x: 0.03283, y: -0.11368, z: 0}
   m_LocalScale: {x: 0.31314367, y: 0.108481415, z: 0.108481415}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12941,8 +12941,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 349968281
-  m_SortingLayer: 2
+  m_SortingLayerID: 778166837
+  m_SortingLayer: 3
   m_SortingOrder: 25
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13298,7 +13298,7 @@ Transform:
   m_GameObject: {fileID: 891636601}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6474826, y: 0.6793171, z: -2.94}
+  m_LocalPosition: {x: 2.62, y: 0.6793171, z: -2.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13387,9 +13387,9 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "J\u2019ai essay\xE9 ces ingr\xE9dients\u2026 mais \xE7a n\u2019a pas
-    march\xE9. Peut-\xEAtre que les instructions n\u2019\xE9taient pas exactes."
-  objectText2: 
+  objectText: "l'\xE9criture sur les feuilles est rop amphigourique pour comprendre
+    ce qui y est \xE9crit"
+  objectText2: "Cependent vous r\xE9ussisais \xE0 d\xE9chiffrer les mots Citron Blanc"
   objectText3: 
   textetodisplay: 
   itemInPocketID: 0
@@ -14147,8 +14147,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 349968281
-  m_SortingLayer: 2
+  m_SortingLayerID: 778166837
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -8138163318719143290, guid: 541a3fb2bc43e0d4393d588176dd81d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15660,8 +15660,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 349968281
-  m_SortingLayer: 2
+  m_SortingLayerID: 778166837
+  m_SortingLayer: 3
   m_SortingOrder: 25
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16086,7 +16086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_SortingOrder
@@ -16094,7 +16094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_SortingLayerID
-      value: 349968281
+      value: 778166837
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -19110,7 +19110,7 @@ Transform:
   m_GameObject: {fileID: 1285176222}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0638, y: -0.0715, z: 0}
+  m_LocalPosition: {x: 0.06347, y: -0.0731, z: 0}
   m_LocalScale: {x: 0.091999464, y: 0.14062908, z: 0.15771428}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20832,9 +20832,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 349968281
-  m_SortingLayer: 2
-  m_SortingOrder: 1000
+  m_SortingLayerID: 778166837
+  m_SortingLayer: 3
+  m_SortingOrder: 20
   m_Sprite: {fileID: 1197703181795215433, guid: 1cf601936148f41468d5dcca2e004518, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21132,7 +21132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_SortingOrder
@@ -21140,7 +21140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_SortingLayerID
-      value: 349968281
+      value: 778166837
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -23031,7 +23031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_SortingOrder
@@ -23039,7 +23039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_SortingLayerID
-      value: 349968281
+      value: 778166837
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: db73e9fa133a9bf43ae5ec04736486ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -25739,7 +25739,7 @@ Transform:
   m_GameObject: {fileID: 1719340722}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0157, y: -0.0776, z: 0}
+  m_LocalPosition: {x: -0.0174, y: -0.0791, z: 0}
   m_LocalScale: {x: 0.12656428, y: 0.12656428, z: 0.12656428}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29794,6 +29794,123 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2074666387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466798913422257148}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 0
+  isKeypad: 0
+  keypadNumber: 0
+  increasedScale: 1.1
+  scaleHasBeenIncreased: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
+  objectText: 
+  objectText2: 
+  objectText3: 
+  textetodisplay: 
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
+  startMenuID: 0
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  SFXOnClick: {fileID: 0}
+--- !u!61 &2074666388
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466798913422257148}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.3125, y: 2.3125}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!50 &2074666389
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466798913422257148}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2080465022
 GameObject:
   m_ObjectHideFlags: 0
