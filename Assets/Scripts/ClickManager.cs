@@ -160,7 +160,7 @@ public class ClickManager : MonoBehaviour
                     if (pocketManager.hasShovel)
                     {
                         item.Desactiver();
-                        gameText.text = "D’accord… alors j’ai creusé, creusé, creusé, et j’ai trouvé… un grappin?";
+                        gameText.text = "Je creuse encore et encore et encore et je trouve… un grappin?";
                     }
                     else
                     {
