@@ -223,7 +223,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -677,7 +676,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -1455,7 +1453,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -1737,7 +1734,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -2048,7 +2044,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -2263,7 +2258,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -2509,7 +2503,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -2949,7 +2942,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -3083,7 +3075,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -3309,7 +3300,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -3552,7 +3542,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -3764,7 +3753,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -3924,7 +3912,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 1530806276}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -4132,7 +4119,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 16293990}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -4468,7 +4454,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 1
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -4749,7 +4734,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -5098,7 +5082,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -5263,7 +5246,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -5721,7 +5703,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -6018,7 +5999,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -6227,7 +6207,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -6535,7 +6514,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -6689,7 +6667,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -6891,7 +6868,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &490425739
 Transform:
   m_ObjectHideFlags: 0
@@ -7254,7 +7231,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -7390,7 +7366,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -7655,7 +7630,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -8151,7 +8125,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -8383,7 +8356,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -8609,7 +8581,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -8816,7 +8787,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -9258,7 +9228,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -9335,7 +9304,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -9561,7 +9529,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -9578,7 +9545,7 @@ Transform:
   m_GameObject: {fileID: 639150393}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.02, y: 2.5, z: 0.040511873}
+  m_LocalPosition: {x: -5.07, y: 2.45, z: 0.040511873}
   m_LocalScale: {x: 0.84679, y: 0.84679, z: 0.84679}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10298,7 +10265,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -10600,7 +10566,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -10755,7 +10720,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -11152,7 +11116,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -11367,7 +11330,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -11600,7 +11562,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -11939,7 +11900,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 970984567}
   itemToDisable2: {fileID: 1538198069}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -12147,7 +12107,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -12429,7 +12388,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 1613012061}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -12715,7 +12673,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -13042,7 +12999,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -13394,7 +13350,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -13691,7 +13646,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -13992,7 +13946,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 1597056102}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -14441,7 +14394,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 1530806276}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -14619,7 +14571,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -14877,7 +14828,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -15117,7 +15067,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -15425,7 +15374,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 1530806276}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -15878,7 +15826,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -16717,7 +16664,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -17100,7 +17046,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -17869,7 +17814,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -18024,7 +17968,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -18486,7 +18429,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -18735,7 +18677,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 458637893}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -18942,7 +18883,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -19150,7 +19090,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -19361,7 +19300,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -19595,7 +19533,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -20061,7 +19998,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -20301,7 +20237,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -20527,7 +20462,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -21667,7 +21601,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -22093,7 +22026,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -22359,7 +22291,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -22514,7 +22445,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -22611,7 +22541,7 @@ MonoBehaviour:
   pointB: {fileID: 717977212}
   moveSpeed: 0.00035
   vaVersGauche: 1
-  enleverObjet: {fileID: 1594570080}
+  enleverObjet: {fileID: 0}
 --- !u!212 &1594570086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22877,7 +22807,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -23280,7 +23209,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -23488,7 +23416,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -23714,7 +23641,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -23979,7 +23905,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -24189,7 +24114,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -24636,7 +24560,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -24975,7 +24898,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 1259687768}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -25088,7 +25010,7 @@ MonoBehaviour:
   pointB: {fileID: 1944464904}
   moveSpeed: 0.0135
   vaVersGauche: 1
-  enleverObjet: {fileID: 639150393}
+  enleverObjet: {fileID: 0}
 --- !u!95 &1705988111
 Animator:
   serializedVersion: 7
@@ -25238,7 +25160,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -25417,7 +25338,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -25570,7 +25490,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -25779,7 +25698,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -25986,7 +25904,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -26157,7 +26074,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -26439,7 +26355,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 1882867019}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -26599,7 +26514,7 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "Hmm\u2026 Peut-\xEAtre que je devrais essayer de creuser un peu."
+  objectText: surment un tresor de pirate
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -26608,7 +26523,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -26945,7 +26859,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -27212,7 +27125,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -27370,7 +27282,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -27524,7 +27435,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -27817,7 +27727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1939836981
 Transform:
   m_ObjectHideFlags: 0
@@ -28080,7 +27990,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -28456,7 +28365,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -28752,7 +28660,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -28978,7 +28885,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -29213,7 +29119,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 2080465023}
   itemToDisable: {fileID: 361139167}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -29396,7 +29301,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -29492,8 +29396,8 @@ MonoBehaviour:
   pointA: {fileID: 271306048}
   pointB: {fileID: 344357052}
   moveSpeed: 0.00035
-  vaVersGauche: 0
-  enleverObjet: {fileID: 2008256245}
+  vaVersGauche: 1
+  enleverObjet: {fileID: 0}
 --- !u!212 &2008256251
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29654,7 +29558,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -30165,7 +30068,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -30462,7 +30364,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -30732,7 +30633,6 @@ MonoBehaviour:
   putInPocketText: {fileID: 0}
   itemToDisable: {fileID: 0}
   itemToDisable2: {fileID: 0}
-  itemToActivate: {fileID: 0}
   startMenuID: 0
   pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
   presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
@@ -30888,6 +30788,9 @@ GameObject:
   - component: {fileID: 2048250827645955475}
   - component: {fileID: 5611620688928832050}
   - component: {fileID: 5611620688928832051}
+  - component: {fileID: 2074666389}
+  - component: {fileID: 2074666388}
+  - component: {fileID: 2074666387}
   m_Layer: 0
   m_Name: Floor  (2)
   m_TagString: Untagged
