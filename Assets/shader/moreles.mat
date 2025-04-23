@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: outNoMask morePix
+  m_Name: moreles
   m_Shader: {fileID: -6465566751694194690, guid: 0e8c6a7962465ce4fbbb9ce84c48dc4c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -69,7 +69,7 @@ Material:
     - _EnableExternalAlpha: 0
     - _Hovered: 1
     - _ZWrite: 0
-    - _thick: 7.37
+    - _thick: 4
     m_Colors:
     - _Color: {r: 0, g: 1, b: 0.022976637, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
