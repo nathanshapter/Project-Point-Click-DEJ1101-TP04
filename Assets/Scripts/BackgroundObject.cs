@@ -5,6 +5,8 @@ public class BackgroundObject : MonoBehaviour
 {
     public Transform pointA, pointB;
     [SerializeField] float moveSpeed = 1f;
+    public bool vaVersGauche = true;
+    public GameObject enleverObjet;
 
 
     private Vector3 target;
@@ -19,5 +21,11 @@ public class BackgroundObject : MonoBehaviour
     private void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, target, moveSpeed);
+
+        if (vaVersGauche == true && transform.position.x <= pointB.position.x)
+        {
+            gameObject.SetActive(false);
+            enleverObjet.SetActive(false);
+        }
     }
 }
