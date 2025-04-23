@@ -25,7 +25,7 @@ public class ClickableItem : MonoBehaviour
     public bool isDiggable = false;
 
     [FoldoutGroup("Interaction Settings")]
-    
+
     [SerializeField] private bool isNuclearDial = false;
 
     [FoldoutGroup("Interaction Settings")]
@@ -39,7 +39,7 @@ public class ClickableItem : MonoBehaviour
     public int keypadNumber;
 
     [FoldoutGroup("Interaction Settings")]
-    [SerializeField] bool doesZoomOnHover = true;
+
 
     [FoldoutGroup("Interaction Settings")]
     Vector3 originalScale;
@@ -49,7 +49,7 @@ public class ClickableItem : MonoBehaviour
     [SerializeField] float increasedScale = 1.1f;
 
     [FoldoutGroup("Interaction Settings")]
-     float timeToIncrease = 0.3f;
+    float timeToIncrease = 0.3f;
 
     [FoldoutGroup("Interaction Settings")]
     [SerializeField] bool scaleHasBeenIncreased = false;
@@ -102,7 +102,7 @@ public class ClickableItem : MonoBehaviour
     [FoldoutGroup("Start Menu")]
     [SerializeField] private int startMenuID = 0;
 
-    
+
 
     [FoldoutGroup("Scene")]
     private ActiveScene activeScene;
@@ -139,9 +139,27 @@ public class ClickableItem : MonoBehaviour
      * 3 = credits 
      * 4 = quit game
      */
+    Material mats;
+    void OnMouseOver()
+    {
+        if (mats != null)
+        {
+            mats.SetInt("_Hovered", 1);
+        }
+    }
+    void OnMouseExit()
+    {
+        if (mats != null)
+        {
+            mats.SetInt("_Hovered", 0);
+        }
+    }
+
 
     private void Start()
     {
+        mats = GetComponent<SpriteRenderer>().material;
+        mats.SetInt("_Hovered", 0);
 
         rb = GetComponent<Rigidbody2D>();
         rb.bodyType = RigidbodyType2D.Kinematic;
@@ -153,7 +171,7 @@ public class ClickableItem : MonoBehaviour
             putInPocketText.gameObject.SetActive(false);
         }
         activeScene = FindFirstObjectByType<ActiveScene>();
-        if(activeScene.activeScene == 1)
+        if (activeScene.activeScene == 1)
         {
             cam.backgroundColor = presentColor;
         }
@@ -169,9 +187,9 @@ public class ClickableItem : MonoBehaviour
 
         if (yes && !scaleHasBeenIncreased)
         {
-          //  transform.localScale *= increasedScale;
-            transform.DOScale(originalScale *increasedScale, timeToIncrease).SetEase(Ease.InSine);
-            
+            //  transform.localScale *= increasedScale;
+            transform.DOScale(originalScale * increasedScale, timeToIncrease).SetEase(Ease.InSine);
+
             scaleHasBeenIncreased = true;
         }
         else
@@ -179,22 +197,22 @@ public class ClickableItem : MonoBehaviour
             transform.localScale = originalScale;
             scaleHasBeenIncreased = false;
         }
-        
+
     }
 
-    
+
     public void ProcessClick()
     {
         if (willPlaySound)
         {
-            if(musicOnClick != null)
+            if (musicOnClick != null)
             {
-               
+
                 SoundManager.Instance.CrossfadeMusic(musicOnClick, 3);
 
                 FindFirstObjectByType<ScreenFader>().FadeToWhite(true, 8.5f, true);
             }
-            if(SFXOnClick != null)
+            if (SFXOnClick != null)
             {
                 SoundManager.Instance.PlaySFX(SFXOnClick);
             }
@@ -212,7 +230,7 @@ public class ClickableItem : MonoBehaviour
             FindFirstObjectByType<ClickManager>().finalText.SetActive(false);
 
             itemToDisable.SetActive(false);
-            
+
             return;
         }
 
@@ -221,7 +239,7 @@ public class ClickableItem : MonoBehaviour
         {
             itemToDisable.SetActive(false);
 
-            if(itemToDisable2 != null)
+            if (itemToDisable2 != null)
             {
                 itemToDisable2.SetActive(false);
             }
@@ -233,7 +251,7 @@ public class ClickableItem : MonoBehaviour
             itemToOpen.gameObject.SetActive(true);
 
 
-            if(itemToOpen2 != null)
+            if (itemToOpen2 != null)
             {
                 itemToOpen2.gameObject.SetActive(true);
             }
@@ -241,7 +259,7 @@ public class ClickableItem : MonoBehaviour
 
         if (isStartMenu)
         {
-           
+
 
             switch (startMenuID)
             {
@@ -261,7 +279,7 @@ public class ClickableItem : MonoBehaviour
                     print("quit game");
                     break;
             }
-                
+
 
 
             return;
@@ -276,24 +294,24 @@ public class ClickableItem : MonoBehaviour
             putInPocketButton.gameObject.SetActive(true);
             putInPocketText.gameObject.SetActive(true);
 
-           
+
         }
         else if (isPocketBackGround)
         {
             PocketManager pocketManager = FindFirstObjectByType<PocketManager>();
             pocketManager.PutItemInPocket(itemInPocketID);
-            
+
             itemToDisable.SetActive(false);
             putInPocketText.gameObject.SetActive(false);
             putInPocketButton.gameObject.SetActive(false);
-            
+
         }
     }
 
 
 
     public void ChangeTime() // controlled by the lever in nuclear scene to change time from past to present and present to past
-    {       
+    {
 
         if (cam == null)
             cam = Camera.main;
@@ -302,7 +320,7 @@ public class ClickableItem : MonoBehaviour
 
         VerticalDragManager vm = FindFirstObjectByType<VerticalDragManager>();
 
-        if(activeScene.activeScene == 2)
+        if (activeScene.activeScene == 2)
         {
 
 
@@ -310,7 +328,7 @@ public class ClickableItem : MonoBehaviour
             cam.backgroundColor = pastColor;
             gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
         }
-        else if(activeScene.activeScene == 5 )
+        else if (activeScene.activeScene == 5)
         {
             if (!vm.explosionHasCommenced)
             {
@@ -322,22 +340,22 @@ public class ClickableItem : MonoBehaviour
             }
 
 
-                print("tiem changed to present");
+            print("tiem changed to present");
             cam.backgroundColor = presentColor;
             gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
         }
-        else if(activeScene.activeScene == 7)
+        else if (activeScene.activeScene == 7)
         {
             activeScene.ActivateScene(5);
             cam.backgroundColor = pastColor;
             gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
         }
-        
 
 
 
 
-     
+
+
     }
 
     public void Desactiver()

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline
+  m_Name: outline more pixel
   m_Shader: {fileID: -6465566751694194690, guid: de71103c7336d7c428b5723db68e1716, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -28,18 +28,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b04ebc10c05391646a0643bd97864f61, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0d385b8230af6174382e9f46d5cccd52, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2eda926655d5bb540aaf585d8ea6ec8f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _remover:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -61,14 +57,13 @@ Material:
     - _Hovered: 1
     - _ZWrite: 0
     - _has_Mask: 0
-    - _thick: 1
-    - _thickness: -3.19
+    - _thick: 10
     m_Colors:
-    - _Color: {r: 0, g: 1, b: 0.49411765, a: 1}
+    - _Color: {r: 0.7519282, g: 1, b: 0, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &8134807615061969907
+--- !u!114 &6517792535720853923
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

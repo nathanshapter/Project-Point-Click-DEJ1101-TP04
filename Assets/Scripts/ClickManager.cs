@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class ClickManager : MonoBehaviour
 {
-    [TabGroup("Scene & Manager", TextColor = "green", Icon = SdfIconType.GearFill)]    
+    [TabGroup("Scene & Manager", TextColor = "green", Icon = SdfIconType.GearFill)]
     [SerializeField] ActiveScene activeScene;
 
     [TabGroup("Scene & Manager", TextColor = "green", Icon = SdfIconType.GearFill)]
@@ -19,7 +19,7 @@ public class ClickManager : MonoBehaviour
     [TabGroup("Scene & Manager", TextColor = "green", Icon = SdfIconType.GearFill)]
     ScreenFader screenFader;
 
-    
+
 
     [TabGroup("UI", TextColor = "blue", Icon = SdfIconType.Thermometer)]
     [SerializeField] TextMeshProUGUI gameText;
@@ -87,7 +87,7 @@ public class ClickManager : MonoBehaviour
         string code = "";
         for (int i = 0; i < 5; i++)
         {
-            code += Random.Range(1, 10).ToString(); 
+            code += Random.Range(1, 10).ToString();
         }
         doorCode = int.Parse(code);
     }
@@ -105,17 +105,17 @@ public class ClickManager : MonoBehaviour
             if (item == null)
                 return;
 
-            
+
 
             if (currentItem != previouslyHoveredItem)
             {
                 if (previouslyHoveredItem != null)
-                    previouslyHoveredItem.IncreaseScale(false); // Reset old item
 
-                if (currentItem != null)
-                    currentItem.IncreaseScale(true); // Scale new one
 
-                previouslyHoveredItem = currentItem;
+                    if (currentItem != null)
+
+
+                        previouslyHoveredItem = currentItem;
             }
 
 
@@ -124,7 +124,7 @@ public class ClickManager : MonoBehaviour
         }
         if (currentItem == null && previouslyHoveredItem != null)
         {
-            previouslyHoveredItem.IncreaseScale(false);
+
             previouslyHoveredItem = null;
         }
 
@@ -252,8 +252,8 @@ public class ClickManager : MonoBehaviour
                     itemAnim.SetTrigger("Play");
                 }
 
-            else if (item != null)
-            {
+                else if (item != null)
+                {
                     string[] texts = { item.objectText, item.objectText2, item.objectText3 };
 
                     if (itemclickedtiem >= 0 && itemclickedtiem < texts.Length && !string.IsNullOrEmpty(texts[itemclickedtiem]))
