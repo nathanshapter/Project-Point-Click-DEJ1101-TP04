@@ -2411,7 +2411,7 @@ Transform:
   m_GameObject: {fileID: 194359399}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.4, y: -1.69, z: 0.040511873}
+  m_LocalPosition: {x: -2.408, y: -1.754, z: 0.040511873}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3193,7 +3193,7 @@ Transform:
   m_GameObject: {fileID: 269449835}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0595, y: -0.0017, z: 0}
+  m_LocalPosition: {x: 0.05251, y: -0.00265, z: 0}
   m_LocalScale: {x: 0.051369544, y: 0.051369544, z: 0.051369544}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3300,7 +3300,7 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "Une cannette vide de Red Bull. Pas tr\xE8s utile maintenant."
+  objectText: Une cannette vide de Red Bull.
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -3340,7 +3340,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 3a2e0a6f345d7274f89ba2e9e0e65ba3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3358,9 +3358,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1703881627
+  m_SortingLayer: 1
+  m_SortingOrder: 282
   m_Sprite: {fileID: -1963805634624352468, guid: a3cfc9759f4e3a44b96f01bba3c3583b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3432,7 +3432,7 @@ Transform:
   m_GameObject: {fileID: 274853993}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.46, y: -3.1248603, z: 0.040511873}
+  m_LocalPosition: {x: -2.466, y: -3.123, z: 0.040511873}
   m_LocalScale: {x: 11.377, y: 11.377, z: 11.377}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3583,7 +3583,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3a2e0a6f345d7274f89ba2e9e0e65ba3, type: 2}
+  - {fileID: 2100000, guid: f156088ac0220fd438b1a77e7551074d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3601,9 +3601,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 32
+  m_SortingLayerID: 1703881627
+  m_SortingLayer: 1
+  m_SortingOrder: 95
   m_Sprite: {fileID: 357585243727820222, guid: 61a6d23c81291ce45919877a6e0feb8f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4633,7 +4633,7 @@ Transform:
   m_GameObject: {fileID: 361139167}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.097, y: 0.1095, z: 0}
+  m_LocalPosition: {x: 0.0575, y: 0.0001, z: 0}
   m_LocalScale: {x: 0.06075476, y: 0.06075476, z: 0.06075476}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4740,8 +4740,7 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "La canette est non ouverte. C\u2019est techniquement de l\u2019eau
-    p\xE9tillante, non ?"
+  objectText: cannet de redbull non ouvert
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -9553,8 +9552,7 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "La lune produit une lumi\xE8re \xE9blouissante. Si seulement il y
-    avait un moyen de l'atteindre."
+  objectText: "La lune produit une lumi\xE8re \xE9blouissant"
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -11145,8 +11143,7 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "Quelqu\u2019un a laiss\xE9 une note : \u201CFaire exploser le r\xE9acteur.\u201D
-    \u2026Hm. Je vais peut-\xEAtre y r\xE9fl\xE9chir encore un peu."
+  objectText: "Quelqu\u2019un a laiss\xE9 une note : Ne toucher surtout pas aux boutons"
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -13387,7 +13384,7 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "l'\xE9criture sur les feuilles est rop amphigourique pour comprendre
+  objectText: "l'\xE9criture sur les feuilles est trop amphigourique pour comprendre
     ce qui y est \xE9crit"
   objectText2: "Cependent vous r\xE9ussisais \xE0 d\xE9chiffrer les mots Citron Blanc"
   objectText3: 
@@ -22086,9 +22083,8 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "Il est \xE9crit : \u201CIl n\u2019y a que trois ingr\xE9dients, \xE7a
-    ne peut pas \xEAtre si compliqu\xE9\u2026 de l\u2019eau p\xE9tillante, des roches 
-    et de la terre !\u201D"
+  objectText: "Il est \xE9crit : il y est \xE9crit juste 3 ingredients, \xE7a peut
+    pas etre bien compliqu\xE9..."
   objectText2: 
   objectText3: 
   textetodisplay: 
@@ -27821,7 +27817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1939836981
 Transform:
   m_ObjectHideFlags: 0
@@ -29651,7 +29647,7 @@ MonoBehaviour:
   finalObjectToShow: {fileID: 0}
   objectText: Un sur le Citron Blanc, il y a des instructions dedans. Cont ->
   objectText2: Pour le faire pousser il faut remplire 3 conditions. Cont ->
-  objectText3: "1. Un sol pur 2. Un liquide soporifique 3. La lumi\xE8re de la lune"
+  objectText3: "1. Un sol pur 2. Un liquide soporifique 3. La lumi\xE8re du soleil "
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
