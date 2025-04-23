@@ -88,10 +88,10 @@ public class ClickableItem : MonoBehaviour
     [SerializeField] private int itemInPocketID;
 
     [FoldoutGroup("Pocket")]
-    [SerializeField] private GameObject putInPocketButton;
+    [SerializeField] public GameObject putInPocketButton;
 
     [FoldoutGroup("Pocket")]
-    [SerializeField] private TextMeshProUGUI putInPocketText;
+    [SerializeField] public TextMeshProUGUI putInPocketText;
 
     [FoldoutGroup("Pocket")]
     [SerializeField] private GameObject itemToDisable;
@@ -162,7 +162,8 @@ public class ClickableItem : MonoBehaviour
         }
     }
 
-
+GameObject previtem ;
+ClickableItem previtemscript;
     private void Start()
     {if (GetComponent<SpriteRenderer>() != null) 
         {
@@ -213,7 +214,7 @@ public class ClickableItem : MonoBehaviour
 
     
 
-    public void ProcessClick()
+    public void ProcessClick(GameObject oldback,GameObject oldtext)
     {
 
 
@@ -309,13 +310,25 @@ public class ClickableItem : MonoBehaviour
 
         print($"You have clicked {this.name} ");
 
-
+      
         if (canBePutInPocket)
         {
             putInPocketButton.gameObject.SetActive(true);
             putInPocketText.gameObject.SetActive(true);
+         
+            print(oldback +"GOSA");
 
-
+        }
+        
+        
+        if (canBePutInPocket == false )
+        {   if(oldback != null&&oldtext != null)
+        {
+            print(oldback+"bla");
+            
+           oldback.SetActive(false);
+            oldtext.SetActive(false);
+        }
         }
         else if (isPocketBackGround)
         {
@@ -330,7 +343,11 @@ public class ClickableItem : MonoBehaviour
     }
 
 
-
+public void Makedisaprea(GameObject s,GameObject x)
+{
+s.SetActive(false);
+x.SetActive(false);
+}
     public void ChangeTime() // controlled by the lever in nuclear scene to change time from past to present and present to past
     {
 

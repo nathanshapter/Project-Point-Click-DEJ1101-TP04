@@ -50,11 +50,13 @@ public class ClickManager : MonoBehaviour
     [SerializeField] ClickableItem treeWithCode;
 
     ClickableItem olditem;
+    GameObject oldtext;
+    GameObject oldgameobj;
 
 
 
 
-    private ClickableItem previouslyHoveredItem;
+     ClickableItem previouslyHoveredItem;
 
 
 
@@ -98,7 +100,7 @@ public class ClickManager : MonoBehaviour
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         ClickableItem currentItem = hit.collider != null ? hit.collider.GetComponent<ClickableItem>() : null;
-
+      
         if (hit.collider != null && hit.collider.GetComponent<ClickableItem>())
         {
             ClickableItem item = hit.collider.GetComponent<ClickableItem>();
@@ -127,7 +129,7 @@ public class ClickManager : MonoBehaviour
         }
 
         if (Input.GetMouseButtonDown(0)) // Left-click
-        {
+        {   
 
 
             if (currentItem.willPlaySFX && currentItem.SFXOnClick != null)
@@ -141,7 +143,11 @@ public class ClickManager : MonoBehaviour
             {
 
                 ClickableItem item = hit.collider.GetComponent<ClickableItem>();
-                if (item == null)
+                 if(oldgameobj != null && oldtext != null && olditem != item)
+                    {
+                    item.Makedisaprea(oldgameobj,oldtext);
+                    }
+                 if (item == null)
                     return;
 
                 if (item == olditem) // i dont remember if this does anything and im too afraid to remove it
@@ -154,7 +160,8 @@ public class ClickManager : MonoBehaviour
 
                 }
                 else
-                {
+                {  
+       
                     itemclickedtiem = 0;
                 }
 
@@ -167,7 +174,7 @@ public class ClickManager : MonoBehaviour
                     }
                     else
                     {
-                        gameText.text = "Je devrais probablement trouver quelque chose pour creuser.";
+                        gameText.text = "Sûrement un trésor de pirate.";
                     }
 
                     return;
@@ -223,7 +230,7 @@ public class ClickManager : MonoBehaviour
                 {
                     Door clickedDoor = item.GetComponent<Door>();
                     print($"door clicked - opening {clickedDoor.doorPassage}");
-
+                    
                     if (clickedDoor.isLocked)
                     {
                         print($"door is locked {clickedDoor} is locked to passage {clickedDoor.doorPassage}");
@@ -268,10 +275,15 @@ public class ClickManager : MonoBehaviour
                     {
                         Debug.LogError($"This item does not have text attached{item.name}");
                     }
-
-                    item.ProcessClick();
+                    print(oldgameobj+ "yersadsdw");
+                    item.ProcessClick(oldgameobj, oldtext);
+                    olditem = item;
+                    
+                    oldgameobj = olditem.putInPocketButton; 
+                    oldtext = olditem.putInPocketText.gameObject;
+                   
                 }
-                olditem = item;
+              
             }
 
 
