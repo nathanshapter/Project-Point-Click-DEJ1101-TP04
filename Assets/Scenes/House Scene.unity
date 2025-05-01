@@ -213,10 +213,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Ce livre bourdonne quand je le touche. Ce n\u2019est probablement
     pas normal."
   objectText2: 
   objectText3: 
+  objectTextENG: This book buzzes when I touch it. This is probably not normal.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -421,7 +426,7 @@ MonoBehaviour:
   m_text: OPTIONS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
-  m_sharedMaterial: {fileID: 613480843303299240, guid: a562622334308814abe153a553321847, type: 2}
+  m_sharedMaterial: {fileID: 5089518202017051026, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -669,9 +674,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Un livre sur le minimalisme\u2026 et pourtant, il p\xE8se une tonne."
   objectText2: 
   objectText3: 
+  objectTextENG: "A book about minimalism\u2026 and yet it weighs a ton."
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -1448,9 +1458,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Le code de la porte est peut-\xEAtre not\xE9 quelque part."
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -1730,10 +1745,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Un morceau de mati\xE8re radioactive... Est-ce que \xE7a pourrait
     \xEAtre utile ?"
   objectText2: 
   objectText3: 
+  objectTextENG: A piece of radioactive material... Could it be useful?
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 3
   putInPocketButton: {fileID: 1818244125}
@@ -2043,9 +2063,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -2258,9 +2283,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Cette fen\xEAtre est assez poussi\xE8reuse. Je la nettoyerai un jour."
   objectText2: 
   objectText3: 
+  objectTextENG: This window is quite dusty. I'll clean it one day.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -2505,9 +2535,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: Un bol de soupe chaude.
   objectText2: 
   objectText3: 
+  objectTextENG: A bowl of hot soup.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -2946,9 +2981,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -3081,9 +3121,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -3308,9 +3353,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: Une cannette vide de Red Bull.
   objectText2: 
   objectText3: 
+  objectTextENG: An empty can of Red Bull.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -3551,10 +3601,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "C\u2019est la table o\xF9 je travaille\u2026 et o\xF9 je mange de
     la soupe. On me dit souvent que mon alimentation n'est pas vari\xE9e."
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -3764,9 +3819,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Les signaux indiquent un peu de radiations. Peut \xEAtre m\xEAme beaucoup."
   objectText2: 
   objectText3: 
+  objectTextENG: The signals indicate a little radiation. Maybe even a lot.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -3923,11 +3983,18 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 1
   finalObjectToShow: {fileID: 520565667}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Tu t\u2019agenouilles devant le Citron Dor\xE9. Bient\xF4t, d\u2019autres
     te rejoignent. Sans vraiment que tu comprennes pourquoi, un culte se cr\xE9\xE9. 
     On t\u2019appelle d\xE9sormais le Proph\xE8te du Zeste."
   objectText2: 
   objectText3: 
+  objectTextENG: You kneel before the Golden Lemon. Soon, others join you. Without
+    you really understanding why, a cult is created. You are now called the Prophet
+    of Zest.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -4134,9 +4201,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "On ferme \xE7a."
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -4438,7 +4510,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -914.99, y: -499.38, z: 11.121334}
-  m_LocalScale: {x: 3.8696003, y: 1.0233421, z: 1.9187783}
+  m_LocalScale: {x: 5.0552454, y: 1.3368942, z: 2.506692}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2082312674}
@@ -4471,9 +4543,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 1
+  isFrench: 0
   objectText: Uhhh. je fais quoi?
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -4496,7 +4573,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347473873}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4533,8 +4610,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 6988202530873778196, guid: a154252a8253ca34d9cbc7deb27b94be, type: 3}
+  m_Color: {r: 0.4716981, g: 0.17651592, b: 0.17651592, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4605,17 +4682,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.13625401, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: -2.1666667}
+    oldSize: {x: 0.06, y: 0.06}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.2725077, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &361139167
 GameObject:
@@ -4753,9 +4830,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: Cette cannette de Redbull n'est pas encore ouverte.
   objectText2: 
   objectText3: 
+  objectTextENG: This can of Redbull isn't opened yet.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 1984872266}
@@ -5103,9 +5185,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: Tu descends le levier
   objectText2: 
   objectText3: 
+  objectTextENG: You pull down the lever
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -5269,9 +5356,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -5574,7 +5666,7 @@ MonoBehaviour:
   m_text: THE GOLDEN LEMON
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
-  m_sharedMaterial: {fileID: 613480843303299240, guid: a562622334308814abe153a553321847, type: 2}
+  m_sharedMaterial: {fileID: 5089518202017051026, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5639,7 +5731,7 @@ MonoBehaviour:
   m_margin: {x: -158.30847, y: -66.19299, z: -818.3828, w: -81.08484}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &405897714
@@ -5728,9 +5820,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -6025,10 +6122,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
-  objectText: "Une note indique que le code est 75852\u2026 dommage que ce soit trop
-    tard."
+  changesLanguage: 0
+  isFrench: 1
+  objectText: "A note says the code is 75852\u2026 too bad it's too late."
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -6236,10 +6337,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Un grappin? Ces griffes semblent vraiment solides. Il pourrait m'\xEAtre
     utile."
   objectText2: 
   objectText3: 
+  objectTextENG: A grappling hook? Those claws look really strong. I might find it
+    useful.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 5
   putInPocketButton: {fileID: 1278034868}
@@ -6601,9 +6708,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -6755,10 +6867,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Encore ce livre sur les diff\xE9rences entre des dragons et des wyvernes.
     Je ne sais toujours pas comment les diff\xE9rencier."
   objectText2: 
   objectText3: 
+  objectTextENG: That book about the differences between dragons and wyverns again.
+    I still don't know how to tell them apart.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -7320,10 +7438,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "C\u2019est la table o\xF9 je travaille\u2026 et o\xF9 je mange de
     la soupe."
   objectText2: 
   objectText3: 
+  objectTextENG: "This is the table where I work\u2026 and where I eat soup."
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -7458,9 +7581,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "L'horloge de mon grand-p\xE8re. Simple et efficace."
   objectText2: 
   objectText3: 
+  objectTextENG: My grandfather clock. Simple and effective.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -7722,11 +7850,17 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Le code de la porte commence par un 5... ou un 2?  Les chiffres sont
     pratiquement tous effac\xE9s. Si seulement j\u2019avais un moyen de retourner
     dans le pass\xE9 pour bien le voir\u2026"
   objectText2: 
   objectText3: 
+  objectTextENG: The door code begins with a 5... or a 2? The numbers are almost
+    all erased. If only I had a way to go back in time and see it properly...
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -7914,7 +8048,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -667, y: 142}
+  m_AnchoredPosition: {x: -683, y: 142}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &542211504
@@ -7940,7 +8074,7 @@ MonoBehaviour:
   m_text: Presse-le
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
-  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_sharedMaterial: {fileID: 5089518202017051026, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7964,10 +8098,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 36.9
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -8005,7 +8139,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -132.28345, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &542211505
@@ -8221,9 +8355,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Toujours la m\xEAme chaise. Elle survit."
   objectText2: 
   objectText3: 
+  objectTextENG: Always the same chair. It survives.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -8454,9 +8593,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Avril 1969. \xC7a fait si longtemps que je cherche ce citron magique?"
   objectText2: 
   objectText3: 
+  objectTextENG: April 1969. Have I been looking for this magic lemon for that long?
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -8680,10 +8824,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -8889,9 +9038,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -9014,7 +9168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 546, y: 142}
+  m_AnchoredPosition: {x: 530, y: 142}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &588098992
@@ -9040,7 +9194,7 @@ MonoBehaviour:
   m_text: Vend-le
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
-  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_sharedMaterial: {fileID: 5089518202017051026, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9064,10 +9218,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 47.45
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -9105,7 +9259,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -132.28345, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &588098993
@@ -9132,7 +9286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &593990954
 Transform:
   m_ObjectHideFlags: 0
@@ -9331,10 +9485,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Quelqu\u2019un a laiss\xE9 une note : Le r\xE9acteur ne fonctionne
     plus (Encore moins maintenant)."
   objectText2: 
   objectText3: 
+  objectTextENG: 'Someone left a note: The reactor is no longer working (Even less
+    so now).'
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -9410,9 +9570,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "On n\u2019en parle \xE0 personne, d\u2019accord ?"
   objectText2: 
   objectText3: 
+  objectTextENG: We don't tell anyone, okay?
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -9637,9 +9802,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "La lune produit une lumi\xE8re \xE9blouissante."
   objectText2: 
   objectText3: 
+  objectTextENG: The moon produces a dazzling light.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 2
   putInPocketButton: {fileID: 864006663}
@@ -9898,13 +10068,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 641104752}
+  - component: {fileID: 641104753}
   m_Layer: 5
   m_Name: EngGameTexts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &641104752
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9927,6 +10098,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &641104753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641104751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e3978ade3f62534bb57adccad9cad2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  squeezeFR: Presse-le
+  worshipFR: "V\xE9n\xE8re-le"
+  sellFR: Vend-le
+  squeezeENG: Squeeze it
+  worshipENG: Worship it
+  sellENG: Sell it
+  _squeeze: {fileID: 542211504}
+  _worship: {fileID: 1191387748}
+  _sell: {fileID: 588098992}
 --- !u!1 &646773136
 GameObject:
   m_ObjectHideFlags: 0
@@ -10375,9 +10567,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -10677,10 +10874,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une lumi\xE8re qui n\u2019\xE9claire pas\u2026 wow, quelle invention
     r\xE9volutionnaire."
   objectText2: 
   objectText3: 
+  objectTextENG: A light that doesn't shine... wow, what a revolutionary invention.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -10962,10 +11164,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Cela fait longtemps que l\u2019horloge est \xE0 court de pile. Moi
     aussi, mes batteries se vident. "
   objectText2: 
   objectText3: 
+  objectTextENG: The clock's battery has been dead for a long time. My batteries
+    are running low too.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -11361,10 +11569,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Quelqu\u2019un a laiss\xE9 une note : Le r\xE9acteur ne fonctionne
     plus."
   objectText2: 
   objectText3: 
+  objectTextENG: 'Someone left a note: The reactor is no longer working.'
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -11440,6 +11653,7 @@ RectTransform:
   m_Children:
   - {fileID: 405897712}
   - {fileID: 1245261454}
+  - {fileID: 913658249}
   - {fileID: 9203203}
   - {fileID: 82245831}
   - {fileID: 393786458}
@@ -11578,9 +11792,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "La note dit : \"Dans le futur, j\u2019aurai le code que vous cherchez.\""
   objectText2: 
   objectText3: 
+  objectTextENG: 'The note says: "In the future, I will have the code you are looking
+    for."'
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -11812,9 +12032,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Un panneau dit \u201CDANGER.\u201D Mais quel danger?"
   objectText2: 
   objectText3: 
+  objectTextENG: "A sign says \u201CDANGER.\u201D But what danger?"
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -11960,7 +12185,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "Apr\xE8s des exp\xE9riences m\xE9ticuleuses, le Citron Dor\xE9 est maintenant
+    entre vos mains. Qu\u2019allez-vous en faire ?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
   m_sharedMaterial: {fileID: 5089518202017051026, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
@@ -12152,9 +12378,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "On ferme \xE7a."
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -12361,9 +12592,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: Le code pour la porte est 75852.
   objectText2: 
   objectText3: 
+  objectTextENG: Le code pour la porte est 75852.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -12643,10 +12879,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "J\u2019ai lanc\xE9 le grappin sur la lune et elle est maintenant dans
     ma poche."
   objectText2: 
   objectText3: 
+  objectTextENG: I threw the grappling hook at the moon and now it's in my pocket.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 2
   putInPocketButton: {fileID: 864006663}
@@ -12931,9 +13172,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -13258,10 +13504,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -13400,6 +13651,220 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.08, y: 0.08}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &880746383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 880746384}
+  - component: {fileID: 880746388}
+  - component: {fileID: 880746387}
+  - component: {fileID: 880746386}
+  - component: {fileID: 880746385}
+  m_Layer: 0
+  m_Name: Start (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &880746384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880746383}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -914.08, y: -501.76, z: 11.121334}
+  m_LocalScale: {x: 6.919007, y: 1.2766192, z: 2.3936758}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2082312674}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &880746385
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880746383}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &880746386
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880746383}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: -2.1666667}
+    oldSize: {x: 0.06, y: 0.06}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &880746387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880746383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50db15709cff64b4dbfc26f8c8fdaa3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoor: 0
+  isTimeLever: 0
+  canBePutInPocket: 0
+  isPocketBackGround: 0
+  isDiggable: 0
+  isNuclearDial: 0
+  isStartMenu: 1
+  isKeypad: 0
+  keypadNumber: 0
+  increasedScale: 1.1
+  scaleHasBeenIncreased: 0
+  doesClickingOpenSomething: 0
+  itemToOpen: {fileID: 0}
+  itemToOpen2: {fileID: 0}
+  isFinalButton: 0
+  finalObjectToShow: {fileID: 0}
+  changesLanguage: 1
+  isFrench: 1
+  objectText: Uhhh. je fais quoi?
+  objectText2: 
+  objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
+  textetodisplay: 
+  itemInPocketID: 0
+  putInPocketButton: {fileID: 0}
+  putInPocketText: {fileID: 0}
+  itemToDisable: {fileID: 0}
+  itemToDisable2: {fileID: 0}
+  startMenuID: 1
+  pastColor: {r: 0.9372549, g: 0.81960785, b: 0.5176471, a: 1}
+  presentColor: {r: 0.84705883, g: 0.9019608, b: 0.9254902, a: 1}
+  lerpSpeed: 2
+  willPlaySound: 0
+  musicOnClick: {fileID: 0}
+  willPlaySFX: 0
+  SFXOnClick: {fileID: 0}
+  volumeSFX: 0
+--- !u!212 &880746388
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880746383}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 6988202530873778196, guid: a154252a8253ca34d9cbc7deb27b94be, type: 3}
+  m_Color: {r: 0.4716981, g: 0.17651592, b: 0.17651592, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -13611,10 +14076,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "l'\xE9criture sur les feuilles est trop amphigourique pour comprendre
     ce qui y est \xE9crit. Cont ->"
   objectText2: "Cependent vous r\xE9ussisais \xE0 d\xE9chiffrer les mots Citron Argent\xE9."
   objectText3: 
+  objectTextENG: The writing on the leaves is too confusing to understand what is
+    written there. Cont ->
+  objectText2ENG: However, you manage to decipher the words Silver Lemon.
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -13910,9 +14381,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -13983,6 +14459,159 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &913658248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913658249}
+  - component: {fileID: 913658252}
+  - component: {fileID: 913658251}
+  - component: {fileID: 913658250}
+  m_Layer: 5
+  m_Name: Start (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &913658249
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913658248}
+  m_LocalRotation: {x: -0, y: -0, z: -0.024933122, w: 0.9996891}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0825, y: 1.0825, z: 1.0825}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 811012134}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.857}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -720, y: -109}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &913658250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913658248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd78d1bcb8649a9498fb6864fead6382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swayAmount: 0
+  swaySpeed: 0
+  pulseScale: 0.05
+  pulseSpeed: 0.1
+--- !u!114 &913658251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913658248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "FRAN\xC7AIS"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
+  m_sharedMaterial: {fileID: 5089518202017051026, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 70.35
+  m_fontSizeBase: 70.35
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: -90.6
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: -23.71997, z: -364.69385, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &913658252
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913658248}
+  m_CullTransparentMesh: 1
 --- !u!1 &919974383
 GameObject:
   m_ObjectHideFlags: 0
@@ -14358,12 +14987,19 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 1
   finalObjectToShow: {fileID: 443470589}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Tu vends le Citron Dor\xE9 pour 9,9 trillions de dollars. Il disparait
     en moins d\u2019une minute.  L\u2019\xE9conomie s\u2019\xE9croule. Les bananes
     valent plus que les maisons.  Tu t\u2019assois sur ta montagne de richesses,
     satisfait."
   objectText2: 
   objectText3: 
+  objectTextENG: You sell the Golden Lemon for $9.9 trillion. It disappears in less
+    than a minute. The economy collapses. Bananas are worth more than houses. You
+    sit on your mountain of wealth, content.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -14540,9 +15176,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Un panneau dit \u201CDANGER.\u201D Merci de m'avoir pr\xE9venu."
   objectText2: 
   objectText3: 
+  objectTextENG: "A sign says \u201CDANGER.\u201D Thank you for warning me."
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -14798,10 +15439,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -15040,9 +15686,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -15347,11 +15998,17 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 1
   finalObjectToShow: {fileID: 1575638654}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Tu presses le Citron Dor\xE9, en esp\xE9rant des r\xE9ponses. \xC0
     la place, tu obtiens du jus.  Tu r\xE9alises peut-\xEAtre que\u2026 c\u2019est
     suffisant."
   objectText2: 
   objectText3: 
+  objectTextENG: You squeeze the Golden Lemon, hoping for answers. Instead, you get
+    juice. Maybe you realize... that's enough.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -15802,10 +16459,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Des \xE9crans clignotent, des boutons attendent d\u2019\xEAtre press\xE9s.
     Le silence est interrompu par un bourdonnement r\xE9gulier."
   objectText2: 
   objectText3: 
+  objectTextENG: Screens flash, buttons wait to be pressed. The silence is interrupted
+    by a steady hum.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -16655,9 +17318,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une chaise en bois. Tr\xE8s original. "
   objectText2: 
   objectText3: 
+  objectTextENG: A wooden chair. Very original.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -16823,6 +17491,10 @@ PrefabInstance:
     - target: {fileID: 3529194345742995938, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
       propertyPath: willPlaySFX
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3529194345742995938, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
+      propertyPath: objectTextENG
+      value: You pull the lever.
       objectReference: {fileID: 0}
     - target: {fileID: 4792038292108210559, guid: 473e3ad5deee8bb4b92937a8b7f07bb8, type: 3}
       propertyPath: volumeSFX
@@ -17062,9 +17734,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Les signaux provenant de l'\xE9cran ont l'air stables. Une chance. "
   objectText2: 
   objectText3: 
+  objectTextENG: The signals from the display appear stable. Lucky.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -17274,7 +17951,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -67, y: 142}
+  m_AnchoredPosition: {x: -83, y: 142}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1191387748
@@ -17300,7 +17977,7 @@ MonoBehaviour:
   m_text: "V\xE9n\xE8re-le"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
-  m_sharedMaterial: {fileID: -6797780664480461288, guid: 2713a126e7174dc40a5e9d75127d9101, type: 2}
+  m_sharedMaterial: {fileID: 5089518202017051026, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17324,10 +18001,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 36.9
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -17365,7 +18042,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -132.28345, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1191387749
@@ -17611,10 +18288,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: START
+  m_text: ENGLISH
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
-  m_sharedMaterial: {fileID: 613480843303299240, guid: a562622334308814abe153a553321847, type: 2}
+  m_sharedMaterial: {fileID: 5089518202017051026, guid: 2b6b897b86f1ecd4497772ae42354003, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17679,7 +18356,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: -23.71997, z: -364.69385, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1245261456
@@ -17831,9 +18508,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Cette lumi\xE8re \xE9claire toujours aussi mal."
   objectText2: 
   objectText3: 
+  objectTextENG: This light still shines poorly.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -17986,9 +18668,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 1538198069}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Mon r\xE9acteur nucl\xE9aire. Toujours utile pour alimenter un grille-pain."
   objectText2: 
   objectText3: 
+  objectTextENG: My nuclear reactor. Still useful for powering a toaster.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -18448,10 +19135,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "C\u2019est une pelle. J'ai comme l'impression qu'on me sugg\xE8re
     fortement de la garder en r\xE9serve pour plus tard."
   objectText2: 
   objectText3: 
+  objectTextENG: It's a shovel. I have a feeling I'm being strongly advised to save
+    it for later.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 4
   putInPocketButton: {fileID: 1687529770}
@@ -18698,10 +19391,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Tr\xE8s pratique comme outil. Je peux enfin attraper des objets qui
     sont tr\xE8s... tr\xE8s loins."
   objectText2: 
   objectText3: 
+  objectTextENG: Very handy tool. I can finally grab objects that are very... very
+    far away.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 5
   putInPocketButton: {fileID: 1278034868}
@@ -18906,9 +19605,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: Encore un bol de soupe. Celui-ci a refroidi par contre.
   objectText2: 
   objectText3: 
+  objectTextENG: Another bowl of soup. This one has gotten cold, though.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -19115,9 +19819,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Un livre qui s'intitule:   Concord: \xC9chec ou chef-d'oeuvre?"
   objectText2: 
   objectText3: 
+  objectTextENG: 'A book called: Concord: Failure or Masterpiece?'
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -19326,9 +20035,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: J'adore cette chaise.
   objectText2: 
   objectText3: 
+  objectTextENG: I love this chair.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -19561,9 +20275,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Un panneau dit \u201CDANGER.\u201D Merci, on n\u2019aurait pas devin\xE9."
   objectText2: 
   objectText3: 
+  objectTextENG: "A \u201CDANGER\u201D sign. Thanks, we wouldn\u2019t have guessed."
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -20028,9 +20747,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -20269,9 +20993,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: C'est un petit livre.
   objectText2: 
   objectText3: 
+  objectTextENG: It's a small book.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -20495,10 +21224,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -21068,15 +21802,19 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5c00d2f0b3d63f242994fc17b201df39, type: 3}
   - {fileID: 8300000, guid: 093cceb6c1f3e1d4f95b01d49995e2e0, type: 3}
   - {fileID: 8300000, guid: 2737d401244e9e8488d7f77f03fdc19e, type: 3}
-  activeScene: 1
+  activeScene: 8
   startCanvas: {fileID: 811012133}
   gameCanvas: {fileID: 982501913}
   startGameButtons: {fileID: 2082312673}
   gameText: {fileID: 843832618}
   putInButtonText: {fileID: 2080465023}
   endGameObject: {fileID: 641104751}
-  manualSceneToActivate: 1
+  putInPocketText: {fileID: 2080465023}
+  throwHookText: {fileID: 1597056102}
+  egt: {fileID: 641104753}
+  manualSceneToActivate: 8
   finalCredits: {fileID: 1311665274}
+  isFrench: 1
 --- !u!4 &1473408332
 Transform:
   m_ObjectHideFlags: 0
@@ -21638,9 +22376,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -22064,10 +22807,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Il est \xE9crit : Seulement 3 ingredients. \xC7a peut pas \xEAtre
     bien compliqu\xE9..."
   objectText2: 
   objectText3: 
+  objectTextENG: 'It says: Only 3 ingredients. It can''t be that complicated...'
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -22331,9 +23079,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Cette lumi\xE8re \xE9claire toujours aussi mal."
   objectText2: 
   objectText3: 
+  objectTextENG: This light still shines poorly.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -22486,10 +23239,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Est-ce que quelqu\u2019un lui a dit qu\u2019il volait droit vers le
     sol ?"
   objectText2: 
   objectText3: 
+  objectTextENG: Did anyone tell him he was flying straight to the ground?
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -22851,9 +23609,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "C\u2019est un grand livre."
   objectText2: 
   objectText3: 
+  objectTextENG: It's a big book.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -23255,9 +24018,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "La fen\xEAtre est tr\xE8s propre."
   objectText2: 
   objectText3: 
+  objectTextENG: The window is very clean.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -23463,10 +24231,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -23690,10 +24463,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -23956,10 +24734,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "D\xE9cembre 1967. La premi\xE8re fois o\xF9 j'ai entendu parl\xE9
     du fameux citron d'or."
   objectText2: 
   objectText3: 
+  objectTextENG: December 1967. The first time I heard about the famous golden lemon.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -24167,10 +24950,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "La seule chaise de la pi\xE8ce. Elle regarde les commandes comme si
     elle comprenait."
   objectText2: 
   objectText3: 
+  objectTextENG: The only chair in the room. It looks at the controls as if she understands.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -24616,9 +25404,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -24955,10 +25748,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Bon, j\u2019ai la pelle. Aucune id\xE9e de comment \xE7a tient dans
     ma poche, mais on va faire semblant que c\u2019est normal."
   objectText2: 
   objectText3: 
+  objectTextENG: Okay, I've got the shovel. No idea how it fits in my pocket, but
+    we'll pretend it's normal.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 4
   putInPocketButton: {fileID: 1687529770}
@@ -25220,10 +26019,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Ce livre est vide. Litt\xE9ralement vide. Il n'y a m\xEAme pas de
     titre en fait."
   objectText2: 
   objectText3: 
+  objectTextENG: This book is empty. Literally empty. There's not even a title, in
+    fact.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -25400,10 +26205,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Les cadrans ne r\xE9pondent plus... Ce truc a d\xE9finitivement cess\xE9
     de fonctionner."
   objectText2: 
   objectText3: 
+  objectTextENG: The dials are no longer responding... This thing has definitely
+    stopped working.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -25555,12 +26366,19 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Un ouvrage sur la narration environnementale dans un jeu. Il permet
     d'apprendre comment ajouter des textes \xE0 des livres fictifs se trouvant dans
     l'espace de jeu pour donner un sentiment de r\xE9alisme et pour am\xE9liorer
     la narration du jeu. Int\xE9ressant."
   objectText2: 
   objectText3: 
+  objectTextENG: A book about environmental storytelling in games. It teaches how
+    to add text to fictional books in the game space to create a sense of realism
+    and enhance the game's storytelling. Interesting.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -25767,10 +26585,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "C\u2019est un gros livre sur les diff\xE9rences entre les dragons
     et les wyverns. Pourquoi est-ce que j\u2019ai \xE7a ?"
   objectText2: 
   objectText3: 
+  objectTextENG: This is a big book about the differences between dragons and wyverns.
+    Why do I have this?
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -25976,9 +26800,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -26147,10 +26976,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -26430,10 +27264,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: La terre radioactive est dans ma poche. Dans le pire des cas, je brillerai
     dans le noir.
   objectText2: 
   objectText3: 
+  objectTextENG: The radioactive earth is in my pocket. In the worst case, I'll glow
+    in the dark.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 3
   putInPocketButton: {fileID: 1818244125}
@@ -26601,9 +27441,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "S\xFBrement un tr\xE9sor de pirate."
   objectText2: 
   objectText3: 
+  objectTextENG: Surely a pirate treasure.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -26938,9 +27783,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une pile de mati\xE8re radioactive..."
   objectText2: 
   objectText3: 
+  objectTextENG: A pile of radioactive material...
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 3
   putInPocketButton: {fileID: 1818244125}
@@ -27206,9 +28056,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -27364,9 +28219,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: J'adore cette chaise.
   objectText2: 
   objectText3: 
+  objectTextENG: I love this chair.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -27519,9 +28379,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: You pull the lever.
   objectText2: 
   objectText3: 
+  objectTextENG: You pull the lever.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -27822,7 +28687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1939836981
 Transform:
   m_ObjectHideFlags: 0
@@ -28075,10 +28940,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "C\u2019est un livre pour apprendre l\u2019anglais. Chapter 1 : Existential
     crisis."
   objectText2: 
   objectText3: 
+  objectTextENG: 'This is a book for learning French. Chapter 1: Crise existentielle.'
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -28453,9 +29323,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -28749,10 +29624,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -28976,10 +29856,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -29213,9 +30098,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: La canette de Red Bull est maintenant dans ma poche.
   objectText2: 
   objectText3: 
+  objectTextENG: The can of Red Bull is now in my pocket.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 1
   putInPocketButton: {fileID: 1984872266}
@@ -29396,10 +30286,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Il ne poursuit son voyage que sous notre regard. Nous sommes ma\xEEtres
     de son destin."
   objectText2: 
   objectText3: 
+  objectTextENG: He continues his journey only under our gaze. We are masters of
+    his destiny.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -29656,10 +30552,16 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Un livre sur le Citron Argent\xE9 , il y a des instructions dedans.
     Cont ->"
   objectText2: Pour le faire pousser il faut remplire 3 conditions. Cont ->
   objectText3: "1. Un sol pur 2. Un liquide soporifique 3. La lumi\xE8re du soleil "
+  objectTextENG: A book about the Silver Lemon, there are instructions inside. Cont
+    ->
+  objectText2ENG: To grow it, you must meet 3 conditions. Cont ->
+  objectText3ENG: 1. Pure soil 2. A sleep-inducing liquid 3. Sunlight
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -29969,6 +30871,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 347473874}
+  - {fileID: 880746384}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2087903648
@@ -30051,10 +30954,15 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Une charmante constellation d\u2019\xE9toiles. Elle me rappelle mon
     chez-moi."
   objectText2: 
   objectText3: 
+  objectTextENG: A charming constellation of stars. It reminds me of home.
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -30350,9 +31258,14 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: 
   objectText2: 
   objectText3: 
+  objectTextENG: 
+  objectText2ENG: 
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}
@@ -30620,11 +31533,17 @@ MonoBehaviour:
   itemToOpen2: {fileID: 0}
   isFinalButton: 0
   finalObjectToShow: {fileID: 0}
+  changesLanguage: 0
+  isFrench: 1
   objectText: "Quelqu\u2019un a laiss\xE9 une note : \u201CNE TOUCHER PAS AU BOUTON\".
     Je suis pas idiot non plus"
   objectText2: They told me to remove all of the english notes. Too bad, this ones
     stays.
   objectText3: 
+  objectTextENG: "Someone left a note: \u201CDO NOT TOUCH THE BUTTON.\u201D I\u2019m
+    not stupid either."
+  objectText2ENG: "Il's m'ont dit de remplacer tous les textes fran\xE7aises. Dommage!"
+  objectText3ENG: 
   textetodisplay: 
   itemInPocketID: 0
   putInPocketButton: {fileID: 0}

@@ -77,9 +77,26 @@ public class ClickManager : MonoBehaviour
 
         print(doorCode);
 
-        bookWithCode.objectText = $"Le code pour la porte est {doorCode}";
-        secondBookWithCode.objectText = $"Le code pour la porte est {doorCode.ToString().Substring(0, 2)}, les dernières chiffres sont grattés. ";
-        treeWithCode.objectText = $"Une note indique que le code est {doorCode} dommage que ce soit trop tard.";
+        SetDoorCodeOnBooks();
+
+    }
+
+    public void SetDoorCodeOnBooks()
+    {
+        if (activeScene.isFrench)
+        {
+            print("yes");
+            bookWithCode.objectText = $"Le code pour la porte est {doorCode}";
+            secondBookWithCode.objectText = $"Le code pour la porte est {doorCode.ToString().Substring(0, 2)}, les dernières chiffres sont grattés. ";
+            treeWithCode.objectText = $"Une note indique que le code est {doorCode} dommage que ce soit trop tard.";
+        }
+        if (!activeScene.isFrench)
+        {
+            print("door should have doe;");
+            bookWithCode.objectTextENG = $"The code for the door is {doorCode}";
+            secondBookWithCode.objectTextENG = $"The code for the door is {doorCode.ToString().Substring(0, 2)}, the last numbers have been scratched out. ";
+            treeWithCode.objectTextENG = $"The note says the code is {doorCode}, not very useful now that I've already figured it out.";
+        }
     }
 
     [Button("Create new Door Code")]
@@ -169,11 +186,28 @@ public class ClickManager : MonoBehaviour
                     if (pocketManager.hasShovel)
                     {
                         item.Desactiver();
-                        gameText.text = "Je creuse encore et encore et encore et je trouve… un grappin?";
+
+                        if (activeScene.isFrench)
+                        {
+                            gameText.text = "Je creuse encore et encore et encore et je trouve… un grappin?";
+                        }
+                        else
+                        {
+                            gameText.text = "I dig, and I dig, and I dig, and I dig, and I find... an anchor?";
+                        }
+                           
                     }
                     else
                     {
-                        gameText.text = "Sûrement un trésor de pirate.";
+                        if (activeScene.isFrench)
+                        {
+                            gameText.text = "Sûrement un trésor de pirate.";
+                        }
+                        else
+                        {
+                            gameText.text = "Surely a pirates treasure.";
+                        }
+                        
                     }
 
                     return;
@@ -206,7 +240,16 @@ public class ClickManager : MonoBehaviour
                     {
                         if (currentCode == doorCode.ToString())
                         {
-                            gameText.text = "Correct ! La porte est déverrouillée";
+
+                            if (activeScene.isFrench)
+                            {
+                                gameText.text = "Correct ! La porte est déverrouillée";
+                            }
+                            else
+                            {
+                                gameText.text = "Correct ! The door is unlocked";
+                            }
+                               
 
 
 
@@ -217,7 +260,17 @@ public class ClickManager : MonoBehaviour
                         }
                         else
                         {
-                            gameText.text = "Ce n’est pas le bon code !";
+
+                            if (activeScene.isFrench)
+                            {
+                                gameText.text = "Ce n’est pas le bon code !";
+                            }
+                            else
+                            {
+                                gameText.text = "Wrong code!";
+                            }
+
+                            
                             currentCode = "";
                         }
                     }
@@ -233,14 +286,34 @@ public class ClickManager : MonoBehaviour
                     if (clickedDoor.isLocked)
                     {
                         print($"door is locked {clickedDoor} is locked to passage {clickedDoor.doorPassage}");
-                        gameText.text = "La porte est verrouillée. Il y a un clavier.";
+
+
+                        if (activeScene.isFrench)
+                        {
+                            gameText.text = "La porte est verrouillée. Il y a un clavier.";
+                        }
+                        else
+                        {
+                            gameText.text = "The door is locked, but there is a keypad.";
+                        }
+
+                        
                         clickedDoor.OpenKeyPad();
                         return;
                     }
 
                     int getDoorPassageNumber = item.GetComponent<Door>().doorPassage;
 
-                    gameText.text = "Tu ouvres la porte.";
+
+                    if (activeScene.isFrench)
+                    {
+                        gameText.text = "Tu ouvres la porte.";
+                    }
+                    else
+                    {
+                        gameText.text = "You open the door.";
+                    }
+                    
 
                     activeScene.ActivateScene(getDoorPassageNumber);
 
@@ -264,22 +337,27 @@ public class ClickManager : MonoBehaviour
                 else if (item != null)
                 {
                     string[] texts = { item.objectText, item.objectText2, item.objectText3 };
+                    string[] textsENG = { item.objectTextENG, item.objectText2ENG, item.objectText3ENG };
 
-                    if (itemclickedtiem >= 0 && itemclickedtiem < texts.Length && !string.IsNullOrEmpty(texts[itemclickedtiem]))
+                    if (itemclickedtiem >= 0 && itemclickedtiem < texts.Length && !string.IsNullOrEmpty(texts[itemclickedtiem]) && activeScene.isFrench)
                     {
                         gameText.text = texts[itemclickedtiem];
+                    }
+                    else if (itemclickedtiem >= 0 && itemclickedtiem < texts.Length && !string.IsNullOrEmpty(texts[itemclickedtiem]) && !activeScene.isFrench)
+                    {
+                        gameText.text = textsENG[itemclickedtiem];
                     }
                     else if (item.objectText == "")
 
                     {
                         Debug.LogError($"This item does not have text attached{item.name}");
                     }
-                    print(oldgameobj+ "yersadsdw");
+                    
                     item.ProcessClick(oldgameobj, oldtext);
                     olditem = item;
                     
                     oldgameobj = olditem.putInPocketButton; 
-                    oldtext = olditem.putInPocketText.gameObject;
+                  //  oldtext = olditem.putInPocketText.gameObject;
                    
                 }
               
@@ -296,7 +374,16 @@ public class ClickManager : MonoBehaviour
     {
         print("end of games starting");
 
-        gameText.text = "Tu as maintenant tous les objets nécessaires pour créer un... citron.";
+        if (activeScene.isFrench)
+        {
+            gameText.text = "Tu as maintenant tous les objets nécessaires pour créer un... citron.";
+        }
+        else
+        {
+            gameText.text = "You now have all of the items to create a ... lemon";
+
+        }
+            
 
         screenFader.FadeToWhite(false, 1, false);
     }

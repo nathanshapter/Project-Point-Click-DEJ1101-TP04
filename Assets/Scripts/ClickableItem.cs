@@ -72,14 +72,30 @@ public class ClickableItem : MonoBehaviour
     [ShowIf("isFinalButton")]
     [SerializeField] GameObject finalObjectToShow;
 
-    [FoldoutGroup("Text")]
+    [FoldoutGroup("Interaction Settings")]
+    [SerializeField] bool changesLanguage = false;
+
+    [FoldoutGroup("Interaction Settings")]
+    [ShowIf("changesLanguage")]
+    [SerializeField] bool isFrench = false;
+
+    [FoldoutGroup("TextFR")]
     public string objectText;
 
-    [FoldoutGroup("Text")]
+    [FoldoutGroup("TextFR")]
     public string objectText2;
 
-    [FoldoutGroup("Text")]
+    [FoldoutGroup("TextFR")]
     public string objectText3;
+
+    [FoldoutGroup("TextENG")]
+    public string objectTextENG;
+
+    [FoldoutGroup("TextENG")]
+    public string objectText2ENG;
+
+    [FoldoutGroup("TextENG")]
+    public string objectText3ENG;
 
     [FoldoutGroup("Text")]
     [HideInInspector] public string textetodisplay;
@@ -140,6 +156,8 @@ public class ClickableItem : MonoBehaviour
     [Range(0,1)] public float volumeSFX =1;
 
     private Rigidbody2D rb;
+
+    ActiveScene activeSceneManager;
     /*
      * 1 = start game
      * 2 = options
@@ -164,8 +182,15 @@ public class ClickableItem : MonoBehaviour
 
 GameObject previtem ;
 ClickableItem previtemscript;
+
+    private void Awake()
+    {
+        activeScene = FindFirstObjectByType<ActiveScene>();
+    }
     private void Start()
-    {if (GetComponent<SpriteRenderer>() != null) 
+    {
+        
+        if (GetComponent<SpriteRenderer>() != null) 
         {
             mats = GetComponent<SpriteRenderer>().material;
             mats.SetInt("_Hovered", 0);
@@ -216,6 +241,13 @@ ClickableItem previtemscript;
 
     public void ProcessClick(GameObject oldback,GameObject oldtext)
     {
+
+        if (changesLanguage)
+        {
+            FindFirstObjectByType<ActiveScene>().isFrench = isFrench;
+
+            FindFirstObjectByType<ClickManager>().SetDoorCodeOnBooks();
+        }
 
 
         if (willPlaySFX)
@@ -364,7 +396,9 @@ x.SetActive(false);
 
             activeScene.ActivateScene(5);
             cam.backgroundColor = pastColor;
-            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+
+            SetBackgroundText(gameText);
+
         }
         else if (activeScene.activeScene == 5)
         {
@@ -380,13 +414,13 @@ x.SetActive(false);
 
             print("tiem changed to present");
             cam.backgroundColor = presentColor;
-            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+            SetBackgroundText(gameText);
         }
         else if (activeScene.activeScene == 7)
         {
             activeScene.ActivateScene(5);
             cam.backgroundColor = pastColor;
-            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+            SetBackgroundText(gameText);
         }
 
 
@@ -394,6 +428,18 @@ x.SetActive(false);
 
 
 
+    }
+
+    private void SetBackgroundText(TextMeshProUGUI gameText)
+    {
+        if (activeScene.isFrench)
+        {
+            gameText.text = "Hmm, la couleur de fond a changé… je me demande ce que le développeur essaie de me dire.";
+        }
+        else
+        {
+            gameText.text = "Hmm, the background colour changed, I wonder what the developer is trying to tell me.";
+        }
     }
 
     public void Desactiver()

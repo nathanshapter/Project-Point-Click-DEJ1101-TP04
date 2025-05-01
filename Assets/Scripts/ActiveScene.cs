@@ -31,6 +31,10 @@ public class ActiveScene : MonoBehaviour
     public GameObject endGameObject;
 
     ClickManager cm;
+
+    [SerializeField] TextMeshProUGUI putInPocketText;
+    [SerializeField] TextMeshProUGUI throwHookText;
+    [SerializeField] EndGameTexts egt;
     
    
     [InfoBox(" * 0 = outside present\r\n     * 1 = main room present\r\n     * 2 = nuclear room present\r\n     * 3 = outside past\r\n     * 4 = main room past\r\n     * 5 = nuclear room past\r\n     * 6 = start scene\r\n     * 7 = nuclear room present post explosion\r\n     * 8 = final scene")]
@@ -41,9 +45,12 @@ public class ActiveScene : MonoBehaviour
     public int manualSceneToActivate;
 
 
-    string finalString = "Nathan Shapter \n Mathis Tanguay \n Daniel Lamoureux \n \n Merci d'avoir joué :D";
+    string finalString = "Nathan Shapter \n Mathis Tanguay \n Daniel Lamoureux \n  Merci d'avoir joué :D";
 
     [SerializeField] GameObject finalCredits;
+    public bool isFrench = true;
+
+
 
     [Button("Activate Scene Manually")]
     public void ActivateSceneFromInspector()
@@ -73,6 +80,16 @@ public class ActiveScene : MonoBehaviour
 
     public void ActivateScene(int i)
     {
+        if (isFrench)
+        {
+            putInPocketText.text = "Mettre en poche";
+            throwHookText.text = "Lancer le grappin";
+        }
+        {
+            putInPocketText.text = "Put in pocket";
+            throwHookText.text = "Throw hook";
+        }
+
         foreach (var item in scenes)
         {
             item.gameObject.SetActive(false);
@@ -106,12 +123,16 @@ public class ActiveScene : MonoBehaviour
            
             case 6:
                 SoundManager.Instance.FadeInMusic(music[6]);
+
+                
+
                 break;
 
             case 7:
                 break;
 
             case 8:
+                egt.SetTextLanguage();
                 break;
 
             case 9:
@@ -150,8 +171,17 @@ public class ActiveScene : MonoBehaviour
 
         if(activeScene == 8)
         {
-            gameText.text = "Après des expériences méticuleuses, le Citron Doré est maintenant entre vos mains. Qu’allez-vous en faire ?";
-            endGameObject.SetActive(true);
+            if (isFrench)
+            {
+                gameText.text = "Après des expériences méticuleuses, le Citron Doré est maintenant entre vos mains. Qu’allez-vous en faire ?";
+            }
+            else
+            {
+                gameText.text = "After your extended experiences, the golden lemon is now in your hands. What will you do?";
+            }
+
+
+                endGameObject.SetActive(true);
         }
         else
         {
